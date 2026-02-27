@@ -28,10 +28,14 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [AG2](https://github.com/ag2ai/ag2) — Successor to AutoGen. Multi-agent framework with improved APIs.
 - [Agno](https://github.com/agno-agi/agno) — Programming language for agentic software. Build and manage multi-agent systems at scale.
 - [AutoGen](https://github.com/microsoft/autogen) — Microsoft's multi-agent conversation framework. Supports complex agent topologies.
+- [CAMEL](https://github.com/camel-ai/camel) — Communicative agents for role-playing and multi-agent cooperation. First LLM multi-agent framework.
 - [CrewAI](https://github.com/crewAIInc/crewAI) — Role-based multi-agent framework. Agents with roles, goals, and backstories.
+- [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) — Google's open-source, code-first Python framework for building multi-agent systems with A2A support.
 - [LangGraph](https://github.com/langchain-ai/langgraph) — Stateful agent workflows as graphs. Part of the LangChain ecosystem.
+- [Mastra](https://github.com/mastra-ai/mastra) — TypeScript-first AI agent framework with workflows, RAG, and integrations.
 - [MetaGPT](https://github.com/geekan/MetaGPT) — Multi-agent framework that mimics a software company with roles (PM, architect, engineer).
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Framework for building, orchestrating and deploying multi-agent workflows (Python + .NET).
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — OpenAI's production framework for multi-agent orchestration with handoffs and guardrails.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — Microsoft's SDK for AI orchestration. Plugins, planners, and memory.
 - [Swarm](https://github.com/openai/swarm) — OpenAI's lightweight multi-agent framework (educational).
 
@@ -41,14 +45,20 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [LangChain](https://github.com/langchain-ai/langchain) — The most popular LLM application framework. Agents, chains, tools.
 - [LlamaIndex](https://github.com/run-llama/llama_index) — Data framework for LLM apps. Strong RAG and data agent support.
 - [PydanticAI](https://github.com/pydantic/pydantic-ai) — GenAI agent framework, the Pydantic way. Type-safe and production-ready.
+- [smolagents](https://github.com/huggingface/smolagents) — Hugging Face's lightweight agent library. ~1,000 lines of focused code, easy to understand and extend.
 
 ### Code Agents
 - [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in the terminal.
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's agentic coding tool. Terminal-based, strong at complex refactors and multi-file changes.
+- [Codex](https://openai.com/index/introducing-codex/) — OpenAI's cloud-based coding agent. Runs tasks in sandboxed environments, integrates with GitHub.
 - [Cursor](https://cursor.sh/) — AI-first code editor with agent capabilities.
+- [Devin](https://devin.ai/) — Cognition's autonomous software engineer. Full environment with browser, editor, and terminal.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Open-source AI agent bringing Gemini directly into your terminal.
 - [GitHub Copilot](https://github.com/features/copilot) — AI pair programmer with agent mode for multi-file edits, terminal commands, and autonomous task execution.
+- [Kiro](https://kiro.dev/) — AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI software development agent (formerly OpenDevin).
 - [SWE-agent](https://github.com/princeton-nlp/SWE-agent) — Princeton's software engineering agent.
+- [Windsurf](https://windsurf.com/) — AI-native IDE by Codeium with agentic Cascade flows.
 
 ### Personal AI Agents
 - [OpenClaw](https://github.com/openclaw/openclaw) — Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.
@@ -56,6 +66,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Browser Agents
 - [Browser Use](https://github.com/browser-use/browser-use) — Control browsers with AI agents. Most popular browser automation framework.
 - [Playwright MCP](https://github.com/anthropics/anthropic-tools) — Anthropic's browser automation via MCP.
+- [Stagehand](https://github.com/browserbase/stagehand) — AI-powered browser automation framework by Browserbase.
 - [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) — ByteDance's multimodal AI agent stack for desktop automation.
 
 ### Research Agents
@@ -70,7 +81,6 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Anthropic Claude + Tool Use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) — Claude's function calling and agent capabilities.
 - [Azure AI Foundry](https://ai.azure.com/) — Full-stack AI platform with agent capabilities.
 - [Composio](https://github.com/ComposioHQ/composio) — 1000+ toolkits, auth management, and sandboxed workbench for AI agents.
-- [Daytona](https://github.com/daytonaio/daytona) — Secure and elastic infrastructure for running AI-generated code.
 - [Dify](https://github.com/langgenius/dify) — Open-source LLMOps platform with visual agent builder.
 - [Google Vertex AI Agent Builder](https://cloud.google.com/vertex-ai/docs/agents) — Google Cloud's agent development platform.
 - [MaxKB](https://github.com/1Panel-dev/MaxKB) — Open-source platform for building enterprise-grade agents.
@@ -83,6 +93,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ## Agent Infrastructure
 
 ### Tool Protocols
+- [Agent2Agent Protocol (A2A)](https://github.com/google/A2A) — Google's open protocol for agent-to-agent communication and discovery. Linux Foundation project.
 - [Context7](https://github.com/upstash/context7) — MCP server for up-to-date code documentation for LLMs.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — GitHub's official MCP server for AI agents.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) — Anthropic's standard for connecting AI to tools and data.
@@ -100,6 +111,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [LangSmith](https://smith.langchain.com/) — LangChain's debugging and monitoring platform.
 
 ### Data Extraction
+- [Crawl4AI](https://github.com/unclecode/crawl4ai) — Open-source LLM-friendly web crawler. High-performance async crawling.
 - [Firecrawl](https://github.com/firecrawl/firecrawl) — Turn entire websites into LLM-ready markdown or structured data.
 
 ### Vector Databases
@@ -109,9 +121,13 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Qdrant](https://github.com/qdrant/qdrant) — High-performance vector search.
 - [Weaviate](https://github.com/weaviate/weaviate) — Open-source vector database.
 
+### Sandboxing & Execution
+- [Daytona](https://github.com/daytonaio/daytona) — Secure and elastic infrastructure for running AI-generated code.
+- [E2B](https://github.com/e2b-dev/e2b) — Cloud sandboxes for AI agents. Secure code execution environments.
+- [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/) — AI agents running within GitHub Actions. Markdown-based workflow definitions.
+
 ## Evaluation & Testing
 
-- [agent-eval](https://github.com/aloth/agent-eval) — Standardized benchmark framework for AI agents. ⭐ *Our project*
 - [AgentBench](https://github.com/THUDM/AgentBench) — Tsinghua's multi-dimensional agent benchmark.
 - [AgentBoard](https://github.com/hkust-nlp/AgentBoard) — Multi-round agent evaluation platform.
 - [GAIA](https://huggingface.co/gaia-benchmark) — General AI Assistants benchmark by Meta.
@@ -147,6 +163,8 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Toolformer](https://arxiv.org/abs/2302.04761) (2023) — Teaching LLMs to use tools autonomously.
 - [Voyager](https://arxiv.org/abs/2305.16291) (2023) — Lifelong learning agent in Minecraft.
 - [Generative Agents](https://arxiv.org/abs/2304.03442) (2023) — Stanford's believable simulacra of human behavior.
+- [Tree of Thoughts](https://arxiv.org/abs/2305.10601) (2023) — Deliberate problem solving through exploration of reasoning paths.
+- [Self-Refine](https://arxiv.org/abs/2303.17651) (2023) — Iterative self-refinement with self-feedback.
 
 ### Multi-Agent Systems
 - [CAMEL](https://arxiv.org/abs/2303.17760) (2023) — Communicative agents for role-playing.
@@ -163,6 +181,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ## Tutorials & Courses
 
+- [DeepLearning.AI: A2A Protocol](https://www.deeplearning.ai/short-courses/a2a-the-agent2agent-protocol/) — Short course on Google's Agent2Agent protocol.
 - [DeepLearning.AI: Building Agentic RAG](https://www.deeplearning.ai/) — Andrew Ng's course on agentic RAG patterns.
 - [Hugging Face: Building AI Agents](https://huggingface.co/learn/agents-course/) — Open course on agent development.
 - [LangChain Academy](https://academy.langchain.com/) — Free courses on agents and RAG.
