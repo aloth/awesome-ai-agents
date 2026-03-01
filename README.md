@@ -125,6 +125,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Daytona](https://github.com/daytonaio/daytona) — Secure and elastic infrastructure for running AI-generated code.
 - [E2B](https://github.com/e2b-dev/e2b) — Cloud sandboxes for AI agents. Secure code execution environments.
 - [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/) — AI agents running within GitHub Actions. Markdown-based workflow definitions.
+- [Moltworker](https://github.com/cloudflare/moltworker) — Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.
 
 ## Evaluation & Testing
 
@@ -144,6 +145,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Anthropic Constitutional AI](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback) — Self-improving AI safety through constitutions.
 - [Azure AI Content Safety](https://azure.microsoft.com/products/ai-services/ai-content-safety) — Content moderation for AI outputs.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) — Validation framework for LLM outputs.
+- [IronCurtain](https://github.com/provos/ironcurtain) — Open-source security layer for autonomous AI agents. Runs agents in isolated VMs to prevent prompt injection and rogue behavior.
 - [LangFair](https://github.com/cvs-health/langfair) — Python library for LLM bias and fairness assessments.
 - [LLM Guard](https://github.com/protectai/llm-guard) — Security toolkit for LLM interactions.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — NVIDIA's programmable guardrails.
