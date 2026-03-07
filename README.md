@@ -99,6 +99,10 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) — Anthropic's standard for connecting AI to tools and data.
 - [OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling) — De facto standard for LLM tool use.
 
+
+### Agent Skills & Tools
+- [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
+
 ### Memory & State
 - [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory (formerly MemGPT).
 - [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
