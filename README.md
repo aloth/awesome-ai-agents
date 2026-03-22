@@ -31,6 +31,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [AutoGen](https://github.com/microsoft/autogen) — Microsoft's multi-agent conversation framework. Supports complex agent topologies.
 - [CAMEL](https://github.com/camel-ai/camel) — Communicative agents for role-playing and multi-agent cooperation. First LLM multi-agent framework.
 - [CrewAI](https://github.com/crewAIInc/crewAI) — Role-based multi-agent framework. Agents with roles, goals, and backstories.
+- [dimos](https://github.com/dimensionalOS/dimos) — Agentic operating system for physical space. Build multi-agent systems that control humanoids, quadrupeds, drones, and other hardware via natural language.
 - [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) — Google's open-source, code-first Python framework for building multi-agent systems with A2A support.
 - [LangGraph](https://github.com/langchain-ai/langgraph) — Stateful agent workflows as graphs. Part of the LangChain ecosystem.
 - [Mastra](https://github.com/mastra-ai/mastra) — TypeScript-first AI agent framework with workflows, RAG, and integrations.
@@ -58,6 +59,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Open-source AI agent bringing Gemini directly into your terminal.
 - [GitHub Copilot](https://github.com/features/copilot) — AI pair programmer with agent mode for multi-file edits, terminal commands, and autonomous task execution.
 - [Kiro](https://kiro.dev/) — AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.
+- [Open SWE](https://github.com/langchain-ai/open-swe) — LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI software development agent (formerly OpenDevin).
 - [SWE-agent](https://github.com/princeton-nlp/SWE-agent) — Princeton's software engineering agent.
 - [Windsurf](https://windsurf.com/) — AI-native IDE by Codeium with agentic Cascade flows.
@@ -108,6 +110,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
 
 ### Memory & State
+- [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
 - [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory (formerly MemGPT).
 - [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
 - [Zep](https://github.com/getzep/zep) — Long-term memory for AI assistants.
