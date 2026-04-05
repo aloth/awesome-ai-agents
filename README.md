@@ -26,6 +26,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ### Multi-Agent Orchestration
 - [AG2](https://github.com/ag2ai/ag2) — Successor to AutoGen. Multi-agent framework with improved APIs.
+- [AgentField](https://github.com/Agent-Field/agentfield) — Open-source control plane that makes AI agents callable as microservices. Routing, coordination, memory, async execution, and cryptographic audit trails. Supports Python, Go, and TypeScript.
 - [AgentScope](https://github.com/agentscope-ai/agentscope) — Alibaba's production-ready agent framework with essential abstractions, built-in fine-tuning support, and a visual drag-and-drop interface.
 - [Agno](https://github.com/agno-agi/agno) — Programming language for agentic software. Build and manage multi-agent systems at scale.
 - [AutoGen](https://github.com/microsoft/autogen) — Microsoft's multi-agent conversation framework. Supports complex agent topologies.
@@ -154,6 +155,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ## Safety & Governance
 
+- [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) — Microsoft's runtime governance infrastructure for AI agents. Deterministic policy enforcement, zero-trust identity, execution sandboxing, and SRE. Covers all 10 OWASP Agentic Top 10 risks across Python, TypeScript, .NET, Rust, and Go.
 - [Agentic Security](https://github.com/msoedov/agentic_security) — LLM vulnerability scanner and AI red teaming kit.
 - [Anthropic Constitutional AI](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback) — Self-improving AI safety through constitutions.
 - [Azure AI Content Safety](https://azure.microsoft.com/products/ai-services/ai-content-safety) — Content moderation for AI outputs.
@@ -222,6 +224,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 - [r/AI_Agents](https://www.reddit.com/r/AI_Agents/) — Reddit community
 - [AI Agents Discord](https://discord.gg/ai-agents) — Active Discord server
+- [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) — Curated collection of AI agent research papers released in 2026, covering engineering, memory, evaluation, workflows, and autonomous systems.
 - [#AIAgents on X](https://x.com/search?q=%23AIAgents) — Twitter/X hashtag
 
 ---
