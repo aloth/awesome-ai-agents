@@ -68,8 +68,9 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Windsurf](https://windsurf.com/) — AI-native IDE by Codeium with agentic Cascade flows.
 
 ### Personal AI Agents
-- [OpenClaw](https://github.com/openclaw/openclaw) — Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.
 - [CoPaw](https://github.com/agentscope-ai/CoPaw) — Alibaba's open-source personal AI agent workstation. Supports multi-channel workflows, MCP skills, local/cloud LLMs, and persistent memory.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.
+- [OpenClaw](https://github.com/openclaw/openclaw) — Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.
 
 ### Browser Agents
 - [Browser Use](https://github.com/browser-use/browser-use) — Control browsers with AI agents. Most popular browser automation framework.
@@ -88,6 +89,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) — AWS managed agent service.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) — All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.
 - [Anthropic Claude + Tool Use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) — Claude's function calling and agent capabilities.
+- [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview) — Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.
 - [Azure AI Foundry](https://ai.azure.com/) — Full-stack AI platform with agent capabilities.
 - [Composio](https://github.com/ComposioHQ/composio) — 1000+ toolkits, auth management, and sandboxed workbench for AI agents.
 - [Dify](https://github.com/langgenius/dify) — Open-source LLMOps platform with visual agent builder.
@@ -187,6 +189,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [CAMEL](https://arxiv.org/abs/2303.17760) (2023) — Communicative agents for role-playing.
 - [MetaGPT](https://arxiv.org/abs/2308.00352) (2023) — Multi-agent collaboration mimicking software companies.
 - [ChatDev](https://arxiv.org/abs/2307.07924) (2023) — Agents collaborating in a virtual software company.
+- [PaperOrchestra](https://arxiv.org/abs/2604.05018) (2026) — Google's multi-agent framework for automated AI research paper writing, converting unstructured pre-writing materials into submission-ready papers.
 
 ### Safety & Evaluation
 - [AgentBench](https://arxiv.org/abs/2308.03688) (2023) — Evaluating LLMs as agents across 8 environments.
