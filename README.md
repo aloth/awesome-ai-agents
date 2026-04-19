@@ -26,6 +26,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ### Multi-Agent Orchestration
 - [AG2](https://github.com/ag2ai/ag2) — Successor to AutoGen. Multi-agent framework with improved APIs.
+- [Agent Swarm](https://github.com/desplega-ai/agent-swarm) — Multi-agent orchestration for AI coding assistants (Claude Code, Codex, Gemini CLI). Lead/worker coordination with Docker isolation, compounding memory, and Slack/GitHub integration.
 - [AgentField](https://github.com/Agent-Field/agentfield) — Open-source control plane that makes AI agents callable as microservices. Routing, coordination, memory, async execution, and cryptographic audit trails. Supports Python, Go, and TypeScript.
 - [AgentScope](https://github.com/agentscope-ai/agentscope) — Alibaba's production-ready agent framework with essential abstractions, built-in fine-tuning support, and a visual drag-and-drop interface.
 - [Agno](https://github.com/agno-agi/agno) — Programming language for agentic software. Build and manage multi-agent systems at scale.
@@ -46,6 +47,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Swarm](https://github.com/openai/swarm) — OpenAI's lightweight multi-agent framework (educational).
 
 ### Single Agent
+- [GenericAgent](https://github.com/lsdefine/GenericAgent) — Self-evolving agent that grows its own skill tree from ~3K lines of seed code. 9 atomic tools for full system control (browser, terminal, filesystem, screen vision) with automatic skill crystallization.
 - [Haystack](https://github.com/deepset-ai/haystack) — End-to-end NLP framework with agent pipelines.
 - [Instructor](https://github.com/jxnl/instructor) — Structured output from LLMs. Essential for reliable tool use.
 - [LangChain](https://github.com/langchain-ai/langchain) — The most popular LLM application framework. Agents, chains, tools.
@@ -64,6 +66,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Kiro](https://kiro.dev/) — AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.
 - [Open SWE](https://github.com/langchain-ai/open-swe) — LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI software development agent (formerly OpenDevin).
+- [OpenHands Software Agent SDK](https://github.com/OpenHands/software-agent-sdk) — Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.
 - [SWE-agent](https://github.com/princeton-nlp/SWE-agent) — Princeton's software engineering agent.
 - [Windsurf](https://windsurf.com/) — AI-native IDE by Codeium with agentic Cascade flows.
 
