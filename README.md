@@ -115,6 +115,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 
 ### Agent Skills & Tools
+- [Google Agents CLI](https://github.com/google/agents-cli) — CLI and skill pack that turns any coding assistant (Claude Code, Codex, Gemini CLI, Cursor) into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
 
 ### Memory & State
@@ -125,6 +126,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ### Monitoring & Observability
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) — ML & LLM observability.
+- [Future AGI](https://github.com/future-agi/future-agi) — Open-source, end-to-end, self-hostable platform for evaluating, observing, and improving LLM and AI agent apps. Tracing, evals, simulations, datasets, gateway, and guardrails in one stack.
 - [Helicone](https://www.helicone.ai/) — LLM observability and cost tracking.
 - [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability. Traces, evals, prompt management.
 - [LangSmith](https://smith.langchain.com/) — LangChain's debugging and monitoring platform.
@@ -143,6 +145,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Sandboxing & Execution
 - [Daytona](https://github.com/daytonaio/daytona) — Secure and elastic infrastructure for running AI-generated code.
 - [E2B](https://github.com/e2b-dev/e2b) — Cloud sandboxes for AI agents. Secure code execution environments.
+- [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.
 - [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/) — AI agents running within GitHub Actions. Markdown-based workflow definitions.
 - [Moltworker](https://github.com/cloudflare/moltworker) — Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.
 
