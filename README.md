@@ -122,6 +122,8 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
 - [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory (formerly MemGPT).
 - [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
+- [Memori](https://github.com/MemoriLabs/Memori) — Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.
+- [ReMe](https://github.com/agentscope-ai/ReMe) — Alibaba's memory management kit for agents (formerly MemoryScope). File-based and vector-based memory with a dynamic procedural memory framework.
 - [Zep](https://github.com/getzep/zep) — Long-term memory for AI assistants.
 
 ### Monitoring & Observability
@@ -148,6 +150,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.
 - [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/) — AI agents running within GitHub Actions. Markdown-based workflow definitions.
 - [Moltworker](https://github.com/cloudflare/moltworker) — Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.
+- [SmolVM](https://github.com/CelestoAI/SmolVM) — Open-source microVM sandbox infrastructure for code execution, browser use, and AI agents. macOS/Linux support, snapshotting, pause/resume, and persistent environments across turns. Apache-2.0.
 
 ## Evaluation & Testing
 
