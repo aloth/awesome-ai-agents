@@ -118,6 +118,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Agent Skills & Tools
 - [Google Agents CLI](https://github.com/google/agents-cli) — CLI and skill pack that turns any coding assistant (Claude Code, Codex, Gemini CLI, Cursor) into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
+- [NotFair](https://notfair.co) - Google Ads MCP server. Connect Claude and AI agents to a Google Ads account: diagnose campaign performance, recommend optimizations, and execute approved changes via the Google Ads API. Source: github.com/nowork-studio/toprank. Free tier available.
 
 ### Memory & State
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
