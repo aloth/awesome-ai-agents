@@ -64,6 +64,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Open-source AI agent bringing Gemini directly into your terminal.
 - [GitHub Copilot](https://github.com/features/copilot) — AI pair programmer with agent mode for multi-file edits, terminal commands, and autonomous task execution.
 - [Kiro](https://kiro.dev/) — AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.
+- [mini-coding-agent](https://github.com/rasbt/mini-coding-agent) — Sebastian Raschka's minimal, readable Python coding agent harness. Explains the core components of coding agents in a small, hackable codebase.
 - [Open SWE](https://github.com/langchain-ai/open-swe) — LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI software development agent (formerly OpenDevin).
 - [OpenHands Software Agent SDK](https://github.com/OpenHands/software-agent-sdk) — Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.
@@ -150,6 +151,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.
 - [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/) — AI agents running within GitHub Actions. Markdown-based workflow definitions.
 - [Moltworker](https://github.com/cloudflare/moltworker) — Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.
+- [Mirage](https://github.com/strukto-ai/mirage) — Unified virtual filesystem for AI agents. Gives agents a consistent, sandboxed view across local, cloud, and ephemeral storage. Apache-2.0.
 - [SmolVM](https://github.com/CelestoAI/SmolVM) — Open-source microVM sandbox infrastructure for code execution, browser use, and AI agents. macOS/Linux support, snapshotting, pause/resume, and persistent environments across turns. Apache-2.0.
 
 ## Evaluation & Testing
@@ -210,6 +212,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ## Tutorials & Courses
 
+- [agent-rules-books](https://github.com/ciembor/agent-rules-books) — AGENTS.md rules and skills for AI coding agents (Codex, Cursor, Claude Code) inspired by Clean Code, Refactoring, DDD, Clean Architecture, and DDIA.
 - [DeepLearning.AI: A2A Protocol](https://www.deeplearning.ai/short-courses/a2a-the-agent2agent-protocol/) — Short course on Google's Agent2Agent protocol.
 - [DeepLearning.AI: Building Agentic RAG](https://www.deeplearning.ai/) — Andrew Ng's course on agentic RAG patterns.
 - [Hugging Face: Building AI Agents](https://huggingface.co/learn/agents-course/) — Open course on agent development.
