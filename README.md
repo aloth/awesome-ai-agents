@@ -77,6 +77,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.
 - [Mercury Agent](https://github.com/cosmicstack-labs/mercury-agent) — Soul-driven personal AI agent with permission-hardened tools, token budgets, and multi-channel access (CLI or Telegram). MIT.
 - [OpenClaw](https://github.com/openclaw/openclaw) — Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.
+- [Trustclaw](https://github.com/ComposioHQ/trustclaw) — ComposioHQ's self-hostable personal AI agent with vector memory, native Composio tool integrations, and a Telegram front-end. MIT.
 
 ### Browser Agents
 - [Browser Use](https://github.com/browser-use/browser-use) — Control browsers with AI agents. Most popular browser automation framework.
@@ -150,6 +151,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Sandboxing & Execution
 - [Daytona](https://github.com/daytonaio/daytona) — Secure and elastic infrastructure for running AI-generated code.
 - [E2B](https://github.com/e2b-dev/e2b) — Cloud sandboxes for AI agents. Secure code execution environments.
+- [forkd](https://github.com/deeplethe/forkd) — `fork()` for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent, BRANCH a live VM in ~150ms. KVM-isolated with snapshot copy-on-write. Apache-2.0.
 - [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.
 - [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/) — AI agents running within GitHub Actions. Markdown-based workflow definitions.
 - [Moltworker](https://github.com/cloudflare/moltworker) — Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.
@@ -221,6 +223,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Hugging Face: Building AI Agents](https://huggingface.co/learn/agents-course/) — Open course on agent development.
 - [LangChain Academy](https://academy.langchain.com/) — Free courses on agents and RAG.
 - [Microsoft: AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) — 12 lessons to get started building AI agents.
+- [Microsoft: AI Engineering Coach](https://github.com/microsoft/AI-Engineering-Coach) — Microsoft's open-source curriculum and tooling for "better agentic engineering" — patterns, practices, and exercises for building production-quality AI agents.
 - [Microsoft: Build AI Agents with Azure AI Foundry](https://learn.microsoft.com/training/) — Official Microsoft Learn path.
 - [Microsoft: MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) — Curriculum for Model Context Protocol with cross-language examples.
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — Comprehensive guides for prompt engineering, RAG, and AI agents.
