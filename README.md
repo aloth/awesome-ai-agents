@@ -76,8 +76,10 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [CoPaw](https://github.com/agentscope-ai/CoPaw) — Alibaba's open-source personal AI agent workstation. Supports multi-channel workflows, MCP skills, local/cloud LLMs, and persistent memory.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.
 - [Mercury Agent](https://github.com/cosmicstack-labs/mercury-agent) — Soul-driven personal AI agent with permission-hardened tools, token budgets, and multi-channel access (CLI or Telegram). MIT.
+- [nanobot](https://github.com/HKUDS/nanobot) — HKU Data Science Lab's ultra-lightweight personal AI agent. Keeps the core small and readable while shipping a full workbench: WebUI, sustained goals, MCP, image generation, multi-channel (Telegram, Signal, Matrix), and multi-provider model routing. Released v0.2.1 (June 2026).
 - [OpenHuman](https://github.com/tinyhumansai/openhuman) — Local-first personal AI agent with 118 OAuth integrations, hierarchical memory tree, and TokenJuice compression. Runs entirely on-device.
 - [OpenClaw](https://github.com/openclaw/openclaw) — Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.
+- [QwenPaw](https://github.com/agentscope-ai/QwenPaw) — Alibaba's Qwen-powered personal AI agent workstation. Local or cloud deployment, multi-agent collaboration with sub-agent spawning, extensible skill system, and broad channel support (DingTalk, Feishu, WeChat, Discord, Telegram). MIT.
 - [Trustclaw](https://github.com/ComposioHQ/trustclaw) — ComposioHQ's self-hostable personal AI agent with vector memory, native Composio tool integrations, and a Telegram front-end. MIT.
 
 ### Browser Agents
@@ -159,6 +161,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/) — AI agents running within GitHub Actions. Markdown-based workflow definitions.
 - [Moltworker](https://github.com/cloudflare/moltworker) — Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.
 - [Mirage](https://github.com/strukto-ai/mirage) — Unified virtual filesystem for AI agents. Gives agents a consistent, sandboxed view across local, cloud, and ephemeral storage. Apache-2.0.
+- [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's open-source reference stack for running always-on agents (OpenClaw, Hermes) more securely inside NVIDIA OpenShell sandboxes. Provides guided onboarding, hardened blueprints, routed inference, network policy, and lifecycle management via a single CLI. Announced at GTC Taipei (June 2026).
 - [SmolVM](https://github.com/CelestoAI/SmolVM) — Open-source microVM sandbox infrastructure for code execution, browser use, and AI agents. macOS/Linux support, snapshotting, pause/resume, and persistent environments across turns. Apache-2.0.
 
 ## Evaluation & Testing
