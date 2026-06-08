@@ -118,6 +118,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Context7](https://github.com/upstash/context7) — MCP server for up-to-date code documentation for LLMs.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — GitHub's official MCP server for AI agents.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) — Anthropic's standard for connecting AI to tools and data.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) — Solana on-chain trust scoring for AI agents. Verify wallet reputation before x402 micropayments. Remote MCP endpoint: `https://intel.twzrd.xyz/mcp`
 - [OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling) — De facto standard for LLM tool use.
 
 
