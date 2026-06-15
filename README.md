@@ -129,6 +129,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Google Agents CLI](https://github.com/google/agents-cli) — CLI and skill pack that turns any coding assistant (Claude Code, Codex, Gemini CLI, Cursor) into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.
+- [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - Agent skill and MCP server for X data workflows.
 
 ### Memory & State
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
