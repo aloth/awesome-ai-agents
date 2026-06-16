@@ -68,6 +68,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Kiro](https://kiro.dev/) — AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.
 - [mini-coding-agent](https://github.com/rasbt/mini-coding-agent) — Sebastian Raschka's minimal, readable Python coding agent harness. Explains the core components of coding agents in a small, hackable codebase.
 - [OpenCode](https://github.com/opencode-ai/opencode) — Open-source terminal-native AI coding agent built in Go by SST. 160K+ stars, 7.5M monthly developers. Works in terminal, IDE, or desktop with any LLM.
+- [OpenClacky](https://openclacky.com) — The most token-efficient open-source AI agent. Achieves **93.8% 7-day Prompt Cache hit rate** via frozen system prompts, dual cache markers, and idle-time context compression — Claude Code-class task execution at ~0.8× the cost. BYOK, 16 core tools, Skill extensions, IM integrations (Feishu, WeCom, Discord, Telegram), browser automation, cron tasks. MIT, local-first.
 - [Open SWE](https://github.com/langchain-ai/open-swe) — LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI software development agent (formerly OpenDevin).
 - [OpenHands Software Agent SDK](https://github.com/OpenHands/software-agent-sdk) — Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.
