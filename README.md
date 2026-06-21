@@ -45,9 +45,11 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — OpenAI's production framework for multi-agent orchestration with handoffs and guardrails.
 - [Ruflo](https://github.com/ruvnet/ruflo) — Agent orchestration platform optimized for Claude. Features self-learning swarms, distributed intelligence, RAG integration, and native Claude Code/Codex integration. Formerly claude-flow.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — Microsoft's SDK for AI orchestration. Plugins, planners, and memory.
+- [Strands Agents](https://github.com/strands-agents/harness-sdk) — AWS's model-driven, open-source SDK for building production AI agents in Python and TypeScript. Any model, any cloud, with MCP support and 23M+ monthly PyPI downloads. Apache-2.0.
 - [Swarm](https://github.com/openai/swarm) — OpenAI's lightweight multi-agent framework (educational).
 
 ### Single Agent
+- [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) — Anthropic's production SDK for building AI agents powered by Claude. Stateful sessions, tool execution, sandboxing, and streaming. Available in Python and [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript).
 - [GenericAgent](https://github.com/lsdefine/GenericAgent) — Self-evolving agent that grows its own skill tree from ~3K lines of seed code. 9 atomic tools for full system control (browser, terminal, filesystem, screen vision) with automatic skill crystallization.
 - [Haystack](https://github.com/deepset-ai/haystack) — End-to-end NLP framework with agent pipelines.
 - [Instructor](https://github.com/jxnl/instructor) — Structured output from LLMs. Essential for reliable tool use.
