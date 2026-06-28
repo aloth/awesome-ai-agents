@@ -32,6 +32,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Agno](https://github.com/agno-agi/agno) — Programming language for agentic software. Build and manage multi-agent systems at scale.
 - [AutoGen](https://github.com/microsoft/autogen) — Microsoft's multi-agent conversation framework. Supports complex agent topologies.
 - [CAMEL](https://github.com/camel-ai/camel) — Communicative agents for role-playing and multi-agent cooperation. First LLM multi-agent framework.
+- [CopilotKit](https://github.com/CopilotKit/CopilotKit) — Frontend stack for building agent-powered apps with Generative UI. React, Angular, and mobile support; creators of the AG-UI Protocol (adopted by Google, LangChain, AWS, Microsoft, Mastra, and PydanticAI). MIT.
 - [CrewAI](https://github.com/crewAIInc/crewAI) — Role-based multi-agent framework. Agents with roles, goals, and backstories.
 - [DeerFlow](https://github.com/bytedance/deer-flow) — ByteDance's open-source long-horizon SuperAgent harness. Orchestrates sub-agents, sandboxes, memory, tools, and skills for tasks spanning minutes to hours. Hit #1 GitHub Trending with v2.0 (Feb 2026).
 - [dimos](https://github.com/dimensionalOS/dimos) — Agentic operating system for physical space. Build multi-agent systems that control humanoids, quadrupeds, drones, and other hardware via natural language.
@@ -128,11 +129,13 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Agent Skills & Tools
 - [codegraph](https://github.com/colbymchenry/codegraph) — Pre-indexed code knowledge graph for coding agents (Claude Code, Codex, Cursor, Gemini CLI). Fewer tokens, fewer tool calls, 100% local.
 - [dotnet/skills](https://github.com/dotnet/skills) — Microsoft .NET team's curated skills and custom agents for AI coding agents. Core .NET, EF data access, diagnostics, MSBuild, and NuGet plugins.
+- [ECC](https://github.com/affaan-m/ECC) — Agent harness performance system for Claude Code, Cursor, Codex, OpenCode, Gemini, and Zed. Ships 63 specialized agents, 251 skills, continuous learning with session memory hooks, and AgentShield security hardening. MIT.
 - [Google Agents CLI](https://github.com/google/agents-cli) — CLI and skill pack that turns any coding assistant (Claude Code, Codex, Gemini CLI, Cursor) into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.
 
 ### Memory & State
+- [Headroom](https://github.com/headroomlabs-ai/headroom) — Context compression layer for AI agents. Reduces tool outputs, logs, RAG chunks, and files by 60–95% before they reach the LLM—without loss of answer quality. Library, proxy, and MCP server modes; reversible compression; supports Claude Code, Codex, Cursor, and Aider.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
 - [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory (formerly MemGPT).
 - [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
