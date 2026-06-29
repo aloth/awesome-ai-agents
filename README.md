@@ -178,6 +178,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [AgentBoard](https://github.com/hkust-nlp/AgentBoard) — Multi-round agent evaluation platform.
 - [GAIA](https://huggingface.co/gaia-benchmark) — General AI Assistants benchmark by Meta.
 - [LangTest](https://github.com/Pacific-AI-Corp/langtest) — Testing framework for delivering safe & effective language models.
+- [No-Bullshit Agent Benchmark (NBAB)](https://github.com/mturac/no-bullshit-agent-benchmark) — A ruthless, git-based AI coding agent benchmark that penalizes destructive behavior alongside measuring task completion.
 - [RuLES](https://github.com/normster/llm_rules) — Benchmark for evaluating rule-following in language models.
 - [SWE-bench](https://www.swebench.com/) — Benchmark for software engineering agents.
 - [ToolBench](https://github.com/OpenBMB/ToolBench) — Benchmark for tool-use capabilities.
