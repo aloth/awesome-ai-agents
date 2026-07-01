@@ -4,7 +4,7 @@
 
 AI Agents are autonomous systems that use LLMs to reason, plan, and take actions. This list tracks the rapidly evolving ecosystem.
 
-**Contributing:** PRs welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+**Contributing:** Want to add a project? [Open a suggestion](https://github.com/aloth/awesome-ai-agents/issues/new?template=add-project.yml) or [submit a PR](CONTRIBUTING.md) directly.
 
 ---
 

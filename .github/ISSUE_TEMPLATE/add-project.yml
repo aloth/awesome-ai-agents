@@ -1,0 +1,100 @@
+name: Add a project
+description: Suggest a project for the Awesome AI Agents list
+title: "Add [PROJECT NAME]"
+labels: ["addition"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a project! Please fill out the fields below.
+        Before submitting, check the [contribution guidelines](../CONTRIBUTING.md).
+
+  - type: input
+    id: project_name
+    attributes:
+      label: Project name
+      placeholder: "e.g. MyAgent"
+    validations:
+      required: true
+
+  - type: input
+    id: project_url
+    attributes:
+      label: GitHub / project URL
+      placeholder: "https://github.com/org/repo"
+    validations:
+      required: true
+
+  - type: input
+    id: stars
+    attributes:
+      label: GitHub stars (approximate)
+      description: "Minimum 100 stars required, or from a major organization"
+      placeholder: "e.g. 450"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Suggested section
+      options:
+        - Multi-Agent Orchestration
+        - Single Agent
+        - Code Agents
+        - Personal AI Agents
+        - Browser Agents
+        - Research Agents
+        - Platforms & Low-Code
+        - Tool Protocols
+        - Agent Skills & Tools
+        - Memory & State
+        - Monitoring & Observability
+        - Data Extraction
+        - Vector Databases
+        - Sandboxing & Execution
+        - Evaluation & Testing
+        - Safety & Governance
+        - Research Papers
+        - Tutorials & Courses
+        - Use Cases & Case Studies
+        - Other / unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: "Max ~15 words. Describe what it does, not why it's great."
+      placeholder: "e.g. Lightweight Python framework for multi-agent collaboration."
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: "e.g. MIT, Apache-2.0"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: "Project has 100+ GitHub stars OR is from a major organization"
+          required: true
+        - label: "Project is actively maintained (updated within last 6 months)"
+          required: true
+        - label: "Link works and is not behind a paywall"
+          required: true
+        - label: "I checked the list for duplicates"
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context (optional)
+      description: "Anything else that helps evaluate the fit - e.g. why it belongs in this section, how it differs from similar entries."

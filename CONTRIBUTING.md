@@ -11,6 +11,10 @@
 
 ## How to Contribute
 
+**Not sure if your project fits?** [Open a suggestion issue](https://github.com/aloth/awesome-ai-agents/issues/new?template=add-project.yml) first - we'll let you know.
+
+**Ready to submit?** Open a PR:
+
 1. Fork this repository
 2. Add your entry in the appropriate section
 3. Submit a PR with a brief explanation of why it belongs here
