@@ -75,6 +75,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Open SWE](https://github.com/langchain-ai/open-swe) — LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI software development agent (formerly OpenDevin).
 - [OpenHands Software Agent SDK](https://github.com/OpenHands/software-agent-sdk) — Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.
+- [Qwen Code](https://github.com/QwenLM/qwen-code) — Alibaba's open-source terminal-native AI coding agent. Powered by Qwen models with MCP support, 25K+ stars, and Apache-2.0 license.
 - [SWE-agent](https://github.com/princeton-nlp/SWE-agent) — Princeton's software engineering agent.
 - [Windsurf](https://windsurf.com/) — AI-native IDE by Codeium with agentic Cascade flows.
 
@@ -113,6 +114,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [MaxKB](https://github.com/1Panel-dev/MaxKB) — Open-source platform for building enterprise-grade agents.
 - [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) — Low-code agent builder. Integrates with M365, Dynamics, Power Platform.
 - [n8n](https://n8n.io/) — Workflow automation with native AI agent capabilities and MCP support.
+- [Open Design](https://github.com/nexu-io/open-design) — Open-source vibe design workspace where your coding agent becomes the design engine. Prototypes, landing pages, dashboards, slides, images, and video with HTML/PDF/PPTX/MP4 export. Supports Claude Code, Codex, Cursor, Gemini, OpenCode, and 20+ CLIs. Apache-2.0.
 - [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) — OpenAI's managed agent platform with tools and retrieval.
 - [Relevance AI](https://relevanceai.com/) — No-code AI agent platform.
 - [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) — Build and deploy fully-managed AI agents and workflows.
@@ -139,6 +141,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — Agent skill and MCP server for X data workflows.
 
 ### Memory & State
+- [claude-mem](https://github.com/thedotmack/claude-mem) — Cross-session persistent memory for AI coding agents. Captures session activity, compresses it with AI, and injects relevant context into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, and more. Apache-2.0.
 - [Headroom](https://github.com/headroomlabs-ai/headroom) — Context compression layer for AI agents. Reduces tool outputs, logs, RAG chunks, and files by 60–95% before they reach the LLM—without loss of answer quality. Library, proxy, and MCP server modes; reversible compression; supports Claude Code, Codex, Cursor, and Aider.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
 - [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory (formerly MemGPT).
