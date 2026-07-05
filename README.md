@@ -111,6 +111,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Composio](https://github.com/ComposioHQ/composio) — 1000+ toolkits, auth management, and sandboxed workbench for AI agents.
 - [Dify](https://github.com/langgenius/dify) — Open-source LLMOps platform with visual agent builder.
 - [Google Vertex AI Agent Builder](https://cloud.google.com/vertex-ai/docs/agents) — Google Cloud's agent development platform.
+- [Hermes](https://buildwithhermes.com) — Voice AI agent platform for agencies: white-label deployment, native CRM, inbound/outbound campaign orchestration, and usage-based billing on one system.
 - [MaxKB](https://github.com/1Panel-dev/MaxKB) — Open-source platform for building enterprise-grade agents.
 - [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) — Low-code agent builder. Integrates with M365, Dynamics, Power Platform.
 - [n8n](https://n8n.io/) — Workflow automation with native AI agent capabilities and MCP support.
