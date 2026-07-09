@@ -178,6 +178,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Mirage](https://github.com/strukto-ai/mirage) — Unified virtual filesystem for AI agents. Gives agents a consistent, sandboxed view across local, cloud, and ephemeral storage. Apache-2.0.
 - [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's open-source reference stack for running always-on agents (OpenClaw, Hermes) more securely inside NVIDIA OpenShell sandboxes. Provides guided onboarding, hardened blueprints, routed inference, network policy, and lifecycle management via a single CLI. Announced at GTC Taipei (June 2026).
 - [SmolVM](https://github.com/CelestoAI/SmolVM) — Open-source microVM sandbox infrastructure for code execution, browser use, and AI agents. macOS/Linux support, snapshotting, pause/resume, and persistent environments across turns. Apache-2.0.
+- [AgentBox](https://github.com/madarco/agentbox) — Run multiple coding agents (Claude Code, Codex, OpenCode) in parallel, each in its own sandboxed VM across local Docker, self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B). Sub-1s checkpoints, per-box browser/VS Code/shells. MIT.
 
 ## Evaluation & Testing
 
