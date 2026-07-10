@@ -118,6 +118,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) — OpenAI's managed agent platform with tools and retrieval.
 - [Relevance AI](https://relevanceai.com/) — No-code AI agent platform.
 - [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) — Build and deploy fully-managed AI agents and workflows.
+- [Viglet Turing ES](https://github.com/openviglet/turing-ce) — Open-source enterprise-search platform with RAG chat and AI agents over your own content; faceted/hybrid search on a pluggable Solr/Elasticsearch/Lucene backend. Self-hostable, Apache-2.0.
 
 ## Agent Infrastructure
 
