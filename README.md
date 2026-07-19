@@ -43,6 +43,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [MetaGPT](https://github.com/geekan/MetaGPT) — Multi-agent framework that mimics a software company with roles (PM, architect, engineer).
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Framework for building, orchestrating and deploying multi-agent workflows (Python + .NET).
 - [MiroFish](https://github.com/666ghj/MiroFish) — Concise and universal swarm intelligence engine for forecasting and prediction. Upload seed material, describe goals in natural language, get a detailed prediction report and an interactive simulation.
+- [Omnigent](https://github.com/omnigent-ai/omnigent) — Open-source meta-harness that orchestrates Claude Code, Codex, Cursor, OpenCode, Hermes, and Pi under one policy/sandboxing layer. Cloud sandboxes (Modal, Daytona, E2B, Kubernetes, Databricks), live multi-device session sharing, and YAML-defined sub-agents. Apache-2.0.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — OpenAI's production framework for multi-agent orchestration with handoffs and guardrails.
 - [Ruflo](https://github.com/ruvnet/ruflo) — Agent orchestration platform optimized for Claude. Features self-learning swarms, distributed intelligence, RAG integration, and native Claude Code/Codex integration. Formerly claude-flow.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — Microsoft's SDK for AI orchestration. Plugins, planners, and memory.
@@ -126,6 +127,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Tool Protocols
 - [Agent2Agent Protocol (A2A)](https://github.com/google/A2A) — Google's open protocol for agent-to-agent communication and discovery. Linux Foundation project.
 - [Context7](https://github.com/upstash/context7) — MCP server for up-to-date code documentation for LLMs.
+- [Git-Native Agent Protocol (GNAP)](https://github.com/farol-team/gnap) — Serverless protocol for coordinating AI agent teams via 4 JSON files in a shared git repo (agents, tasks, runs, messages). No database, no vendor lock-in — any agent that can git push can participate. MIT.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — GitHub's official MCP server for AI agents.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) — Anthropic's standard for connecting AI to tools and data.
 - [OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling) — De facto standard for LLM tool use.
