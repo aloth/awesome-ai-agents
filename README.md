@@ -140,6 +140,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [dotnet/skills](https://github.com/dotnet/skills) — Microsoft .NET team's curated skills and custom agents for AI coding agents. Core .NET, EF data access, diagnostics, MSBuild, and NuGet plugins.
 - [ECC](https://github.com/affaan-m/ECC) — Agent harness performance system for Claude Code, Cursor, Codex, OpenCode, Gemini, and Zed. Ships 63 specialized agents, 251 skills, continuous learning with session memory hooks, and AgentShield security hardening. MIT.
 - [Google Agents CLI](https://github.com/google/agents-cli) — CLI and skill pack that turns any coding assistant (Claude Code, Codex, Gemini CLI, Cursor) into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
+- [Kane CLI](https://www.testmuai.com/kane-cli/) — Browser testing skill for coding agents. Natural-language objectives return structured pass/fail in real Chrome.
 - [NotFair](https://github.com/nowork-studio/NotFair) — Open-source Claude Code agent skills for SEO and paid ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
 - [olcli](https://github.com/aloth/olcli) — Overleaf CLI for AI coding agents. Sync, pull, push, and compile LaTeX projects from the command line.
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
