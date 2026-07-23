@@ -144,6 +144,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [olcli](https://github.com/aloth/olcli) — Overleaf CLI for AI coding agents. Sync, pull, push, and compile LaTeX projects from the command line.
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.
+- [TierDecay](https://github.com/alebgl77/tierdecay) — Self-distilling model router for AI coding CLIs. Solves a problem class once at an expensive model tier, distills the decision into a low-tier playbook entry, and decays the class's default tier down over repeated runs via a ledger of predicted-vs-executed tiers. Ships adapters for Claude Code, Codex/AGENTS.md, Cursor, Gemini CLI, Aider, Cline, Goose, and Windsurf. MIT.
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — Agent skill and MCP server for X data workflows.
 
 ### Memory & State
