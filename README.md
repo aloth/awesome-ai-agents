@@ -49,7 +49,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — Microsoft's SDK for AI orchestration. Plugins, planners, and memory.
 - [Strands Agents](https://github.com/strands-agents/harness-sdk) — AWS's model-driven, open-source SDK for building production AI agents in Python and TypeScript. Any model, any cloud, with MCP support and 23M+ monthly PyPI downloads. Apache-2.0.
 - [Swarm](https://github.com/openai/swarm) — OpenAI's lightweight multi-agent framework (educational).
-- [TeDDy](https://github.com/atte500/TeDDy) — An opinionated coding harness that prevents code slop by embedding TDD, Hexagonal Architecture, and vertical slicing into a Markdown-driven workflow. Python, AGPL-3.0.
+- [TeDDy](https://github.com/atte500/TeDDy) — Coding harness that prevents code slop with TDD, Hexagonal Architecture, and vertical slicing. AGPL-3.0.
 
 ### Single Agent
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) — Anthropic's production SDK for building AI agents powered by Claude. Stateful sessions, tool execution, sandboxing, and streaming. Available in Python and [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript).
