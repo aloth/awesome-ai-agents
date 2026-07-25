@@ -154,6 +154,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory (formerly MemGPT).
 - [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
 - [Memori](https://github.com/MemoriLabs/Memori) — Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.
+- [P2PA](https://github.com/SanjoyDat1/P2PA) — Serverless P2P context sync for local AI agents (Cursor, Claude Code, Claude Desktop) over Hyperswarm. Ed25519 peer authentication, RFC 6902 JSON Patch diffs, versioned conflict detection.
 - [ReMe](https://github.com/agentscope-ai/ReMe) — Alibaba's memory management kit for agents (formerly MemoryScope). File-based and vector-based memory with a dynamic procedural memory framework.
 - [Zep](https://github.com/getzep/zep) — Long-term memory for AI assistants.
 
