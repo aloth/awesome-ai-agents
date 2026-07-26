@@ -69,6 +69,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Open-source AI agent bringing Gemini directly into your terminal.
 - [GitHub Copilot](https://github.com/features/copilot) — AI pair programmer with agent mode for multi-file edits, terminal commands, and autonomous task execution.
 - [Goose](https://github.com/block/goose) — Block's open-source extensible AI agent for full-cycle development. Desktop app, CLI, and API with native MCP support, 70+ extensions, and LLM-agnostic design. Now under the Linux Foundation's Agentic AI Foundation (AAIF).
+- [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) — Moonshot AI's single-binary terminal coding agent, successor to Kimi CLI. Video input for reviewing screen recordings, AI-native MCP configuration, built-in coder/explore/plan subagents, lifecycle hooks, and Agent Client Protocol (ACP) support for Zed/JetBrains. MIT.
 - [Kiro](https://kiro.dev/) — AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.
 - [MiMoCode](https://github.com/XiaoMi/mimocode) — Xiaomi's open-source terminal-native AI coding agent with cross-session persistent memory, subagent orchestration, and self-improvement via `/dream` and `/distill` commands. Fork of OpenCode with SQLite FTS5 memory, task trees, and multi-agent compose mode. 6K+ stars, MIT.
 - [mini-coding-agent](https://github.com/rasbt/mini-coding-agent) — Sebastian Raschka's minimal, readable Python coding agent harness. Explains the core components of coding agents in a small, hackable codebase.
@@ -129,6 +130,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Tool Protocols
 - [Agent2Agent Protocol (A2A)](https://github.com/google/A2A) — Google's open protocol for agent-to-agent communication and discovery. Linux Foundation project.
 - [Context7](https://github.com/upstash/context7) — MCP server for up-to-date code documentation for LLMs.
+- [FastMCP](https://github.com/PrefectHQ/fastmcp) — The fast, Pythonic way to build MCP servers and clients. The standard framework underlying much of the official Python MCP SDK, with auth, deployment, and testing tooling built in.
 - [Git-Native Agent Protocol (GNAP)](https://github.com/farol-team/gnap) — Serverless protocol for coordinating AI agent teams via 4 JSON files in a shared git repo (agents, tasks, runs, messages). No database, no vendor lock-in — any agent that can git push can participate. MIT.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — GitHub's official MCP server for AI agents.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) — Anthropic's standard for connecting AI to tools and data.
@@ -136,6 +138,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 
 ### Agent Skills & Tools
+- [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local-first code intelligence graph for MCP and CLI. Builds a persistent Tree-sitter map of the codebase so coding agents read only the "blast radius" of a change, with benchmarked ~82x median token reduction on review tasks across 30+ languages. Auto-configures Claude Code, Codex, Cursor, Gemini CLI, Kiro, and Copilot. MIT.
 - [codegraph](https://github.com/colbymchenry/codegraph) — Pre-indexed code knowledge graph for coding agents (Claude Code, Codex, Cursor, Gemini CLI). Fewer tokens, fewer tool calls, 100% local.
 - [dotnet/skills](https://github.com/dotnet/skills) — Microsoft .NET team's curated skills and custom agents for AI coding agents. Core .NET, EF data access, diagnostics, MSBuild, and NuGet plugins.
 - [ECC](https://github.com/affaan-m/ECC) — Agent harness performance system for Claude Code, Cursor, Codex, OpenCode, Gemini, and Zed. Ships 63 specialized agents, 251 skills, continuous learning with session memory hooks, and AgentShield security hardening. MIT.
