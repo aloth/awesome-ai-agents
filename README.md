@@ -195,6 +195,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 - [AgentBench](https://github.com/THUDM/AgentBench) — Tsinghua's multi-dimensional agent benchmark.
 - [AgentBoard](https://github.com/hkust-nlp/AgentBoard) — Multi-round agent evaluation platform.
+- [ClawBench](https://github.com/reacher-z/ClawBench) — Live-site benchmark for browser agents completing everyday online workflows.
 - [GAIA](https://huggingface.co/gaia-benchmark) — General AI Assistants benchmark by Meta.
 - [LangTest](https://github.com/Pacific-AI-Corp/langtest) — Testing framework for delivering safe & effective language models.
 - [RuLES](https://github.com/normster/llm_rules) — Benchmark for evaluating rule-following in language models.
