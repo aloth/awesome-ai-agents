@@ -219,6 +219,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [PromptInject](https://github.com/agencyenterprise/PromptInject) — Framework for quantitative analysis of LLM robustness to prompt attacks (NeurIPS '22 Best Paper).
 - [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection.
 - [Safe RLHF](https://github.com/PKU-Alignment/safe-rlhf) — Constrained value alignment via safe reinforcement learning from human feedback.
+- [SourceryKit](https://github.com/ProvablyAI/sourcerykit) — Source-available Python SDK and gateway that verifies an agent's outbound requests and MCP tool calls against a source of truth using zero-knowledge proofs, so a call only goes out if its claims check out. Allow-lists trusted endpoints and logs every outbound call.
 
 ## Research Papers
 
