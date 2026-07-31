@@ -46,11 +46,12 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Omnigent](https://github.com/omnigent-ai/omnigent) — Open-source meta-harness that orchestrates Claude Code, Codex, Cursor, OpenCode, Hermes, and Pi under one policy/sandboxing layer. Cloud sandboxes (Modal, Daytona, E2B, Kubernetes, Databricks), live multi-device session sharing, and YAML-defined sub-agents. Apache-2.0.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — OpenAI's production framework for multi-agent orchestration with handoffs and guardrails.
 - [Orkas](https://github.com/Orkas-AI/Orkas) — Open-source desktop workspace for coordinating specialist AI agents in parallel or sequence.
+- [Octochains](https://github.com/ahmadvh/octochains) — Parallel isolated multi-agent reasoning with centralized  aggregation for high-stakes decision-making.
 - [Ruflo](https://github.com/ruvnet/ruflo) — Agent orchestration platform optimized for Claude. Features self-learning swarms, distributed intelligence, RAG integration, and native Claude Code/Codex integration. Formerly claude-flow.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — Microsoft's SDK for AI orchestration. Plugins, planners, and memory.
 - [Strands Agents](https://github.com/strands-agents/harness-sdk) — AWS's model-driven, open-source SDK for building production AI agents in Python and TypeScript. Any model, any cloud, with MCP support and 23M+ monthly PyPI downloads. Apache-2.0.
 - [Swarm](https://github.com/openai/swarm) — OpenAI's lightweight multi-agent framework (educational).
-- [Octochains](https://github.com/ahmadvh/octochains) — Parallel isolated multi-agent reasoning with centralized  aggregation for high-stakes decision-making.
+
 
 ### Single Agent
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) — Anthropic's production SDK for building AI agents powered by Claude. Stateful sessions, tool execution, sandboxing, and streaming. Available in Python and [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript).
