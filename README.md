@@ -39,6 +39,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) — Google's open-source, code-first Python framework for building multi-agent systems with A2A support.
 - [Harmonist](https://github.com/GammaLabTechnologies/harmonist) — Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies.
 - [LangGraph](https://github.com/langchain-ai/langgraph) — Stateful agent workflows as graphs. Part of the LangChain ecosystem.
+- [LightAgent](https://github.com/wanxingai/LightAgent) — Lightweight Python agent framework with tools, memory, MCP/SSE, Skills, workflows, and LightSwarm.
 - [Mastra](https://github.com/mastra-ai/mastra) — TypeScript-first AI agent framework with workflows, RAG, and integrations.
 - [MetaGPT](https://github.com/geekan/MetaGPT) — Multi-agent framework that mimics a software company with roles (PM, architect, engineer).
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Framework for building, orchestrating and deploying multi-agent workflows (Python + .NET).
