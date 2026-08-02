@@ -149,6 +149,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [NotFair](https://github.com/nowork-studio/NotFair) — Open-source Claude Code agent skills for SEO and paid ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
 - [olcli](https://github.com/aloth/olcli) — Overleaf CLI for AI coding agents. Sync, pull, push, and compile LaTeX projects from the command line.
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
+- [re_gent](https://github.com/regent-vcs/re_gent) — Version control purpose-built for AI coding agent activity. Auto-captures every agent turn (Claude Code, Codex, OpenCode) as an inspectable step, with `rgt log`, `rgt blame`, and `rgt show` for auditable, prompt-level history alongside your existing git workflow.
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — Agent skill and MCP server for X data workflows.
 
@@ -182,16 +183,17 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Weaviate](https://github.com/weaviate/weaviate) — Open-source vector database.
 
 ### Sandboxing & Execution
+- [AgentBox](https://github.com/madarco/agentbox) — Run multiple coding agents (Claude Code, Codex, OpenCode) in parallel, each in its own sandboxed VM across local Docker, self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B). Sub-1s checkpoints, per-box browser/VS Code/shells. MIT.
+- [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.
 - [Daytona](https://github.com/daytonaio/daytona) — Secure and elastic infrastructure for running AI-generated code.
 - [E2B](https://github.com/e2b-dev/e2b) — Cloud sandboxes for AI agents. Secure code execution environments.
 - [forkd](https://github.com/deeplethe/forkd) — `fork()` for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent, BRANCH a live VM in ~150ms. KVM-isolated with snapshot copy-on-write. Apache-2.0.
-- [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.
 - [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/) — AI agents running within GitHub Actions. Markdown-based workflow definitions.
-- [Moltworker](https://github.com/cloudflare/moltworker) — Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.
 - [Mirage](https://github.com/strukto-ai/mirage) — Unified virtual filesystem for AI agents. Gives agents a consistent, sandboxed view across local, cloud, and ephemeral storage. Apache-2.0.
+- [Moltworker](https://github.com/cloudflare/moltworker) — Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.
 - [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's open-source reference stack for running always-on agents (OpenClaw, Hermes) more securely inside NVIDIA OpenShell sandboxes. Provides guided onboarding, hardened blueprints, routed inference, network policy, and lifecycle management via a single CLI. Announced at GTC Taipei (June 2026).
+- [Sandbox Runtime](https://github.com/anthropic-experimental/sandbox-runtime) — Anthropic's lightweight, container-free OS-level sandboxing tool enforcing filesystem and network restrictions on arbitrary processes. Built for Claude Code, released as an open-source research preview to help the ecosystem build safer agentic systems.
 - [SmolVM](https://github.com/CelestoAI/SmolVM) — Open-source microVM sandbox infrastructure for code execution, browser use, and AI agents. macOS/Linux support, snapshotting, pause/resume, and persistent environments across turns. Apache-2.0.
-- [AgentBox](https://github.com/madarco/agentbox) — Run multiple coding agents (Claude Code, Codex, OpenCode) in parallel, each in its own sandboxed VM across local Docker, self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B). Sub-1s checkpoints, per-box browser/VS Code/shells. MIT.
 
 ## Evaluation & Testing
 
