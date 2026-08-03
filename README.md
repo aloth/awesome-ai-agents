@@ -107,6 +107,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Research Agents
 - [GPT Researcher](https://github.com/assafelovic/gpt-researcher) — Autonomous agent for deep research on any topic using any LLM.
 - [autoresearch](https://github.com/karpathy/autoresearch) — Andrej Karpathy's open-source framework for running AI agents that autonomously conduct research on single-GPU model training experiments overnight.
+- [OpenCandle](https://github.com/Kahtaf/OpenCandle) — Evidence-first financial research agent with live market data, source traces, and local portfolios.
 - [Perplexica](https://github.com/ItzCrazyKns/Perplexica) — Open-source AI-powered answering engine (Perplexity alternative).
 
 ## Platforms & Low-Code
