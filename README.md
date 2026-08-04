@@ -163,6 +163,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
 - [Memori](https://github.com/MemoriLabs/Memori) — Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.
 - [ReMe](https://github.com/agentscope-ai/ReMe) — Alibaba's memory management kit for agents (formerly MemoryScope). File-based and vector-based memory with a dynamic procedural memory framework.
+- [token-optimizer](https://github.com/alexgreensh/token-optimizer) — Token and context optimizer for coding agents: cuts wasted tokens and survives compaction.
 - [Zep](https://github.com/getzep/zep) — Long-term memory for AI assistants.
 
 ### Monitoring & Observability
@@ -223,6 +224,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — NVIDIA's programmable guardrails.
 - [PromptInject](https://github.com/agencyenterprise/PromptInject) — Framework for quantitative analysis of LLM robustness to prompt attacks (NeurIPS '22 Best Paper).
 - [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection.
+- [repo-forensics](https://github.com/alexgreensh/repo-forensics) — Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.
 - [Safe RLHF](https://github.com/PKU-Alignment/safe-rlhf) — Constrained value alignment via safe reinforcement learning from human feedback.
 
 ## Research Papers
