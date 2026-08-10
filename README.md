@@ -70,6 +70,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in the terminal.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's agentic coding tool. Terminal-based, strong at complex refactors and multi-file changes.
 - [Codex](https://openai.com/index/introducing-codex/) — OpenAI's cloud-based coding agent. Runs tasks in sandboxed environments, integrates with GitHub.
+- [Continuum](https://continuumcode.ai/) — Free workbench that runs Claude Code, Codex, Cursor, and Grok agents in parallel git worktrees. Plan review, diff review, and remote control from Mac, iPhone, and web.
 - [Cursor](https://cursor.sh/) — AI-first code editor with agent capabilities.
 - [Devin](https://devin.ai/) — Cognition's autonomous software engineer. Full environment with browser, editor, and terminal.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Open-source AI agent bringing Gemini directly into your terminal.
