@@ -37,6 +37,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [DeerFlow](https://github.com/bytedance/deer-flow) — ByteDance's open-source long-horizon SuperAgent harness. Orchestrates sub-agents, sandboxes, memory, tools, and skills for tasks spanning minutes to hours. Hit #1 GitHub Trending with v2.0 (Feb 2026).
 - [dimos](https://github.com/dimensionalOS/dimos) — Agentic operating system for physical space. Build multi-agent systems that control humanoids, quadrupeds, drones, and other hardware via natural language.
 - [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) — Google's open-source, code-first Python framework for building multi-agent systems with A2A support.
+- [Gnom-Hub](https://github.com/landjunge/gnom-hub-v1) — Local multi-agent control hub for the desktop. Brainstorm freely; workers run only when you press Execute. Visible agent desk, skills, tools, safe computer-use. No Docker. Python/FastAPI.
 - [Harmonist](https://github.com/GammaLabTechnologies/harmonist) — Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies.
 - [LangGraph](https://github.com/langchain-ai/langgraph) — Stateful agent workflows as graphs. Part of the LangChain ecosystem.
 - [LightAgent](https://github.com/wanxingai/LightAgent) — Lightweight Python agent framework with tools, memory, MCP/SSE, Skills, workflows, and LightSwarm.
@@ -173,6 +174,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) — ML & LLM observability.
 - [Future AGI](https://github.com/future-agi/future-agi) — Open-source, end-to-end, self-hostable platform for evaluating, observing, and improving LLM and AI agent apps. Tracing, evals, simulations, datasets, gateway, and guardrails in one stack.
 - [Helicone](https://www.helicone.ai/) — LLM observability and cost tracking.
+- [Tollgate](https://github.com/landjunge/tollgate) — Pre-admission cost/loop protection and reliability control plane for agents (not post-hoc logs only). Failover + chaos certificate. MIT.
 - [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability. Traces, evals, prompt management.
 - [LangSmith](https://smith.langchain.com/) — LangChain's debugging and monitoring platform.
 
@@ -229,6 +231,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection.
 - [repo-forensics](https://github.com/alexgreensh/repo-forensics) — Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.
 - [Safe RLHF](https://github.com/PKU-Alignment/safe-rlhf) — Constrained value alignment via safe reinforcement learning from human feedback.
+- [Tollgate](https://github.com/landjunge/tollgate) — Safety layer for AI agents in production (Protect · Route · Prove). Budgets, tool-loop hard stops, health-aware failover, chaos/DR proof, freeze, audit. OpenAI/Anthropic drop-in, MCP, n8n. MIT.
 
 ## Research Papers
 
