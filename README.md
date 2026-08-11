@@ -71,7 +71,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's agentic coding tool. Terminal-based, strong at complex refactors and multi-file changes.
 - [Codex](https://openai.com/index/introducing-codex/) — OpenAI's cloud-based coding agent. Runs tasks in sandboxed environments, integrates with GitHub.
 - [Cursor](https://cursor.sh/) — AI-first code editor with agent capabilities.
-- [dcode](https://docs.langchain.com/oss/category/deep-agents-code) — Open-source terminal coding agent by LangChain. Model-agnostic with persistent memory and sandboxing.
+- [dcode](https://docs.langchain.com/oss/deepagents/code/overview) — Open-source terminal coding agent by LangChain. Model-agnostic with persistent memory and sandboxing.
 - [Devin](https://devin.ai/) — Cognition's autonomous software engineer. Full environment with browser, editor, and terminal.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Open-source AI agent bringing Gemini directly into your terminal.
 - [GitHub Copilot](https://github.com/features/copilot) — AI pair programmer with agent mode for multi-file edits, terminal commands, and autonomous task execution.
