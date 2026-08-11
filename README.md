@@ -163,6 +163,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
 - [LeanCTX](https://github.com/yvgude/lean-ctx) — Single-binary Rust context layer between AI coding agents and their environment. Compresses file reads and shell output, caches results, keeps persistent session memory, enforces path-jail security, and tracks token budgets. MCP-native with 30+ agent compatibility. Apache-2.0.
 - [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory (formerly MemGPT).
+- [Lobu](https://github.com/lobu-ai/lobu): Shared company context, identities, approvals and governed actions for AI agents.
 - [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
 - [Memori](https://github.com/MemoriLabs/Memori) — Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.
 - [ReMe](https://github.com/agentscope-ai/ReMe) — Alibaba's memory management kit for agents (formerly MemoryScope). File-based and vector-based memory with a dynamic procedural memory framework.
