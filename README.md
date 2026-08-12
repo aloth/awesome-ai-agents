@@ -68,6 +68,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ### Code Agents
 - [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in the terminal.
+- [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) — Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine. MIT.
 - [BitFun](https://github.com/GCWing/BitFun) — Cross-platform desktop agent for coding, Git, browser, terminal, and remote workspaces.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's agentic coding tool. Terminal-based, strong at complex refactors and multi-file changes.
 - [Codex](https://openai.com/index/introducing-codex/) — OpenAI's cloud-based coding agent. Runs tasks in sandboxed environments, integrates with GitHub.
