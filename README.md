@@ -206,6 +206,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ## Evaluation & Testing
 
+- [agent-qa](https://github.com/vostride/agent-qa) — Self-improving QA agent for natural-language web/mobile regression tests with memory, MCP, and skills.
 - [AgentBench](https://github.com/THUDM/AgentBench) — Tsinghua's multi-dimensional agent benchmark.
 - [AgentBoard](https://github.com/hkust-nlp/AgentBoard) — Multi-round agent evaluation platform.
 - [ClawBench](https://github.com/reacher-z/ClawBench) — Live-site benchmark for browser agents completing everyday online workflows.
