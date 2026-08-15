@@ -111,8 +111,9 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) — ByteDance's multimodal AI agent stack for desktop automation.
 
 ### Research Agents
-- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) — Autonomous agent for deep research on any topic using any LLM.
 - [autoresearch](https://github.com/karpathy/autoresearch) — Andrej Karpathy's open-source framework for running AI agents that autonomously conduct research on single-GPU model training experiments overnight.
+- [Dr. Claw](https://github.com/OpenLAIR/dr-claw) — Open-source workspace spanning literature review, experiments, writing, and research artifacts.
+- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) — Autonomous agent for deep research on any topic using any LLM.
 - [Perplexica](https://github.com/ItzCrazyKns/Perplexica) — Open-source AI-powered answering engine (Perplexity alternative).
 
 ## Platforms & Low-Code
