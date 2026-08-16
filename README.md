@@ -299,6 +299,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [r/AI_Agents](https://www.reddit.com/r/AI_Agents/) — Reddit community
 - [AI Agents Discord](https://discord.gg/ai-agents) — Active Discord server
 - [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) — Curated collection of AI agent research papers released in 2026, covering engineering, memory, evaluation, workflows, and autonomous systems.
+- [theagentsindex.com](https://theagentsindex.com) — Researched directory of AI agent tools, each listing with pricing, pros/cons and a verdict.
 - [#AIAgents on X](https://x.com/search?q=%23AIAgents) — Twitter/X hashtag
 
 ---
