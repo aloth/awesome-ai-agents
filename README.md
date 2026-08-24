@@ -68,6 +68,9 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [TrueForge](https://github.com/truefoundry/trueforge) — Open-source agent harness: the runtime layer that turns any LLM into a working agent. Model-agnostic loop, tool registry, and session state for production deployments. MIT.
 
 ### Code Agents
+## Code Agents
+- **[Coworker](https://github.com/leonjackman/coworker)** – Local-first AI coding agent desktop app with long-term memory, HITL, web search. MIT licensed, 396+ commits.
+
 - [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in the terminal.
 - [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) — Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine. MIT.
 - [BitFun](https://github.com/GCWing/BitFun) — Cross-platform desktop agent for coding, Git, browser, terminal, and remote workspaces.
