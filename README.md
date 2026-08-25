@@ -236,6 +236,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [IronCurtain](https://github.com/provos/ironcurtain) — Open-source security layer for autonomous AI agents. Runs agents in isolated VMs to prevent prompt injection and rogue behavior.
 - [LangFair](https://github.com/cvs-health/langfair) — Python library for LLM bias and fairness assessments.
 - [LLM Guard](https://github.com/protectai/llm-guard) — Security toolkit for LLM interactions.
+- [Mneme](https://github.com/MnemeHQ/mneme) — Architectural drift prevention for the AI SDLC; turns ADRs and architectural decisions into deterministic guardrails that stop AI coding agents from introducing incompatible changes.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — NVIDIA's programmable guardrails.
 - [PromptInject](https://github.com/agencyenterprise/PromptInject) — Framework for quantitative analysis of LLM robustness to prompt attacks (NeurIPS '22 Best Paper).
 - [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection.
