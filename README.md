@@ -162,6 +162,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [olcli](https://github.com/aloth/olcli) — Overleaf CLI for AI coding agents. Sync, pull, push, and compile LaTeX projects from the command line.
 - [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
 - [re_gent](https://github.com/regent-vcs/re_gent) — Version control purpose-built for AI coding agent activity. Auto-captures every agent turn (Claude Code, Codex, OpenCode) as an inspectable step, with `rgt log`, `rgt blame`, and `rgt show` for auditable, prompt-level history alongside your existing git workflow.
+- [Screenpipe](https://github.com/screenpipe/screenpipe) — Local computer history that gives AI agents searchable screen and audio context.
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — Agent skill and MCP server for X data workflows.
 
