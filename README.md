@@ -238,6 +238,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [LangFair](https://github.com/cvs-health/langfair) — Python library for LLM bias and fairness assessments.
 - [LLM Guard](https://github.com/protectai/llm-guard) — Security toolkit for LLM interactions.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — NVIDIA's programmable guardrails.
+- [piighost](https://github.com/Athroniaeth/piighost) — Protect personal data (PII) in agents. Hides it from the model, then restores the real values for tools and the user.
 - [PromptInject](https://github.com/agencyenterprise/PromptInject) — Framework for quantitative analysis of LLM robustness to prompt attacks (NeurIPS '22 Best Paper).
 - [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection.
 - [repo-forensics](https://github.com/alexgreensh/repo-forensics) — Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.
