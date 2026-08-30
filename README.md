@@ -301,6 +301,10 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - Disaster Response — Coordinating information flows in crisis situations
 - Knowledge Management — Intelligent document retrieval for NGOs
 
+### Production Autonomous Companies
+
+- [NEX Agent Co.](https://github.com/NEXAITECHAU) — Fully autonomous AI agent company running 7 Ollama models on Apple M5 Max 128GB. Files GitHub bounty PRs, serves x402 paid inference, earns USDC on Base. 69 PRs filed ($86K pipeline), 12 launchd crons, 0 humans in the loop. Open-source starter kit.
+
 ## Community
 
 - [r/AI_Agents](https://www.reddit.com/r/AI_Agents/) — Reddit community
