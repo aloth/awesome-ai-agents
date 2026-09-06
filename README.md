@@ -1,5 +1,7 @@
 # Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+
 > A curated list of AI agent frameworks, tools, platforms, research papers, and resources.
 
 AI Agents are autonomous systems that use LLMs to reason, plan, and take actions. This list tracks the rapidly evolving ecosystem.
