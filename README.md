@@ -175,6 +175,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ### Memory & State
 - [claude-mem](https://github.com/thedotmack/claude-mem) — Cross-session persistent memory for AI coding agents. Captures session activity, compresses it with AI, and injects relevant context into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, and more. Apache-2.0.
+- [funes](https://github.com/huggingface/funes) — Durable, searchable memory of past agent sessions. Indexes Claude Code, Codex, pi, and Hermes; recall over MCP; publish as a Hugging Face dataset. Apache-2.0.
 - [Headroom](https://github.com/headroomlabs-ai/headroom) — Context compression layer for AI agents. Reduces tool outputs, logs, RAG chunks, and files by 60–95% before they reach the LLM—without loss of answer quality. Library, proxy, and MCP server modes; reversible compression; supports Claude Code, Codex, Cursor, and Aider.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
 - [LeanCTX](https://github.com/yvgude/lean-ctx) — Single-binary Rust context layer between AI coding agents and their environment. Compresses file reads and shell output, caches results, keeps persistent session memory, enforces path-jail security, and tracks token budgets. MCP-native with 30+ agent compatibility. Apache-2.0.
