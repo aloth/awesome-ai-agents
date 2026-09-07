@@ -193,6 +193,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Helicone](https://www.helicone.ai/) — LLM observability and cost tracking.
 - [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability. Traces, evals, prompt management.
 - [LangSmith](https://smith.langchain.com/) — LangChain's debugging and monitoring platform.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — Records a coding-agent run below the harness and replays it offline byte-for-byte, or forks it from a checkpoint onto another model.
 
 ### Data Extraction
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) — Open-source LLM-friendly web crawler. High-performance async crawling.
