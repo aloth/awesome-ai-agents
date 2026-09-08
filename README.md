@@ -68,6 +68,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [PydanticAI](https://github.com/pydantic/pydantic-ai) — GenAI agent framework, the Pydantic way. Type-safe and production-ready.
 - [smolagents](https://github.com/huggingface/smolagents) — Hugging Face's lightweight agent library. ~1,000 lines of focused code, easy to understand and extend.
 - [TrueForge](https://github.com/truefoundry/trueforge) — Open-source agent harness: the runtime layer that turns any LLM into a working agent. Model-agnostic loop, tool registry, and session state for production deployments. MIT.
+- [Reactive Agents](https://github.com/tylerjrbuell/reactive-agents-ts) — TypeScript agent framework that runs the same agent code on a local Ollama model (4B+) or a frontier API, with tool-call healing, output verification, and a per-run evidence receipt. Effect-TS type safety, MCP-native, A2A multi-agent, 8 reasoning strategies. MIT.
 
 ### Code Agents
 - [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in the terminal.
