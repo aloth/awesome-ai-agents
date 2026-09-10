@@ -150,6 +150,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Tool Protocols
 - [Agent2Agent Protocol (A2A)](https://github.com/google/A2A) — Google's open protocol for agent-to-agent communication and discovery. Linux Foundation project.
 - [Context7](https://github.com/upstash/context7) — MCP server for up-to-date code documentation for LLMs.
+- [ContextStream](https://contextstream.io) — Shared project context for Cursor, Claude Code, Codex, Grok via MCP (`https://mcp.contextstream.io/mcp`). OSS: [contextstream/mcp-server](https://github.com/contextstream/mcp-server). Intelligence isn’t the bottleneck. Context is.
 - [FastMCP](https://github.com/PrefectHQ/fastmcp) — The fast, Pythonic way to build MCP servers and clients. The standard framework underlying much of the official Python MCP SDK, with auth, deployment, and testing tooling built in.
 - [Git-Native Agent Protocol (GNAP)](https://github.com/farol-team/gnap) — Serverless protocol for coordinating AI agent teams via 4 JSON files in a shared git repo (agents, tasks, runs, messages). No database, no vendor lock-in — any agent that can git push can participate. MIT.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — GitHub's official MCP server for AI agents.
