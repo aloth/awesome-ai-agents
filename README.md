@@ -227,6 +227,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [AgentBench](https://github.com/THUDM/AgentBench) — Tsinghua's multi-dimensional agent benchmark.
 - [AgentBoard](https://github.com/hkust-nlp/AgentBoard) — Multi-round agent evaluation platform.
 - [ClawBench](https://github.com/reacher-z/ClawBench) — Live-site benchmark for browser agents completing everyday online workflows.
+- [Era](https://era.eon.io) — Spins up fake companies with simulated Salesforce, Zendesk, and Slack instances so agents can be tested against a full software stack over MCP. Free, from Eon.
 - [ExploitGym](https://github.com/sunblaze-ucb/exploitgym) — Large-scale benchmark built from real-world CVEs for evaluating whether AI agents can develop working exploits. From UC Berkeley's Sunblaze lab. Apache-2.0.
 - [GAIA](https://huggingface.co/gaia-benchmark) — General AI Assistants benchmark by Meta.
 - [LangTest](https://github.com/Pacific-AI-Corp/langtest) — Testing framework for delivering safe & effective language models.
