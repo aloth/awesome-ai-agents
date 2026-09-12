@@ -97,6 +97,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) — Prime Intellect's self-improving RLM agent for coding workflows and long-horizon autonomous tasks. MIT.
 - [Proliferate](https://proliferate.com/) — Open-source local and cloud agent IDE with parallel workspaces, subagents, plugins, and MCP.
 - [Qwen Code](https://github.com/QwenLM/qwen-code) — Alibaba's open-source terminal-native AI coding agent. Powered by Qwen models with MCP support, 25K+ stars, and Apache-2.0 license.
+- [Sinatra](https://sinatra.dev) — Coding agent for Linear and GitHub. Assign an issue, get a draft PR from an isolated sandbox. Runs on your Claude or ChatGPT subscription or API key.
 - [SWE-agent](https://github.com/princeton-nlp/SWE-agent) — Princeton's software engineering agent.
 - [Windsurf](https://windsurf.com/) — AI-native IDE by Codeium with agentic Cascade flows.
 
