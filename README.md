@@ -109,6 +109,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [OpenClaw](https://github.com/openclaw/openclaw) — Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.
 - [QwenPaw](https://github.com/agentscope-ai/QwenPaw) — Alibaba's Qwen-powered personal AI agent workstation. Local or cloud deployment, multi-agent collaboration with sub-agent spawning, extensible skill system, and broad channel support (DingTalk, Feishu, WeChat, Discord, Telegram). MIT.
 - [Trustclaw](https://github.com/ComposioHQ/trustclaw) — ComposioHQ's self-hostable personal AI agent with vector memory, native Composio tool integrations, and a Telegram front-end. MIT.
+- [Solgrok](https://github.com/LMajster/sgrok) — Autonomous Solana creator-ops agent ($SGROK) on Bags.fm: 24/7 promo + fee claim/sweep. Trade: https://bags.fm/7QpJ8Pb3pGhoArRPJu3TXbx1p3ezn3TCwz6cMcwQBAGS
 
 ### Browser Agents
 - [Browser Use](https://github.com/browser-use/browser-use) — Control browsers with AI agents. Most popular browser automation framework.
