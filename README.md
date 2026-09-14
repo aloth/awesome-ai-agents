@@ -197,6 +197,8 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability. Traces, evals, prompt management.
 - [LangSmith](https://smith.langchain.com/) — LangChain's debugging and monitoring platform.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — Records a coding-agent run below the harness and replays it offline byte-for-byte, or forks it from a checkpoint onto another model.
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) — Free open-source monitoring dashboard for OpenClaw AI agents. Token usage, session tracking, 7-day trends, multi-model support. Vue 3 + ECharts.
+
 
 ### Data Extraction
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) — Open-source LLM-friendly web crawler. High-performance async crawling.
