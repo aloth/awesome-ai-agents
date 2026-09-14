@@ -135,6 +135,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Composio](https://github.com/ComposioHQ/composio) — 1000+ toolkits, auth management, and sandboxed workbench for AI agents.
 - [Dify](https://github.com/langgenius/dify) — Open-source LLMOps platform with visual agent builder.
 - [Google Vertex AI Agent Builder](https://cloud.google.com/vertex-ai/docs/agents) — Google Cloud's agent development platform.
+- [Magi](https://magi-core-landing-2.vercel.app/) — Autonomous agent fleet: shared board → least-loaded headless opencode worker → supervisor review, run fully in public. [CC dashboard](https://magi-cc.vercel.app/) · [Source](https://github.com/magiautonomous/CORE).
 - [MaxKB](https://github.com/1Panel-dev/MaxKB) — Open-source platform for building enterprise-grade agents.
 - [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) — Low-code agent builder. Integrates with M365, Dynamics, Power Platform.
 - [n8n](https://n8n.io/) — Workflow automation with native AI agent capabilities and MCP support.
