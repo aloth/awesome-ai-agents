@@ -1,1 +1,331 @@
-# PLACEHOLDER_WILL_FAIL_IF_USED
+# Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+
+> A curated list of AI agent frameworks, tools, platforms, research papers, and resources.
+
+AI Agents are autonomous systems that use LLMs to reason, plan, and take actions. This list tracks the rapidly evolving ecosystem.
+
+**Contributing:** Want to add a project? [Open a suggestion](https://github.com/aloth/awesome-ai-agents/issues/new?template=add-project.yml) or [submit a PR](CONTRIBUTING.md) directly.
+
+---
+
+## Contents
+
+- [Frameworks & Libraries](#frameworks--libraries)
+- [Platforms & Low-Code](#platforms--low-code)
+- [Agent Infrastructure](#agent-infrastructure)
+- [Evaluation & Testing](#evaluation--testing)
+- [Safety & Governance](#safety--governance)
+- [Research Papers](#research-papers)
+- [Tutorials & Courses](#tutorials--courses)
+- [Use Cases & Case Studies](#use-cases--case-studies)
+- [Community](#community)
+
+---
+
+## Frameworks & Libraries
+
+### Multi-Agent Orchestration
+- [AG2](https://github.com/ag2ai/ag2) — Successor to AutoGen. Multi-agent framework with improved APIs.
+- [Agent Swarm](https://github.com/desplega-ai/agent-swarm) — Multi-agent orchestration for AI coding assistants (Claude Code, Codex, Gemini CLI). Lead/worker coordination with Docker isolation, compounding memory, and Slack/GitHub integration.
+- [AgentField](https://github.com/Agent-Field/agentfield) — Open-source control plane that makes AI agents callable as microservices. Routing, coordination, memory, async execution, and cryptographic audit trails. Supports Python, Go, and TypeScript.
+- [AgentScope](https://github.com/agentscope-ai/agentscope) — Alibaba's production-ready agent framework with essential abstractions, built-in fine-tuning support, and a visual drag-and-drop interface.
+- [Agno](https://github.com/agno-agi/agno) — Programming language for agentic software. Build and manage multi-agent systems at scale.
+- [AutoGen](https://github.com/microsoft/autogen) — Microsoft's multi-agent conversation framework. Supports complex agent topologies.
+- [CAMEL](https://github.com/camel-ai/camel) — Communicative agents for role-playing and multi-agent cooperation. First LLM multi-agent framework.
+- [CopilotKit](https://github.com/CopilotKit/CopilotKit) — Frontend stack for building agent-powered apps with Generative UI. React, Angular, and mobile support; creators of the AG-UI Protocol (adopted by Google, LangChain, AWS, Microsoft, Mastra, and PydanticAI). MIT.
+- [CrewAI](https://github.com/crewAIInc/crewAI) — Role-based multi-agent framework. Agents with roles, goals, and backstories.
+- [DeerFlow](https://github.com/bytedance/deer-flow) — ByteDance's open-source long-horizon SuperAgent harness. Orchestrates sub-agents, sandboxes, memory, tools, and skills for tasks spanning minutes to hours. Hit #1 GitHub Trending with v2.0 (Feb 2026).
+- [dimos](https://github.com/dimensionalOS/dimos) — Agentic operating system for physical space. Build multi-agent systems that control humanoids, quadrupeds, drones, and other hardware via natural language.
+- [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) — Google's open-source, code-first Python framework for building multi-agent systems with A2A support.
+- [Harmonist](https://github.com/GammaLabTechnologies/harmonist) — Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies.
+- [LangGraph](https://github.com/langchain-ai/langgraph) — Stateful agent workflows as graphs. Part of the LangChain ecosystem.
+- [LightAgent](https://github.com/wanxingai/LightAgent) — Lightweight Python agent framework with tools, memory, MCP/SSE, Skills, workflows, and LightSwarm.
+- [Mastra](https://github.com/mastra-ai/mastra) — TypeScript-first AI agent framework with workflows, RAG, and integrations.
+- [MetaGPT](https://github.com/geekan/MetaGPT) — Multi-agent framework that mimics a software company with roles (PM, architect, engineer).
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Framework for building, orchestrating and deploying multi-agent workflows (Python + .NET).
+- [MiroFish](https://github.com/666ghj/MiroFish) — Concise and universal swarm intelligence engine for forecasting and prediction. Upload seed material, describe goals in natural language, get a detailed prediction report and an interactive simulation.
+- [Omnigent](https://github.com/omnigent-ai/omnigent) — Open-source meta-harness that orchestrates Claude Code, Codex, Cursor, OpenCode, Hermes, and Pi under one policy/sandboxing layer. Cloud sandboxes (Modal, Daytona, E2B, Kubernetes, Databricks), live multi-device session sharing, and YAML-defined sub-agents. Apache-2.0.
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — OpenAI's production framework for multi-agent orchestration with handoffs and guardrails.
+- [Orkas](https://github.com/Orkas-AI/Orkas) — Open-source desktop workspace for coordinating specialist AI agents in parallel or sequence.
+- [Octochains](https://github.com/ahmadvh/octochains) — Parallel isolated multi-agent reasoning with centralized  aggregation for high-stakes decision-making.
+- [Ruflo](https://github.com/ruvnet/ruflo) — Agent orchestration platform optimized for Claude. Features self-learning swarms, distributed intelligence, RAG integration, and native Claude Code/Codex integration. Formerly claude-flow.
+- [QM](https://github.com/yc-software/qm) — Y Combinator's open-source multiplayer agent harness for companies. Personal and shared scopes, Slack + web UI, org-level policy/security posture, shared skills, crons, and durable sandboxes. Pluggable coding loops (Pi, OpenCode, Codex, Claude Code). MIT.
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — Microsoft's SDK for AI orchestration. Plugins, planners, and memory.
+- [Strands Agents](https://github.com/strands-agents/harness-sdk) — AWS's model-driven, open-source SDK for building production AI agents in Python and TypeScript. Any model, any cloud, with MCP support and 23M+ monthly PyPI downloads. Apache-2.0.
+- [Swarm](https://github.com/openai/swarm) — OpenAI's lightweight multi-agent framework (educational).
+
+
+### Single Agent
+- [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) — Anthropic's production SDK for building AI agents powered by Claude. Stateful sessions, tool execution, sandboxing, and streaming. Available in Python and [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript).
+- [CubeLoop](https://github.com/cubeplexai/cubeloop) — Pythonic async-native agent framework. Linear while-loop runtime (not a graph), append-only checkpointing, typed middleware hooks, MCP, HITL, OpenTelemetry. Alternative to LangGraph-style orchestration with 3 core deps (pydantic, anthropic, openai). Docs: https://cubeloop.dev
+- [GenericAgent](https://github.com/lsdefine/GenericAgent) — Self-evolving agent that grows its own skill tree from ~3K lines of seed code. 9 atomic tools for full system control (browser, terminal, filesystem, screen vision) with automatic skill crystallization.
+- [Haystack](https://github.com/deepset-ai/haystack) — End-to-end NLP framework with agent pipelines.
+- [Instructor](https://github.com/jxnl/instructor) — Structured output from LLMs. Essential for reliable tool use.
+- [LangChain](https://github.com/langchain-ai/langchain) — The most popular LLM application framework. Agents, chains, tools.
+- [LangChain Deep Agents](https://github.com/langchain-ai/deepagents) — LangChain's batteries-included, opinionated agent harness built on LangGraph. Filesystem, sub-agent spawning, todo tracking, and skills bundled in; extend or replace any piece. Model-agnostic, MIT. Also available as [Deep Agents.js](https://github.com/langchain-ai/deepagentsjs).
+- [LlamaIndex](https://github.com/run-llama/llama_index) — Data framework for LLM apps. Strong RAG and data agent support.
+- [PydanticAI](https://github.com/pydantic/pydantic-ai) — GenAI agent framework, the Pydantic way. Type-safe and production-ready.
+- [smolagents](https://github.com/huggingface/smolagents) — Hugging Face's lightweight agent library. ~1,000 lines of focused code, easy to understand and extend.
+- [TrueForge](https://github.com/truefoundry/trueforge) — Open-source agent harness: the runtime layer that turns any LLM into a working agent. Model-agnostic loop, tool registry, and session state for production deployments. MIT.
+
+### Code Agents
+- [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in the terminal.
+- [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) — Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine. MIT.
+- [BitFun](https://github.com/GCWing/BitFun) — Cross-platform desktop agent for coding, Git, browser, terminal, and remote workspaces.
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's agentic coding tool. Terminal-based, strong at complex refactors and multi-file changes.
+- [Codex](https://openai.com/index/introducing-codex/) — OpenAI's cloud-based coding agent. Runs tasks in sandboxed environments, integrates with GitHub.
+- [Cursor](https://cursor.sh/) — AI-first code editor with agent capabilities.
+- [dcode](https://docs.langchain.com/oss/deepagents/code/overview) — Open-source terminal coding agent by LangChain. Model-agnostic with persistent memory and sandboxing.
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — DeepSeek's plugin-first, provider-agnostic agent harness ("everything is a plugin"). Inference, tools, sessions, agent loop, sandbox, and web UI are all swappable modules. Works with DeepSeek, Anthropic, OpenAI, Bedrock, Vertex, Azure, and OpenAI-compatible endpoints. MIT, developer preview.
+- [Devin](https://devin.ai/) — Cognition's autonomous software engineer. Full environment with browser, editor, and terminal.
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Open-source AI agent bringing Gemini directly into your terminal.
+- [GitHub Copilot](https://github.com/features/copilot) — AI pair programmer with agent mode for multi-file edits, terminal commands, and autonomous task execution.
+- [Goose](https://github.com/block/goose) — Block's open-source extensible AI agent for full-cycle development. Desktop app, CLI, and API with native MCP support, 70+ extensions, and LLM-agnostic design. Now under the Linux Foundation's Agentic AI Foundation (AAIF).
+- [Grok Build](https://github.com/xai-org/grok-build) — xAI's terminal-based coding agent CLI/TUI, synced from the SpaceXAI monorepo. Full-screen, mouse-interactive, understands the codebase, executes shell commands, supports headless/CI use and editor embedding via the Agent Client Protocol (ACP). Apache-2.0.
+- [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) — Moonshot AI's single-binary terminal coding agent, successor to Kimi CLI. Video input for reviewing screen recordings, AI-native MCP configuration, built-in coder/explore/plan subagents, lifecycle hooks, and Agent Client Protocol (ACP) support for Zed/JetBrains. MIT.
+- [Kiro](https://kiro.dev/) — AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.
+- [MiMoCode](https://github.com/XiaomiMiMo/MiMo-Code) — Xiaomi's open-source terminal-native AI coding agent with cross-session persistent memory, subagent orchestration, and self-improvement via `/dream` and `/distill` commands. Fork of OpenCode with SQLite FTS5 memory, task trees, and multi-agent compose mode. 12K+ stars, MIT.
+- [mini-coding-agent](https://github.com/rasbt/mini-coding-agent) — Sebastian Raschka's minimal, readable Python coding agent harness. Explains the core components of coding agents in a small, hackable codebase.
+- [OpenClacky](https://github.com/clacky-ai/open-clacky) — Token-efficient open-source AI coding agent with prompt caching, 16 core tools, and skill extensions. MIT.
+- [OpenCode](https://github.com/opencode-ai/opencode) — Open-source terminal-native AI coding agent built in Go by SST. 160K+ stars, 7.5M monthly developers. Works in terminal, IDE, or desktop with any LLM.
+- [Orca](https://github.com/stablyai/orca) — Open-source desktop agent IDE that runs 30+ coding agents (Claude Code, Codex, OpenCode, etc.) side by side in isolated git worktrees. Terminal splits, embedded Chromium, SSH remotes, and GitHub/Linear integration. YC-backed, MIT.
+- [Open SWE](https://github.com/langchain-ai/open-swe) — LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI software development agent (formerly OpenDevin).
+- [OpenHands Software Agent SDK](https://github.com/OpenHands/software-agent-sdk) — Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.
+- [pi](https://github.com/earendil-works/pi) — AI agent toolkit bundling a unified LLM API, agent loop, TUI, and coding agent CLI in one package. 91K+ stars, MIT.
+- [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) — Prime Intellect's self-improving RLM agent for coding workflows and long-horizon autonomous tasks. MIT.
+- [Proliferate](https://proliferate.com/) — Open-source local and cloud agent IDE with parallel workspaces, subagents, plugins, and MCP.
+- [Qwen Code](https://github.com/QwenLM/qwen-code) — Alibaba's open-source terminal-native AI coding agent. Powered by Qwen models with MCP support, 25K+ stars, and Apache-2.0 license.
+- [SWE-agent](https://github.com/princeton-nlp/SWE-agent) — Princeton's software engineering agent.
+- [Windsurf](https://windsurf.com/) — AI-native IDE by Codeium with agentic Cascade flows.
+
+### Personal AI Agents
+- [CoPaw](https://github.com/agentscope-ai/CoPaw) — Alibaba's open-source personal AI agent workstation. Supports multi-channel workflows, MCP skills, local/cloud LLMs, and persistent memory.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.
+- [Mercury Agent](https://github.com/cosmicstack-labs/mercury-agent) — Soul-driven personal AI agent with permission-hardened tools, token budgets, and multi-channel access (CLI or Telegram). MIT.
+- [nanobot](https://github.com/HKUDS/nanobot) — HKU Data Science Lab's ultra-lightweight personal AI agent. Keeps the core small and readable while shipping a full workbench: WebUI, sustained goals, MCP, image generation, multi-channel (Telegram, Signal, Matrix), and multi-provider model routing. Released v0.2.1 (June 2026).
+- [OpenHuman](https://github.com/tinyhumansai/openhuman) — Local-first personal AI agent with 118 OAuth integrations, hierarchical memory tree, and TokenJuice compression. Runs entirely on-device.
+- [OpenClaw](https://github.com/openclaw/openclaw) — Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.
+- [QwenPaw](https://github.com/agentscope-ai/QwenPaw) — Alibaba's Qwen-powered personal AI agent workstation. Local or cloud deployment, multi-agent collaboration with sub-agent spawning, extensible skill system, and broad channel support (DingTalk, Feishu, WeChat, Discord, Telegram). MIT.
+- [Trustclaw](https://github.com/ComposioHQ/trustclaw) — ComposioHQ's self-hostable personal AI agent with vector memory, native Composio tool integrations, and a Telegram front-end. MIT.
+
+### Browser Agents
+- [Browser Use](https://github.com/browser-use/browser-use) — Control browsers with AI agents. Most popular browser automation framework.
+- [BrowserOS](https://github.com/browseros-ai/BrowserOS) — Open-source agentic browser and alternative to ChatGPT Atlas, Perplexity Comet, and Dia. Runs agents locally against your own browsing session. AGPL-3.0.
+- [BrowserSkill](https://github.com/Tencent/BrowserSkill) — Tencent's CLI and browser extension that lets AI agents drive your real, logged-in browser without interrupting your work. Works with any shell-capable agent (Claude Code, Codex, Cursor, OpenClaw). MIT.
+- [Moli](https://github.com/lexmount/moli) — Production-ready headless browser for AI agents, built in Rust. On-demand layout and rendering keep a full browser runtime at a light resource footprint; drive it via CLI, CDP, WebDriver Classic, or WebDriver BiDi on Linux, macOS, and Windows. Apache-2.0.
+- [Playwright MCP](https://github.com/anthropics/anthropic-tools) — Anthropic's browser automation via MCP.
+- [Stagehand](https://github.com/browserbase/stagehand) — AI-powered browser automation framework by Browserbase.
+- [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) — ByteDance's multimodal AI agent stack for desktop automation.
+
+### Research Agents
+- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) — Autonomous agent for deep research on any topic using any LLM.
+- [autoresearch](https://github.com/karpathy/autoresearch) — Andrej Karpathy's open-source framework for running AI agents that autonomously conduct research on single-GPU model training experiments overnight.
+- [Perplexica](https://github.com/ItzCrazyKns/Perplexica) — Open-source AI-powered answering engine (Perplexity alternative).
+
+## Platforms & Low-Code
+
+- [Activepieces](https://github.com/activepieces/activepieces) — Open-source AI workflow automation with 400+ MCP servers for agents.
+- [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) — AWS managed agent service.
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) — All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.
+- [Anthropic Claude + Tool Use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) — Claude's function calling and agent capabilities.
+- [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview) — Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.
+- [Azure AI Foundry](https://ai.azure.com/) — Full-stack AI platform with agent capabilities.
+- [Composio](https://github.com/ComposioHQ/composio) — 1000+ toolkits, auth management, and sandboxed workbench for AI agents.
+- [Dify](https://github.com/langgenius/dify) — Open-source LLMOps platform with visual agent builder.
+- [Google Vertex AI Agent Builder](https://cloud.google.com/vertex-ai/docs/agents) — Google Cloud's agent development platform.
+- [MaxKB](https://github.com/1Panel-dev/MaxKB) — Open-source platform for building enterprise-grade agents.
+- [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) — Low-code agent builder. Integrates with M365, Dynamics, Power Platform.
+- [n8n](https://n8n.io/) — Workflow automation with native AI agent capabilities and MCP support.
+- [Open Design](https://github.com/nexu-io/open-design) — Open-source vibe design workspace where your coding agent becomes the design engine. Prototypes, landing pages, dashboards, slides, images, and video with HTML/PDF/PPTX/MP4 export. Supports Claude Code, Codex, Cursor, Gemini, OpenCode, and 20+ CLIs. Apache-2.0.
+- [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) — OpenAI's managed agent platform with tools and retrieval.
+- [OpenBot](https://github.com/CopilotKit/OpenBot) — CopilotKit's self-hosted platform for AI coworkers that each get their own containerized computer — a real browser with its own logins, files, and only the tools you grant. Every tool call routes through one gateway that decides and audits it before acting. Built on the AG-UI protocol, so LangGraph, Mastra, CrewAI, PydanticAI, and Google ADK agents plug in unchanged. MIT, alpha.
+- [OpenConnector](https://github.com/oomol-lab/open-connector) — Open-source connector and auth gateway for AI agents, an alternative to Pipedream and Composio. Connect user app accounts once, then expose 1,000+ providers and 10,000+ prebuilt Actions via SDK, CLI, MCP, HTTP, and OpenAPI. Self-host on Docker/Node with SQLite or Postgres, or use the hosted runtime. Apache-2.0.
+- [Relevance AI](https://relevanceai.com/) — No-code AI agent platform.
+- [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) — Build and deploy fully-managed AI agents and workflows.
+- [Viglet Turing ES](https://github.com/openviglet/turing-ce) — Open-source enterprise-search platform with RAG chat and AI agents over your own content; faceted/hybrid search on a pluggable Solr/Elasticsearch/Lucene backend. Self-hostable, Apache-2.0.
+
+## Agent Infrastructure
+
+### Tool Protocols
+- [Agent2Agent Protocol (A2A)](https://github.com/google/A2A) — Google's open protocol for agent-to-agent communication and discovery. Linux Foundation project.
+- [Context7](https://github.com/upstash/context7) — MCP server for up-to-date code documentation for LLMs.
+- [FastMCP](https://github.com/PrefectHQ/fastmcp) — The fast, Pythonic way to build MCP servers and clients. The standard framework underlying much of the official Python MCP SDK, with auth, deployment, and testing tooling built in.
+- [Git-Native Agent Protocol (GNAP)](https://github.com/farol-team/gnap) — Serverless protocol for coordinating AI agent teams via 4 JSON files in a shared git repo (agents, tasks, runs, messages). No database, no vendor lock-in — any agent that can git push can participate. MIT.
+- [GitHub MCP Server](https://github.com/github/github-mcp-server) — GitHub's official MCP server for AI agents.
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) — Anthropic's standard for connecting AI to tools and data.
+- [OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling) — De facto standard for LLM tool use.
+
+
+### Agent Skills & Tools
+- [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local-first code intelligence graph for MCP and CLI. Builds a persistent Tree-sitter map of the codebase so coding agents read only the "blast radius" of a change, with benchmarked ~82x median token reduction on review tasks across 30+ languages. Auto-configures Claude Code, Codex, Cursor, Gemini CLI, Kiro, and Copilot. MIT.
+- [codegraph](https://github.com/colbymchenry/codegraph) — Pre-indexed code knowledge graph for coding agents (Claude Code, Codex, Cursor, Gemini CLI). Fewer tokens, fewer tool calls, 100% local.
+- [dotnet/skills](https://github.com/dotnet/skills) — Microsoft .NET team's curated skills and custom agents for AI coding agents. Core .NET, EF data access, diagnostics, MSBuild, and NuGet plugins.
+- [ECC](https://github.com/affaan-m/ECC) — Agent harness performance system for Claude Code, Cursor, Codex, OpenCode, Gemini, and Zed. Ships 63 specialized agents, 251 skills, continuous learning with session memory hooks, and AgentShield security hardening. MIT.
+- [Google Agents CLI](https://github.com/google/agents-cli) — CLI and skill pack that turns any coding assistant (Claude Code, Codex, Gemini CLI, Cursor) into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
+- [Graft](https://github.com/trailhq/Graft) — Open-source context layer that builds a code knowledge graph so coding agents read only the blast radius of a change. Nanonets reports 46% fewer tool calls, 42% token savings, and +12 points correctness against cold Claude Code. MCP server, `graft grep`/`graft map`/`graft viz` CLI, monorepo support, and a PR blast-radius review GitHub App. MIT.
+- [NotFair](https://github.com/nowork-studio/NotFair) — Open-source Claude Code agent skills for SEO and paid ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
+- [olcli](https://github.com/aloth/olcli) — Overleaf CLI for AI coding agents. Sync, pull, push, and compile LaTeX projects from the command line.
+- [ponytail](https://github.com/DietrichGebert/ponytail) — Agent skill that pushes coding agents toward the smallest working solution instead of over-building. Installs as a plugin or rules file across 20 agents (Claude Code, Cursor, Codex, and more). Benchmarked against a no-skill baseline on real agentic sessions: ~54% less code and ~22% fewer tokens with every safety guard intact. MIT.
+- [PowerSkills](https://github.com/aloth/PowerSkills) — PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.
+- [re_gent](https://github.com/regent-vcs/re_gent) — Version control purpose-built for AI coding agent activity. Auto-captures every agent turn (Claude Code, Codex, OpenCode) as an inspectable step, with `rgt log`, `rgt blame`, and `rgt show` for auditable, prompt-level history alongside your existing git workflow.
+- [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) — Self-hosted agent runtime with MCP tools, sandboxed execution, sessions, approvals, audit trails, and replay.
+- [Screenpipe](https://github.com/screenpipe/screenpipe) — Local computer history that gives AI agents searchable screen and audio context.
+- [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.
+- [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — Agent skill and MCP server for X data workflows.
+
+### Memory & State
+- [claude-mem](https://github.com/thedotmack/claude-mem) — Cross-session persistent memory for AI coding agents. Captures session activity, compresses it with AI, and injects relevant context into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, and more. Apache-2.0.
+- [funes](https://github.com/huggingface/funes) — Durable, searchable memory of past agent sessions. Indexes Claude Code, Codex, pi, and Hermes; recall over MCP; publish as a Hugging Face dataset. Apache-2.0.
+- [Headroom](https://github.com/headroomlabs-ai/headroom) — Context compression layer for AI agents. Reduces tool outputs, logs, RAG chunks, and files by 60–95% before they reach the LLM—without loss of answer quality. Library, proxy, and MCP server modes; reversible compression; supports Claude Code, Codex, Cursor, and Aider.
+- [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
+- [LeanCTX](https://github.com/yvgude/lean-ctx) — Single-binary Rust context layer between AI coding agents and their environment. Compresses file reads and shell output, caches results, keeps persistent session memory, enforces path-jail security, and tracks token budgets. MCP-native with 30+ agent compatibility. Apache-2.0.
+- [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory (formerly MemGPT).
+- [Lobu](https://github.com/lobu-ai/lobu): Shared company context, identities, approvals and governed actions for AI agents.
+- [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
+- [Memori](https://github.com/MemoriLabs/Memori) — Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.
+- [OpenViking](https://github.com/volcengine/OpenViking) — Self-evolving context database for AI agents unifying agent memory, knowledge RAG, and skills; includes a portable Agent Plugins package format (agent-plugins.org). AGPL-3.0.
+- [ReMe](https://github.com/agentscope-ai/ReMe) — Alibaba's memory management kit for agents (formerly MemoryScope). File-based and vector-based memory with a dynamic procedural memory framework.
+- [token-optimizer](https://github.com/alexgreensh/token-optimizer) — Token and context optimizer for coding agents: cuts wasted tokens and survives compaction.
+- [Zep](https://github.com/getzep/zep) — Long-term memory for AI assistants.
+
+### Monitoring & Observability
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) — ML & LLM observability.
+- [Future AGI](https://github.com/future-agi/future-agi) — Open-source, end-to-end, self-hostable platform for evaluating, observing, and improving LLM and AI agent apps. Tracing, evals, simulations, datasets, gateway, and guardrails in one stack.
+- [Helicone](https://www.helicone.ai/) — LLM observability and cost tracking.
+- [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability. Traces, evals, prompt management.
+- [LangSmith](https://smith.langchain.com/) — LangChain's debugging and monitoring platform.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — Records a coding-agent run below the harness and replays it offline byte-for-byte, or forks it from a checkpoint onto another model.
+
+### Data Extraction
+- [Crawl4AI](https://github.com/unclecode/crawl4ai) — Open-source LLM-friendly web crawler. High-performance async crawling.
+- [Firecrawl](https://github.com/firecrawl/firecrawl) — Turn entire websites into LLM-ready markdown or structured data.
+
+### Vector Databases
+- [Azure AI Search](https://azure.microsoft.com/products/ai-services/ai-search) — Enterprise search with vector + hybrid capabilities.
+- [ChromaDB](https://github.com/chroma-core/chroma) — Lightweight embedding database.
+- [Pinecone](https://www.pinecone.io/) — Managed vector database.
+- [Qdrant](https://github.com/qdrant/qdrant) — High-performance vector search.
+- [Weaviate](https://github.com/weaviate/weaviate) — Open-source vector database.
+
+### Sandboxing & Execution
+- [AgentBox](https://github.com/madarco/agentbox) — Run multiple coding agents (Claude Code, Codex, OpenCode) in parallel, each in its own sandboxed VM across local Docker, self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B). Sub-1s checkpoints, per-box browser/VS Code/shells. MIT.
+- [AgentENV](https://github.com/kvcache-ai/AgentENV) — Distributed platform for running agent environments at scale. Standardized, reproducible sandboxed environments for agent execution, evaluation, and RL training workloads. MIT.
+- [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.
+- [Daytona](https://github.com/daytonaio/daytona) — Secure and elastic infrastructure for running AI-generated code.
+- [E2B](https://github.com/e2b-dev/e2b) — Cloud sandboxes for AI agents. Secure code execution environments.
+- [forkd](https://github.com/deeplethe/forkd) — `fork()` for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent, BRANCH a live VM in ~150ms. KVM-isolated with snapshot copy-on-write. Apache-2.0.
+- [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/) — AI agents running within GitHub Actions. Markdown-based workflow definitions.
+- [Mirage](https://github.com/strukto-ai/mirage) — Unified virtual filesystem for AI agents. Gives agents a consistent, sandboxed view across local, cloud, and ephemeral storage. Apache-2.0.
+- [Moltworker](https://github.com/cloudflare/moltworker) — Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.
+- [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's open-source reference stack for running always-on agents (OpenClaw, Hermes) more securely inside NVIDIA OpenShell sandboxes. Provides guided onboarding, hardened blueprints, routed inference, network policy, and lifecycle management via a single CLI. Announced at GTC Taipei (June 2026).
+- [Sandbox Runtime](https://github.com/anthropic-experimental/sandbox-runtime) — Anthropic's lightweight, container-free OS-level sandboxing tool enforcing filesystem and network restrictions on arbitrary processes. Built for Claude Code, released as an open-source research preview to help the ecosystem build safer agentic systems.
+- [SmolVM](https://github.com/CelestoAI/SmolVM) — Open-source microVM sandbox infrastructure for code execution, browser use, and AI agents. macOS/Linux support, snapshotting, pause/resume, and persistent environments across turns. Apache-2.0.
+
+## Evaluation & Testing
+
+- [agent-qa](https://github.com/vostride/agent-qa) — Self-improving QA agent for natural-language web/mobile regression tests with memory, MCP, and skills.
+- [AgentBench](https://github.com/THUDM/AgentBench) — Tsinghua's multi-dimensional agent benchmark.
+- [AgentBoard](https://github.com/hkust-nlp/AgentBoard) — Multi-round agent evaluation platform.
+- [ClawBench](https://github.com/reacher-z/ClawBench) — Live-site benchmark for browser agents completing everyday online workflows.
+- [ExploitGym](https://github.com/sunblaze-ucb/exploitgym) — Large-scale benchmark built from real-world CVEs for evaluating whether AI agents can develop working exploits. From UC Berkeley's Sunblaze lab. Apache-2.0.
+- [GAIA](https://huggingface.co/gaia-benchmark) — General AI Assistants benchmark by Meta.
+- [LangTest](https://github.com/Pacific-AI-Corp/langtest) — Testing framework for delivering safe & effective language models.
+- [RuLES](https://github.com/normster/llm_rules) — Benchmark for evaluating rule-following in language models.
+- [SWE-bench](https://www.swebench.com/) — Benchmark for software engineering agents.
+- [ToolBench](https://github.com/OpenBMB/ToolBench) — Benchmark for tool-use capabilities.
+- [ToolEmu](https://github.com/ryoungj/ToolEmu) — LM-based emulation framework for identifying risks of agents with tool use (ICLR '24).
+- [UQLM](https://github.com/cvs-health/uqlm) — Uncertainty quantification for LLMs. UQ-based hallucination detection.
+
+## Safety & Governance
+
+- [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) — Microsoft's runtime governance infrastructure for AI agents. Deterministic policy enforcement, zero-trust identity, execution sandboxing, and SRE. Covers all 10 OWASP Agentic Top 10 risks across Python, TypeScript, .NET, Rust, and Go.
+- [Agentic Security](https://github.com/msoedov/agentic_security) — LLM vulnerability scanner and AI red teaming kit.
+- [Anthropic Constitutional AI](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback) — Self-improving AI safety through constitutions.
+- [Azure AI Content Safety](https://azure.microsoft.com/products/ai-services/ai-content-safety) — Content moderation for AI outputs.
+- [Deepsec](https://github.com/vercel-labs/deepsec) — Vercel Labs' security harness for finding vulnerabilities in your codebase powered by coding agents. Apache-2.0.
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails) — Validation framework for LLM outputs.
+- [IronCurtain](https://github.com/provos/ironcurtain) — Open-source security layer for autonomous AI agents. Runs agents in isolated VMs to prevent prompt injection and rogue behavior.
+- [LangFair](https://github.com/cvs-health/langfair) — Python library for LLM bias and fairness assessments.
+- [LLM Guard](https://github.com/protectai/llm-guard) — Security toolkit for LLM interactions.
+- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — NVIDIA's programmable guardrails.
+- [Numbat](https://github.com/perplexityai/numbat) — Perplexity's endpoint visibility tool for AI agent activity. On-device detection, optional pre-action blocking, and forensic reconstruction of what an agent did. Apache-2.0.
+- [open-kritt](https://github.com/Kritt-ai/open-kritt) — Self-hosted vulnerability research platform that orchestrates AI agents to find and validate security issues in code. Reusable workflow playbooks, parallel focused scans via Codex or Claude Code, de-duplicated and severity-ranked findings, and PoC/report export. Bring your own model access (OpenAI, Anthropic, OpenRouter, xAI). AGPL-3.0.
+- [PromptInject](https://github.com/agencyenterprise/PromptInject) — Framework for quantitative analysis of LLM robustness to prompt attacks (NeurIPS '22 Best Paper).
+- [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection.
+- [repo-forensics](https://github.com/alexgreensh/repo-forensics) — Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.
+- [Safe RLHF](https://github.com/PKU-Alignment/safe-rlhf) — Constrained value alignment via safe reinforcement learning from human feedback.
+
+## Research Papers
+
+### Surveys & Overviews
+- [The Rise and Potential of Large Language Model Based Agents](https://arxiv.org/abs/2309.07864) (2023) — Comprehensive survey of LLM-based agents.
+- [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) (2023) — Systematic review of agent architectures.
+- [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568) (2024) — Microsoft Research survey on agent AI.
+
+### Agent Architectures
+- [ReAct: Synergizing Reasoning and Acting](https://arxiv.org/abs/2210.03629) (2023) — The foundational Reason + Act paradigm.
+- [Toolformer](https://arxiv.org/abs/2302.04761) (2023) — Teaching LLMs to use tools autonomously.
+- [Voyager](https://arxiv.org/abs/2305.16291) (2023) — Lifelong learning agent in Minecraft.
+- [Generative Agents](https://arxiv.org/abs/2304.03442) (2023) — Stanford's believable simulacra of human behavior.
+- [Tree of Thoughts](https://arxiv.org/abs/2305.10601) (2023) — Deliberate problem solving through exploration of reasoning paths.
+- [Self-Refine](https://arxiv.org/abs/2303.17651) (2023) — Iterative self-refinement with self-feedback.
+
+### Multi-Agent Systems
+- [CAMEL](https://arxiv.org/abs/2303.17760) (2023) — Communicative agents for role-playing.
+- [MetaGPT](https://arxiv.org/abs/2308.00352) (2023) — Multi-agent collaboration mimicking software companies.
+- [ChatDev](https://arxiv.org/abs/2307.07924) (2023) — Agents collaborating in a virtual software company.
+- [PaperOrchestra](https://arxiv.org/abs/2604.05018) (2026) — Google's multi-agent framework for automated AI research paper writing, converting unstructured pre-writing materials into submission-ready papers.
+
+### Safety & Evaluation
+- [AgentBench](https://arxiv.org/abs/2308.03688) (2023) — Evaluating LLMs as agents across 8 environments.
+- [InjectAgent](https://arxiv.org/abs/2403.02691) (2024) — Indirect prompt injection attacks on tool-integrated agents.
+- [R-Judge](https://arxiv.org/abs/2401.10019) (2024) — Benchmarking safety risk awareness for LLM agents.
+
+### Agent Training
+- [Group-in-Group Policy Optimization for LLM Agent Training](https://github.com/langfengQ/verl-agent) (2025) — RL-based training for LLM/VLM agents.
+
+## Tutorials & Courses
+
+- [agent-rules-books](https://github.com/ciembor/agent-rules-books) — AGENTS.md rules and skills for AI coding agents (Codex, Cursor, Claude Code) inspired by Clean Code, Refactoring, DDD, Clean Architecture, and DDIA.
+- [DeepLearning.AI: A2A Protocol](https://www.deeplearning.ai/short-courses/a2a-the-agent2agent-protocol/) — Short course on Google's Agent2Agent protocol.
+- [DeepLearning.AI: Building Agentic RAG](https://www.deeplearning.ai/) — Andrew Ng's course on agentic RAG patterns.
+- [Hugging Face: Building AI Agents](https://huggingface.co/learn/agents-course/) — Open course on agent development.
+- [LangChain Academy](https://academy.langchain.com/) — Free courses on agents and RAG.
+- [Microsoft: AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) — 12 lessons to get started building AI agents.
+- [Microsoft: AI Engineering Coach](https://github.com/microsoft/AI-Engineering-Coach) — Microsoft's open-source curriculum and tooling for "better agentic engineering" — patterns, practices, and exercises for building production-quality AI agents.
+- [Microsoft: Build AI Agents with Azure AI Foundry](https://learn.microsoft.com/training/) — Official Microsoft Learn path.
+- [Microsoft: MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) — Curriculum for Model Context Protocol with cross-language examples.
+- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — Comprehensive guides for prompt engineering, RAG, and AI agents.
+
+## Use Cases & Case Studies
+
+### Enterprise
+- IT Helpdesk Agents — Automated ticket resolution, password resets
+- Customer Service — Multi-turn conversation with CRM integration
+- Document Intelligence — Contract analysis, compliance checking
+- Data Analysis — Natural language to SQL, automated reporting
+
+### Research & Humanitarian
+- Disinformation Detection — Agents monitoring information ecosystems
+- Disaster Response — Coordinating information flows in crisis situations
+- Knowledge Management — Intelligent document retrieval for NGOs
+
+## Community
+
+- [r/AI_Agents](https://www.reddit.com/r/AI_Agents/) — Reddit community
+- [AI Agents Discord](https://discord.gg/ai-agents) — Active Discord server
+- [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) — Curated collection of AI agent research papers released in 2026, covering engineering, memory, evaluation, workflows, and autonomous systems.
+- [#AIAgents on X](https://x.com/search?q=%23AIAgents) — Twitter/X hashtag
+
+---
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+---
+
+> *Disclaimer: This list aims to be vendor-neutral and community-driven. Inclusion does not imply endorsement by any employer or organization.*
