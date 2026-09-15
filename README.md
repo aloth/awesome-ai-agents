@@ -319,6 +319,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [AI Agents Discord](https://discord.gg/ai-agents) — Active Discord server
 - [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) — Curated collection of AI agent research papers released in 2026, covering engineering, memory, evaluation, workflows, and autonomous systems.
 - [#AIAgents on X](https://x.com/search?q=%23AIAgents) — Twitter/X hashtag
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 ---
 
