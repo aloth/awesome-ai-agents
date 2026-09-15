@@ -245,6 +245,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Anthropic Constitutional AI](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback) — Self-improving AI safety through constitutions.
 - [Azure AI Content Safety](https://azure.microsoft.com/products/ai-services/ai-content-safety) — Content moderation for AI outputs.
 - [Deepsec](https://github.com/vercel-labs/deepsec) — Vercel Labs' security harness for finding vulnerabilities in your codebase powered by coding agents. Apache-2.0.
+- [Gram](https://github.com/speakeasy-api/gram) — MCP control plane with role-scoped access, policies, threat detection, and searchable audit events.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) — Validation framework for LLM outputs.
 - [IronCurtain](https://github.com/provos/ironcurtain) — Open-source security layer for autonomous AI agents. Runs agents in isolated VMs to prevent prompt injection and rogue behavior.
 - [LangFair](https://github.com/cvs-health/langfair) — Python library for LLM bias and fairness assessments.
