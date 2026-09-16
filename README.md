@@ -192,6 +192,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ### Monitoring & Observability
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) — ML & LLM observability.
+- [Bifrost](https://github.com/maximhq/bifrost) — Open-source, OpenAI-compatible AI gateway with multi-provider routing, fallbacks, MCP, and observability.
 - [Future AGI](https://github.com/future-agi/future-agi) — Open-source, end-to-end, self-hostable platform for evaluating, observing, and improving LLM and AI agent apps. Tracing, evals, simulations, datasets, gateway, and guardrails in one stack.
 - [Helicone](https://www.helicone.ai/) — LLM observability and cost tracking.
 - [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability. Traces, evals, prompt management.
