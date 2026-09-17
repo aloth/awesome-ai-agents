@@ -242,6 +242,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ## Safety & Governance
 
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) — Microsoft's runtime governance infrastructure for AI agents. Deterministic policy enforcement, zero-trust identity, execution sandboxing, and SRE. Covers all 10 OWASP Agentic Top 10 risks across Python, TypeScript, .NET, Rust, and Go.
+- [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit (`npm i affixio`) with host-side signed ACTION attestation before pay (x402BeforePay / Agentic Pay / KYA; not person KYC). ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/))
 - [Agentic Security](https://github.com/msoedov/agentic_security) — LLM vulnerability scanner and AI red teaming kit.
 - [Anthropic Constitutional AI](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback) — Self-improving AI safety through constitutions.
 - [Azure AI Content Safety](https://azure.microsoft.com/products/ai-services/ai-content-safety) — Content moderation for AI outputs.
