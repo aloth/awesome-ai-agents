@@ -185,6 +185,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Lobu](https://github.com/lobu-ai/lobu): Shared company context, identities, approvals and governed actions for AI agents.
 - [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
 - [Memori](https://github.com/MemoriLabs/Memori) — Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.
+- [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) — MIT MCP server for agent memory; a hosted engine re-ranks recall from reported outcomes.
 - [OpenViking](https://github.com/volcengine/OpenViking) — Self-evolving context database for AI agents unifying agent memory, knowledge RAG, and skills; includes a portable Agent Plugins package format (agent-plugins.org). AGPL-3.0.
 - [ReMe](https://github.com/agentscope-ai/ReMe) — Alibaba's memory management kit for agents (formerly MemoryScope). File-based and vector-based memory with a dynamic procedural memory framework.
 - [token-optimizer](https://github.com/alexgreensh/token-optimizer) — Token and context optimizer for coding agents: cuts wasted tokens and survives compaction.
