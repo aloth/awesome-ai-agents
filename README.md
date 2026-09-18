@@ -111,6 +111,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Trustclaw](https://github.com/ComposioHQ/trustclaw) — ComposioHQ's self-hostable personal AI agent with vector memory, native Composio tool integrations, and a Telegram front-end. MIT.
 
 ### Browser Agents
+- [AIHawk](https://github.com/feder-cr/AIHawk) - Open-source AI browser agent that browses, clicks, types, and reads the web from plain-English instructions. Ships as an MCP server (`uvx aihawk`) for Claude Code, Codex, and Gemini CLI, or as a standalone web UI. MIT.
 - [Browser Use](https://github.com/browser-use/browser-use) — Control browsers with AI agents. Most popular browser automation framework.
 - [BrowserOS](https://github.com/browseros-ai/BrowserOS) — Open-source agentic browser and alternative to ChatGPT Atlas, Perplexity Comet, and Dia. Runs agents locally against your own browsing session. AGPL-3.0.
 - [BrowserSkill](https://github.com/Tencent/BrowserSkill) — Tencent's CLI and browser extension that lets AI agents drive your real, logged-in browser without interrupting your work. Works with any shell-capable agent (Claude Code, Codex, Cursor, OpenClaw). MIT.
