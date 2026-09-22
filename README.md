@@ -204,6 +204,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Data Extraction
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) — Open-source LLM-friendly web crawler. High-performance async crawling.
 - [Firecrawl](https://github.com/firecrawl/firecrawl) — Turn entire websites into LLM-ready markdown or structured data.
+- [Vend API Merchant](https://extract.paypercall.dev) — Pay-per-call API: any URL to clean markdown, tables, meta, settled in Nano.
 
 ### Vector Databases
 - [Azure AI Search](https://azure.microsoft.com/products/ai-services/ai-search) — Enterprise search with vector + hybrid capabilities.
