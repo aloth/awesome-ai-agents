@@ -117,6 +117,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [BrowserSkill](https://github.com/Tencent/BrowserSkill) — Tencent's CLI and browser extension that lets AI agents drive your real, logged-in browser without interrupting your work. Works with any shell-capable agent (Claude Code, Codex, Cursor, OpenClaw). MIT.
 - [Moli](https://github.com/lexmount/moli) — Production-ready headless browser for AI agents, built in Rust. On-demand layout and rendering keep a full browser runtime at a light resource footprint; drive it via CLI, CDP, WebDriver Classic, or WebDriver BiDi on Linux, macOS, and Windows. Apache-2.0.
 - [Playwright MCP](https://github.com/anthropics/anthropic-tools) — Anthropic's browser automation via MCP.
+- [SLICC](https://github.com/ai-ecoverse/slicc) — Browser-native agent runtime with a POSIX shell, virtual filesystem, git, and sandboxed parallel sub-agents that acts through the browser session the user is already signed in to.
 - [Stagehand](https://github.com/browserbase/stagehand) — AI-powered browser automation framework by Browserbase.
 - [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) — ByteDance's multimodal AI agent stack for desktop automation.
 
