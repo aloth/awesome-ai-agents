@@ -129,6 +129,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ## Platforms & Low-Code
 
+- [Yila AI](https://yila.ai) — Evidence-traceable research agent for literature review, PDF analysis, figures, and academic slides.
 - [Activepieces](https://github.com/activepieces/activepieces) — Open-source AI workflow automation with 400+ MCP servers for agents.
 - [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) — AWS managed agent service.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) — All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.
