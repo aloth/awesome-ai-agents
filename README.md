@@ -103,6 +103,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Windsurf](https://windsurf.com/) — AI-native IDE by Codeium with agentic Cascade flows.
 
 ### Personal AI Agents
+- [call4me](https://github.com/skeptrunedev/call4me) - Open-source voice agent that places phone calls to businesses for you (bookings, appointments, cancellations), used from Claude Code, Codex or ChatGPT through a remote MCP server. MIT.
 - [CoPaw](https://github.com/agentscope-ai/CoPaw) — Alibaba's open-source personal AI agent workstation. Supports multi-channel workflows, MCP skills, local/cloud LLMs, and persistent memory.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.
 - [Mercury Agent](https://github.com/cosmicstack-labs/mercury-agent) — Soul-driven personal AI agent with permission-hardened tools, token budgets, and multi-channel access (CLI or Telegram). MIT.
