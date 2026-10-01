@@ -184,6 +184,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Busabase](https://github.com/busabase/busabase) — Open-source database and workspace for agents with persistent context and permission-aware, auditable ChangeRequests.
 - [claude-mem](https://github.com/thedotmack/claude-mem) — Cross-session persistent memory for AI coding agents. Captures session activity, compresses it with AI, and injects relevant context into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, and more. Apache-2.0.
 - [funes](https://github.com/huggingface/funes) — Durable, searchable memory of past agent sessions. Indexes Claude Code, Codex, pi, and Hermes; recall over MCP; publish as a Hugging Face dataset. Apache-2.0.
+- [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis) — Local-first MCP memory: store notes and retrieve original wording (recall, store, correct).
 - [Headroom](https://github.com/headroomlabs-ai/headroom) — Context compression layer for AI agents. Reduces tool outputs, logs, RAG chunks, and files by 60–95% before they reach the LLM—without loss of answer quality. Library, proxy, and MCP server modes; reversible compression; supports Claude Code, Codex, Cursor, and Aider.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
 - [LeanCTX](https://github.com/yvgude/lean-ctx) — Single-binary Rust context layer between AI coding agents and their environment. Compresses file reads and shell output, caches results, keeps persistent session memory, enforces path-jail security, and tracks token budgets. MCP-native with 30+ agent compatibility. Apache-2.0.
@@ -195,6 +196,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [ReMe](https://github.com/agentscope-ai/ReMe) — Alibaba's memory management kit for agents (formerly MemoryScope). File-based and vector-based memory with a dynamic procedural memory framework.
 - [SoL-Pi](https://github.com/NVlabs/SoL-Pi) — NVIDIA Research's token-efficiency extension for the pi coding agent, discovered through scaled auto-research loops ([paper](https://arxiv.org/abs/2609.20519)). Four opt-in mechanisms: edit-plus-validation fused into one tool call, paged handles for large repeated observations, compact log receipts whose every quotation is verified against the archived source, and plan-aware context compaction. No pi patches required. MIT.
 - [token-optimizer](https://github.com/alexgreensh/token-optimizer) — Token and context optimizer for coding agents: cuts wasted tokens and survives compaction.
+- [zer0dex](https://github.com/hermes-labs-ai/zer0dex) — Local-first zero-trust memory index for AI agents with deterministic retrieval.
 - [Zep](https://github.com/getzep/zep) — Long-term memory for AI assistants.
 
 ### Monitoring & Observability
