@@ -201,7 +201,8 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) — ML & LLM observability.
 - [Bifrost](https://github.com/maximhq/bifrost) — Open-source, OpenAI-compatible AI gateway with multi-provider routing, fallbacks, MCP, and observability.
 - [Future AGI](https://github.com/future-agi/future-agi) — Open-source, end-to-end, self-hostable platform for evaluating, observing, and improving LLM and AI agent apps. Tracing, evals, simulations, datasets, gateway, and guardrails in one stack.
-- [Helicone](https://www.helicone.ai/) — LLM observability and cost tracking.
+- [Helicone](https://www.helicone.ai/) — LLM observability and cost tracking
+- [AgenticsPulse](https://agenticspulse.com/tools/llm-pricing-calculator.html) - Client-side LLM token economics simulator, multi-turn agent loop compounding calculator, and self-hosted GPU break-even analyzer.
 - [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability. Traces, evals, prompt management.
 - [LangSmith](https://smith.langchain.com/) — LangChain's debugging and monitoring platform.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — Records a coding-agent run below the harness and replays it offline byte-for-byte, or forks it from a checkpoint onto another model.
@@ -236,6 +237,8 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [agent-qa](https://github.com/vostride/agent-qa) — Self-improving QA agent for natural-language web/mobile regression tests with memory, MCP, and skills.
 - [AgentBench](https://github.com/THUDM/AgentBench) — Tsinghua's multi-dimensional agent benchmark.
 - [AgentBoard](https://github.com/hkust-nlp/AgentBoard) — Multi-round agent evaluation platform.
+- [AgenticsPulse LLM Calculator](https://agenticspulse.com/tools/llm-pricing-calculator.html) - Client-side LLM reasoning token cost simulator, agent
+  loop compounding calculator, and self-hosted GPU break-even analyzer.
 - [ClawBench](https://github.com/reacher-z/ClawBench) — Live-site benchmark for browser agents completing everyday online workflows.
 - [ExploitGym](https://github.com/sunblaze-ucb/exploitgym) — Large-scale benchmark built from real-world CVEs for evaluating whether AI agents can develop working exploits. From UC Berkeley's Sunblaze lab. Apache-2.0.
 - [GAIA](https://huggingface.co/gaia-benchmark) — General AI Assistants benchmark by Meta.
