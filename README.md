@@ -92,6 +92,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [mini-coding-agent](https://github.com/rasbt/mini-coding-agent) — Sebastian Raschka's minimal, readable Python coding agent harness. Explains the core components of coding agents in a small, hackable codebase.
 - [OpenClacky](https://github.com/clacky-ai/open-clacky) — Token-efficient open-source AI coding agent with prompt caching, 16 core tools, and skill extensions. MIT.
 - [OpenCode](https://github.com/opencode-ai/opencode) — Open-source terminal-native AI coding agent built in Go by SST. 160K+ stars, 7.5M monthly developers. Works in terminal, IDE, or desktop with any LLM.
+- [Orbi](https://github.com/orbi-build/orbi) — Takes a labeled GitHub issue to a reviewed pull request, merges only what a separate review session approved, and cuts the tagged release. AGPL-3.0.
 - [Orca](https://github.com/stablyai/orca) — Open-source desktop agent IDE that runs 30+ coding agents (Claude Code, Codex, OpenCode, etc.) side by side in isolated git worktrees. Terminal splits, embedded Chromium, SSH remotes, and GitHub/Linear integration. YC-backed, MIT.
 - [Open SWE](https://github.com/langchain-ai/open-swe) — LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI software development agent (formerly OpenDevin).
