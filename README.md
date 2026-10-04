@@ -137,6 +137,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview) — Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.
 - [Azure AI Foundry](https://ai.azure.com/) — Full-stack AI platform with agent capabilities.
 - [Composio](https://github.com/ComposioHQ/composio) — 1000+ toolkits, auth management, and sandboxed workbench for AI agents.
+- [Aident Loadout](https://aident.ai) — Connects Codex, Claude Code, Cursor, ChatGPT and other MCP clients to 1,000+ apps and 400+ expert-built Skills through one reusable setup; credentials stay in Aident Vault with full Audit.
 - [Dify](https://github.com/langgenius/dify) — Open-source LLMOps platform with visual agent builder.
 - [Google Vertex AI Agent Builder](https://cloud.google.com/vertex-ai/docs/agents) — Google Cloud's agent development platform.
 - [MaxKB](https://github.com/1Panel-dev/MaxKB) — Open-source platform for building enterprise-grade agents.
