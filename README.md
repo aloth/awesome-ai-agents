@@ -27,6 +27,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ## Frameworks & Libraries
 
 ### Multi-Agent Orchestration
+- [AI Group Call](https://aigroupcall.app) - Live voice call with up to eight AI agents around one goal — they debate, brainstorm and hand you a summary and action items.
 - [AG2](https://github.com/ag2ai/ag2) — Successor to AutoGen. Multi-agent framework with improved APIs.
 - [Agent Swarm](https://github.com/desplega-ai/agent-swarm) — Multi-agent orchestration for AI coding assistants (Claude Code, Codex, Gemini CLI). Lead/worker coordination with Docker isolation, compounding memory, and Slack/GitHub integration.
 - [AgentField](https://github.com/Agent-Field/agentfield) — Open-source control plane that makes AI agents callable as microservices. Routing, coordination, memory, async execution, and cryptographic audit trails. Supports Python, Go, and TypeScript.
