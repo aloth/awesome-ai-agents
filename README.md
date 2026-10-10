@@ -182,6 +182,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) — Self-hosted agent runtime with MCP tools, sandboxed execution, sessions, approvals, audit trails, and replay.
 - [Screenpipe](https://github.com/screenpipe/screenpipe) — Local computer history that gives AI agents searchable screen and audio context.
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.
+- [Tapetide MCP](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) — MCP server giving agents Indian stock market data for about 8,200 NSE and BSE stocks.
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — Agent skill and MCP server for X data workflows.
 
 ### Memory & State
