@@ -138,6 +138,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ## Platforms & Low-Code
 
 - [Activepieces](https://github.com/activepieces/activepieces) — Open-source AI workflow automation with 400+ MCP servers for agents.
+- [Agent Barn](https://github.com/aai-labs/agent-barn) - Open-source (Apache-2.0) control plane for AI agents: teams talk to agents in Slack, Teams, Telegram, Discord or email, agents work across Jira, GitHub, Confluence and more, and every conversation, tool call, log and cost is recorded. Runs Hermes and OpenClaw runtimes on your own Kubernetes cluster via Helm.
 - [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) — AWS managed agent service.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) — All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.
 - [Anthropic Claude + Tool Use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) — Claude's function calling and agent capabilities.
