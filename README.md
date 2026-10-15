@@ -172,6 +172,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ### Agent Skills & Tools
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — Addy Osmani's production-grade engineering skills for coding agents, mapped to the development lifecycle through 9 slash commands (`/spec`, `/plan`, `/build`, `/test`, `/review`, `/ship`). Skills also auto-activate by task; installs into 70+ agents via the open skills CLI. MIT.
+- [CareJobs.Now Healthcare Jobs MCP](https://github.com/yumaheymans/carejobs-mcp) - Free remote MCP server and agent skill that let agents search 170,000+ open US healthcare jobs from 270 hospitals' career sites, with the pay employers post. No API key.
 - [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local-first code intelligence graph for MCP and CLI. Builds a persistent Tree-sitter map of the codebase so coding agents read only the "blast radius" of a change, with benchmarked ~82x median token reduction on review tasks across 30+ languages. Auto-configures Claude Code, Codex, Cursor, Gemini CLI, Kiro, and Copilot. MIT.
 - [codegraph](https://github.com/colbymchenry/codegraph) — Pre-indexed code knowledge graph for coding agents (Claude Code, Codex, Cursor, Gemini CLI). Fewer tokens, fewer tool calls, 100% local.
 - [dotnet/skills](https://github.com/dotnet/skills) — Microsoft .NET team's curated skills and custom agents for AI coding agents. Core .NET, EF data access, diagnostics, MSBuild, and NuGet plugins.
