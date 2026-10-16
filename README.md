@@ -220,6 +220,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Data Extraction
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) — Open-source LLM-friendly web crawler. High-performance async crawling.
 - [Firecrawl](https://github.com/firecrawl/firecrawl) — Turn entire websites into LLM-ready markdown or structured data.
+- [google-hotels-mcp](https://github.com/huynhtanan/google-hotels-mcp) — MCP server exposing Google Hotels (listing + 3-month price calendar) and Google Vacation Rentals (Vrbo/Booking) as tools for Claude Desktop, Cursor, Cline, Codex. Pay-per-result Apify actors backend; FastMCP stdio. MIT.
 
 ### Vector Databases
 - [Azure AI Search](https://azure.microsoft.com/products/ai-services/ai-search) — Enterprise search with vector + hybrid capabilities.
