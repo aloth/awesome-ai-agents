@@ -64,6 +64,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ### Single Agent
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) — Anthropic's production SDK for building AI agents powered by Claude. Stateful sessions, tool execution, sandboxing, and streaming. Available in Python and [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript).
+- [CUGA](https://github.com/cuga-project/cuga-agent) — IBM Research generalist agent for API and web tasks, with policies and human approval.
 - [GenericAgent](https://github.com/lsdefine/GenericAgent) — Self-evolving agent that grows its own skill tree from ~3K lines of seed code. 9 atomic tools for full system control (browser, terminal, filesystem, screen vision) with automatic skill crystallization.
 - [Haystack](https://github.com/deepset-ai/haystack) — End-to-end NLP framework with agent pipelines.
 - [Instructor](https://github.com/jxnl/instructor) — Structured output from LLMs. Essential for reliable tool use.
