@@ -319,6 +319,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [DeepLearning.AI: Building Agentic RAG](https://www.deeplearning.ai/) — Andrew Ng's course on agentic RAG patterns.
 - [Hugging Face: Building AI Agents](https://huggingface.co/learn/agents-course/) — Open course on agent development.
 - [LangChain Academy](https://academy.langchain.com/) — Free courses on agents and RAG.
+- [LangGraph in Small Pieces](https://lgisp.ai) — Free 31-chapter book building LangGraph agents, one runnable file per chapter, local models.
 - [Microsoft: AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) — 12 lessons to get started building AI agents.
 - [Microsoft: AI Engineering Coach](https://github.com/microsoft/AI-Engineering-Coach) — Microsoft's open-source curriculum and tooling for "better agentic engineering" — patterns, practices, and exercises for building production-quality AI agents.
 - [Microsoft: Build AI Agents with Azure AI Foundry](https://learn.microsoft.com/training/) — Official Microsoft Learn path.
