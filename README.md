@@ -349,6 +349,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [r/AI_Agents](https://www.reddit.com/r/AI_Agents/) — Reddit community
 - [AI Agents Discord](https://discord.gg/ai-agents) — Active Discord server
 - [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) — Curated collection of AI agent research papers released in 2026, covering engineering, memory, evaluation, workflows, and autonomous systems.
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`), HTTP 402 payment wall, and MCP tool server for verifying Layer-1 `DOOM` and Base Mainnet `wDOOM` payments.
 - [#AIAgents on X](https://x.com/search?q=%23AIAgents) — Twitter/X hashtag
 
 ---
