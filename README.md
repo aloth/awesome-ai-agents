@@ -160,6 +160,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [OpenBot](https://github.com/CopilotKit/OpenBot) — CopilotKit's self-hosted platform for AI coworkers that each get their own containerized computer — a real browser with its own logins, files, and only the tools you grant. Every tool call routes through one gateway that decides and audits it before acting. Built on the AG-UI protocol, so LangGraph, Mastra, CrewAI, PydanticAI, and Google ADK agents plug in unchanged. MIT, alpha.
 - [OpenConnector](https://github.com/oomol-lab/open-connector) — Open-source connector and auth gateway for AI agents, an alternative to Pipedream and Composio. Connect user app accounts once, then expose 1,000+ providers and 10,000+ prebuilt Actions via SDK, CLI, MCP, HTTP, and OpenAPI. Self-host on Docker/Node with SQLite or Postgres, or use the hosted runtime. Apache-2.0.
 - [Relevance AI](https://relevanceai.com/) — No-code AI agent platform.
+- [Scalekit](https://scalekit.com) — Agent integration platform with 600+ connectors, per-user OAuth, and hosted MCP server.
 - [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) — Build and deploy fully-managed AI agents and workflows.
 - [Viglet Turing ES](https://github.com/openviglet/turing-ce) — Open-source enterprise-search platform with RAG chat and AI agents over your own content; faceted/hybrid search on a pluggable Solr/Elasticsearch/Lucene backend. Self-hostable, Apache-2.0.
 
