@@ -184,6 +184,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Google Agents CLI](https://github.com/google/agents-cli) — CLI and skill pack that turns any coding assistant (Claude Code, Codex, Gemini CLI, Cursor) into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
 - [Graft](https://github.com/trailhq/Graft) — Open-source context layer that builds a code knowledge graph so coding agents read only the blast radius of a change. Nanonets reports 46% fewer tool calls, 42% token savings, and +12 points correctness against cold Claude Code. MCP server, `graft grep`/`graft map`/`graft viz` CLI, monorepo support, and a PR blast-radius review GitHub App. MIT.
 - [Graphify](https://github.com/Graphify-Labs/graphify) — `/graphify` skill and CLI that maps a codebase plus its docs, SQL schemas, PDFs, and media into a queryable knowledge graph, so coding agents query paths and concepts instead of grepping. Code is parsed locally with tree-sitter (no LLM, no vector store), and every edge is tagged `EXTRACTED` or `INFERRED`. Works with Claude Code, Codex, Cursor, Gemini CLI, Copilot, and 20+ more; optional MCP server. Apache-2.0.
+- [levelcfo/open-finance-skills](https://github.com/levelcfo/open-finance-skills) — Twenty evidence-first finance skills and a read-only local MCP server for general ledger reconciliation, 13-week cash flow forecasting, AR aging, and job-cost variance analysis.
 - [NotFair](https://github.com/nowork-studio/NotFair) — Open-source Claude Code agent skills for SEO and paid ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
 - [Oh My Hermes](https://github.com/rlaope/oh-my-hermes) — Hermes Agent workflow plugin with project memory and task-specific model and reasoning routing.
 - [olcli](https://github.com/aloth/olcli) — Overleaf CLI for AI coding agents. Sync, pull, push, and compile LaTeX projects from the command line.
@@ -262,6 +263,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [ExploitGym](https://github.com/sunblaze-ucb/exploitgym) — Large-scale benchmark built from real-world CVEs for evaluating whether AI agents can develop working exploits. From UC Berkeley's Sunblaze lab. Apache-2.0.
 - [GAIA](https://huggingface.co/gaia-benchmark) — General AI Assistants benchmark by Meta.
 - [LangTest](https://github.com/Pacific-AI-Corp/langtest) — Testing framework for delivering safe & effective language models.
+- [LevelBench-100](https://levelcfo.com/benchmarks/agentic-accounting/) — Multi-entity accounting and financial operations benchmark evaluating 38 AI models across 75 live month-end close runs and 30 real-world reconciliation failure traps ([GitHub dataset](https://github.com/levelcfo/levelbench-100)).
 - [RuLES](https://github.com/normster/llm_rules) — Benchmark for evaluating rule-following in language models.
 - [SWE-bench](https://www.swebench.com/) — Benchmark for software engineering agents.
 - [ToolBench](https://github.com/OpenBMB/ToolBench) — Benchmark for tool-use capabilities.
