@@ -240,6 +240,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Weaviate](https://github.com/weaviate/weaviate) — Open-source vector database.
 
 ### Sandboxing & Execution
+- [OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw) — Decentralized Rust EDR and 7-Ring AI agent containment engine with AppContainer / Landlock v3 + seccomp-bpf sandboxing, out-of-sandbox credential sealing, and formal Cedar policies. Apache-2.0.
 - [AgentBox](https://github.com/madarco/agentbox) — Run multiple coding agents (Claude Code, Codex, OpenCode) in parallel, each in its own sandboxed VM across local Docker, self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B). Sub-1s checkpoints, per-box browser/VS Code/shells. MIT.
 - [AgentENV](https://github.com/kvcache-ai/AgentENV) — Distributed platform for running agent environments at scale. Standardized, reproducible sandboxed environments for agent execution, evaluation, and RL training workloads. MIT.
 - [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.
