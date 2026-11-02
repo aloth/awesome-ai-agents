@@ -59,6 +59,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Raven](https://github.com/EverMind-AI/Raven) — Harness of harnesses: plans tasks as DAGs and delegates them to built-in and third-party agents.
 - [Ruflo](https://github.com/ruvnet/ruflo) — Agent orchestration platform optimized for Claude. Features self-learning swarms, distributed intelligence, RAG integration, and native Claude Code/Codex integration. Formerly claude-flow.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — Microsoft's SDK for AI orchestration. Plugins, planners, and memory.
+- [Sno Station](https://github.com/sno-ai/sno-station) — Runs Codex, Claude Code, Cursor and OpenClaw as one team: handoff at usage limits, cross-review.
 - [Strands Agents](https://github.com/strands-agents/harness-sdk) — AWS's model-driven, open-source SDK for building production AI agents in Python and TypeScript. Any model, any cloud, with MCP support and 23M+ monthly PyPI downloads. Apache-2.0.
 - [Swarm](https://github.com/openai/swarm) — OpenAI's lightweight multi-agent framework (educational).
 
