@@ -4,6 +4,7 @@ message: "If you reference this list in your work, please cite it as below."
 type: dataset
 abstract: "A curated list of AI agent frameworks, tools, platforms, research papers and resources."
 license: CC0-1.0
+doi: "10.5281/zenodo.24043107"
 repository-code: "https://github.com/aloth/awesome-ai-agents"
 url: "https://github.com/aloth/awesome-ai-agents"
 keywords:

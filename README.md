@@ -1,6 +1,7 @@
 # Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24043107.svg)](https://doi.org/10.5281/zenodo.24043107)
 
 > A curated list of AI agent frameworks, tools, platforms, research papers, and resources.
 
