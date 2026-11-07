@@ -1,0 +1,84 @@
+name: Monthly release
+
+# A GitHub release triggers the Zenodo integration, which archives the
+# repository at the tag (README.md, agents.json, metrics.json) under a new DOI
+# version. Runs on the first day of each month; skipped when no entry was added
+# or removed since the previous release.
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Release even if no entry was added or removed
+        type: boolean
+        default: false
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Version
+        id: version
+        run: |
+          version="$(date -u +%Y.%m)"
+          if git rev-parse -q --verify "refs/tags/v$version" >/dev/null; then
+            echo "::error::v$version already exists"
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Build metrics.json, release notes and maintenance report
+        id: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE: ${{ inputs.force && '--force' || '' }}
+        run: |
+          set +e
+          python3 scripts/build_release.py "${{ steps.version.outputs.version }}" "$RUNNER_TEMP/release" $FORCE
+          code=$?
+          set -e
+          if [ "$code" = 3 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          exit "$code"
+
+      - name: Commit metrics.json and tag
+        if: steps.build.outputs.skip != 'true'
+        run: |
+          version="${{ steps.version.outputs.version }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics.json
+          git commit -m "Add the metrics snapshot for $version"
+          git tag "v$version"
+          git push origin HEAD:main "v$version"
+
+      - name: Create the release
+        if: steps.build.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          version="${{ steps.version.outputs.version }}"
+          gh release create "v$version" --title "$version" --notes-file "$RUNNER_TEMP/release/notes.md" --verify-tag
+
+      - name: Maintenance report in the job summary
+        if: steps.build.outputs.skip != 'true'
+        run: |
+          file="$RUNNER_TEMP/release/maintenance.md"
+          if [ -f "$file" ]; then
+            cat "$file" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No maintenance items." >> "$GITHUB_STEP_SUMMARY"
+          fi

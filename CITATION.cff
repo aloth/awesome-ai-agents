@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Awesome AI Agents"
+message: "If you reference this list in your work, please cite it as below."
+type: dataset
+abstract: "A curated list of AI agent frameworks, tools, platforms, research papers and resources."
+license: CC0-1.0
+repository-code: "https://github.com/aloth/awesome-ai-agents"
+url: "https://github.com/aloth/awesome-ai-agents"
+keywords:
+  - ai-agents
+  - awesome-list
+  - llm
+  - multi-agent-systems
+  - model-context-protocol
+authors:
+  - family-names: Loth
+    given-names: Alexander
+    orcid: "https://orcid.org/0009-0003-9327-6865"
