@@ -44,7 +44,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Harmonist](https://github.com/GammaLabTechnologies/harmonist) — Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies.
 - [LangGraph](https://github.com/langchain-ai/langgraph) — Stateful agent workflows as graphs. Part of the LangChain ecosystem.
 - [LightAgent](https://github.com/wanxingai/LightAgent) — Lightweight Python agent framework with tools, memory, MCP/SSE, Skills, workflows, and LightSwarm.
-- [LumiBot](https://github.com/Lumiwealth/lumibot) - Python framework for AI trading agents: research agents hand findings to one trading agent, with
+- [LumiBot](https://github.com/Lumiwealth/lumibot) — Python framework for AI trading agents: research agents hand findings to one trading agent, with
 - [Markus](https://github.com/markus-global/markus) — Open-source AI workforce platform for building and running teams of AI agents.
 - [Mastra](https://github.com/mastra-ai/mastra) — TypeScript-first AI agent framework with workflows, RAG, and integrations.
 - [MetaGPT](https://github.com/geekan/MetaGPT) — Multi-agent framework that mimics a software company with roles (PM, architect, engineer).
@@ -146,7 +146,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ## Platforms & Low-Code
 
 - [Activepieces](https://github.com/activepieces/activepieces) — Open-source AI workflow automation with 400+ MCP servers for agents.
-- [Agent Barn](https://github.com/aai-labs/agent-barn) - Open-source (Apache-2.0) control plane for AI agents: teams talk to agents in Slack, Teams, Telegram
+- [Agent Barn](https://github.com/aai-labs/agent-barn) — Open-source (Apache-2.0) control plane for AI agents: teams talk to agents in Slack, Teams, Telegram
 - [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) — AWS managed agent service.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) — All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.
 - [Anthropic Claude + Tool Use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) — Claude's function calling and agent capabilities.
@@ -213,7 +213,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.
 - [LeanCTX](https://github.com/yvgude/lean-ctx) — Single-binary Rust context layer between AI coding agents and their environment. Compresses file reads and shell output, caches results, keeps persistent session memory, enforces path-jail security, and tracks token budgets. MCP-native with 30+ agent compatibility. Apache-2.0.
 - [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory (formerly MemGPT).
-- [Lobu](https://github.com/lobu-ai/lobu): Shared company context, identities, approvals and governed actions for AI agents.
+- [Lobu](https://github.com/lobu-ai/lobu) — Shared company context, identities, approvals and governed actions for AI agents.
 - [Mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI agents. Persistent, contextual.
 - [Memori](https://github.com/MemoriLabs/Memori) — Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.
 - [MemPalace](https://github.com/MemPalace/mempalace) — Local-first agent memory that stores conversation history verbatim (no summarizing or extraction) and retrieves it with scoped semantic search over a wings/rooms/drawers index. Pluggable backends (ChromaDB default; SQLite, Rust, Milvus, Qdrant, pgvector), MCP server, and mining of Claude Code sessions; reports 96.6% R@5 on LongMemEval with zero API calls. MIT.

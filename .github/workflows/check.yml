@@ -1,0 +1,31 @@
+name: Check list format
+
+on:
+  pull_request:
+    paths:
+      - README.md
+      - agents.json
+      - scripts/**
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: README.md entries follow the list format
+        run: python3 scripts/build_agents_json.py --check --github
+
+      - name: agents.json is not edited by hand
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if git diff --name-only "$BASE_SHA" HEAD -- agents.json | grep -q .; then
+            echo "::error file=agents.json::agents.json is generated from README.md after merge. Please revert your changes to agents.json and edit README.md only."
+            exit 1
+          fi

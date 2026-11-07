@@ -1,0 +1,64 @@
+name: Build agents.json and landing page
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/**
+      - docs/**
+      - .github/workflows/publish.yml
+  workflow_dispatch:
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Generate agents.json from README.md
+        run: python3 scripts/build_agents_json.py --github
+
+      - name: Commit agents.json if it changed
+        run: |
+          if git diff --quiet -- agents.json && git ls-files --error-unmatch agents.json >/dev/null 2>&1; then
+            echo "agents.json unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add agents.json
+          git commit -m "Regenerate agents.json from README.md"
+          git push
+
+  pages:
+    needs: data
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+
+      - name: Render the landing page
+        run: python3 scripts/build_site.py _site
+
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

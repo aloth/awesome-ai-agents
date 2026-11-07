@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome AI Agents: {{ENTRY_COUNT}} curated AI agent frameworks, tools and papers</title>
+<meta name="description" content="A curated, searchable list of {{ENTRY_COUNT}} AI agent frameworks, coding agents, MCP and agent infrastructure tools, evaluation benchmarks, safety tools and research papers. Free under CC0.">
+<link rel="canonical" href="https://aloth.github.io/awesome-ai-agents/">
+<meta property="og:title" content="Awesome AI Agents">
+<meta property="og:description" content="A curated, searchable list of {{ENTRY_COUNT}} AI agent frameworks, tools, platforms and research papers.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aloth.github.io/awesome-ai-agents/">
+<meta property="og:image" content="https://aloth.github.io/awesome-ai-agents/social-preview.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/json" href="agents.json" title="Awesome AI Agents as JSON">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Awesome AI Agents",
+  "description": "A curated list of AI agent frameworks, tools, platforms, research papers and resources.",
+  "url": "https://aloth.github.io/awesome-ai-agents/",
+  "sameAs": "https://github.com/aloth/awesome-ai-agents",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isAccessibleForFree": true,
+  "dateModified": "{{UPDATED}}",
+  "creator": { "@type": "Person", "name": "Alexander Loth", "url": "https://alexloth.com/" },
+  "distribution": [{ "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aloth.github.io/awesome-ai-agents/agents.json" }]
+}
+</script>
+<style>
+:root{--ink:#15161f;--muted:#5d5e6e;--accent:#6c4cd9;--bg:#f7f7fa;--card:#fff;--line:#e6e6ef}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.hero{text-align:center;padding:64px 20px 28px}
+.hero h1{font-size:44px;line-height:1.1;letter-spacing:-1px;margin-bottom:14px}
+.hero h1 span{color:var(--accent)}
+.lead{font-size:19px;color:var(--muted);max-width:680px;margin:0 auto 24px}
+.stats{color:var(--muted);font-size:14px;margin-bottom:22px}
+.btn{display:inline-block;background:var(--ink);color:#fff;font-weight:700;font-size:15px;padding:12px 24px;border-radius:12px;text-decoration:none;margin:4px}
+.btn.alt{background:var(--accent)}
+.tools{position:sticky;top:0;z-index:5;background:rgba(247,247,250,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:14px 0}
+#q{width:100%;font-size:17px;padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:#fff;outline:none}
+#q:focus{border-color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 12px;font-size:13px;cursor:pointer;color:var(--ink)}
+.chip span{color:var(--muted)}
+.chip.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chip.active span{color:#c9c9d6}
+#status{font-size:13px;color:var(--muted);margin-top:8px;min-height:1.2em}
+.category{padding-top:34px}
+.category h2{font-size:26px;margin-bottom:6px}
+.count{font-size:14px;color:var(--muted);font-weight:500}
+.group h3{font-size:15px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin:18px 0 10px}
+.entries{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.entry{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column}
+.entry .name{font-weight:700;font-size:16px;text-decoration:none}
+.entry .name:hover{color:var(--accent);text-decoration:underline}
+.entry .year{color:var(--muted);font-size:13px}
+.entry p{font-size:14px;color:#333440;margin:6px 0 8px;flex:1}
+.entry .host{font-size:12px;color:var(--muted)}
+.hidden{display:none!important}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+footer{margin:60px 0 40px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;text-align:center}
+footer a{color:var(--ink)}
+@media(max-width:600px){.hero{padding-top:40px}.hero h1{font-size:34px}.entries{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="hero wrap">
+<h1>Awesome <span>AI Agents</span></h1>
+<p class="lead">A curated list of AI agent frameworks, coding agents, agent infrastructure, evaluation and safety tools, and research papers.</p>
+<p class="stats">{{ENTRY_COUNT}} entries in {{CATEGORY_COUNT}} categories &middot; updated {{UPDATED}} &middot; CC0</p>
+<a class="btn" href="https://github.com/aloth/awesome-ai-agents">View on GitHub</a>
+<a class="btn alt" href="https://github.com/aloth/awesome-ai-agents/blob/main/CONTRIBUTING.md">Suggest a project</a>
+<a class="btn" href="agents.json">Download JSON</a>
+</header>
+
+<div class="tools">
+<div class="wrap">
+<input id="q" type="search" placeholder="Search {{ENTRY_COUNT}} entries, e.g. MCP, memory, browser, benchmark" aria-label="Search the list" autocomplete="off">
+<div class="chips" role="group" aria-label="Filter by category">
+{{FILTERS}}
+</div>
+<div id="status" aria-live="polite"></div>
+</div>
+</div>
+
+<main class="wrap" id="list">
+{{LIST}}
+<p class="empty hidden" id="empty">No entries match. <a href="https://github.com/aloth/awesome-ai-agents/issues/new?template=add-project.yml">Suggest a project</a>.</p>
+</main>
+
+<footer class="wrap">
+<p>Maintained by <a href="https://alexloth.com/">Alexander Loth</a>. The list lives in <a href="https://github.com/aloth/awesome-ai-agents/blob/main/README.md">README.md</a>; this page and <a href="agents.json">agents.json</a> are generated from it.</p>
+<p>Inclusion does not imply endorsement.</p>
+</footer>
+
+<script>
+(function () {
+  var q = document.getElementById("q");
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
+  var sections = Array.prototype.slice.call(document.querySelectorAll(".category"));
+  var status = document.getElementById("status");
+  var empty = document.getElementById("empty");
+  var filter = "all";
+
+  function apply() {
+    var terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    var shown = 0;
+    sections.forEach(function (section) {
+      var inCategory = filter === "all" || section.dataset.category === filter;
+      var sectionShown = 0;
+      section.querySelectorAll(".group").forEach(function (group) {
+        var groupShown = 0;
+        group.querySelectorAll(".entry").forEach(function (entry) {
+          var hay = entry.dataset.search;
+          var ok = inCategory && terms.every(function (t) { return hay.indexOf(t) !== -1; });
+          entry.classList.toggle("hidden", !ok);
+          if (ok) groupShown++;
+        });
+        group.classList.toggle("hidden", groupShown === 0);
+        sectionShown += groupShown;
+      });
+      section.classList.toggle("hidden", sectionShown === 0);
+      shown += sectionShown;
+    });
+    empty.classList.toggle("hidden", shown !== 0);
+    status.textContent = terms.length || filter !== "all" ? shown + " matching entries" : "";
+  }
+
+  q.addEventListener("input", apply);
+  chips.forEach(function (chip) {
+    chip.addEventListener("click", function () {
+      filter = chip.dataset.filter;
+      chips.forEach(function (c) { c.classList.toggle("active", c === chip); });
+      apply();
+    });
+  });
+  var initial = new URLSearchParams(location.search).get("q");
+  if (initial) { q.value = initial; apply(); }
+})();
+</script>
+</body>
+</html>

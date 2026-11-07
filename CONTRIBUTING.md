@@ -16,8 +16,10 @@
 **Ready to submit?** Open a PR:
 
 1. Fork this repository
-2. Add your entry in the appropriate section
+2. Add your entry in the appropriate section of `README.md`, as one line in the form `- [Name](https://...) — Description`
 3. Submit a PR with a brief explanation of why it belongs here
+
+**Edit `README.md` only.** `agents.json` and the [landing page](https://aloth.github.io/awesome-ai-agents/) are generated from `README.md` after your PR is merged. A PR that changes `agents.json` fails the format check. The check also reports entries that do not follow the line format above.
 
 ## Quality Checks
 
