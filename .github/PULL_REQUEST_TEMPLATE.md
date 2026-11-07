@@ -2,16 +2,15 @@
 
 **Section:** <!-- e.g. Agent Skills & Tools, Code Agents -->
 
-**Description:** <!-- One-line, max ~15 words -->
+**Description:** <!-- One sentence, ideally under 25 words -->
 
 ---
 
 ### Checklist
 
-- [ ] 100+ GitHub stars OR from a major organization
-- [ ] Actively maintained (updated within last 6 months)
+- [ ] Meets the requirement for its kind (see the table in CONTRIBUTING.md)
 - [ ] Link works and is not behind a paywall
-- [ ] Description is concise (max ~15 words)
+- [ ] Description is one sentence, ideally under 25 words
 - [ ] Correct alphabetical placement within the section
 - [ ] No duplicates (searched existing entries)
 - [ ] Dash style matches the list (use ` — ` between name and description)

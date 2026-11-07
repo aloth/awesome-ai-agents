@@ -29,7 +29,7 @@ body:
     id: stars
     attributes:
       label: GitHub stars (approximate)
-      description: "Minimum 100 stars required, or from a major organization"
+      description: "Open-source projects need 100+ stars or an established organization. Enter n/a for products, papers and courses."
       placeholder: "e.g. 450"
     validations:
       required: true
@@ -66,7 +66,7 @@ body:
     id: description
     attributes:
       label: One-line description
-      description: "Max ~15 words. Describe what it does, not why it's great."
+      description: "One sentence, ideally under 25 words. Describe what it does, not why it's great."
       placeholder: "e.g. Lightweight Python framework for multi-agent collaboration."
     validations:
       required: true
@@ -84,9 +84,7 @@ body:
     attributes:
       label: Pre-submission checklist
       options:
-        - label: "Project has 100+ GitHub stars OR is from a major organization"
-          required: true
-        - label: "Project is actively maintained (updated within last 6 months)"
+        - label: "The entry meets the requirement for its kind in CONTRIBUTING.md (open-source project, product, paper, or course)"
           required: true
         - label: "Link works and is not behind a paywall"
           required: true
