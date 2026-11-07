@@ -8,6 +8,9 @@ on:
       - scripts/**
       - docs/**
       - .github/workflows/publish.yml
+  schedule:
+    # Daily rebuild of the page so star counts stay current. No commit is made.
+    - cron: "17 4 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -16,11 +19,14 @@ concurrency:
 
 jobs:
   data:
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0  # "added" and "removed_entries" come from the README.md history
 
       - name: Generate agents.json from README.md
         run: python3 scripts/build_agents_json.py --github
@@ -39,8 +45,10 @@ jobs:
 
   pages:
     needs: data
+    if: always() && (needs.data.result == 'success' || needs.data.result == 'skipped')
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
@@ -52,6 +60,8 @@ jobs:
           ref: main
 
       - name: Render the landing page
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/build_site.py _site
 
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0

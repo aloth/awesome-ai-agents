@@ -8,11 +8,17 @@ Usage:
     python3 scripts/build_agents_json.py           # write agents.json
     python3 scripts/build_agents_json.py --check   # validate README.md only
 
+Writing agents.json reads the git history of README.md to date every entry
+("added") and to list entries that were removed ("removed_entries"). This
+needs a full clone (actions/checkout with fetch-depth: 0). --check does not.
+
 Standard library only.
 """
 
+import datetime
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -35,6 +41,8 @@ ENTRY = re.compile(
     r"(?P<sep> \u2014 |: | - )(?P<desc>\S.*)$"
 )
 INLINE_LINK = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
+# Lenient form used for old README versions, which did not all follow the format.
+LOOSE_ENTRY = re.compile(r"^- \[(?P<name>[^\]]+)\]\((?P<url>https?://[^)\s]+)\)(?P<rest>.*)$")
 
 
 def slugify(text):
@@ -107,7 +115,103 @@ def parse(readme_text):
     return entries, categories, errors
 
 
+def url_key(url):
+    return url.rstrip("/").lower()
+
+
+def git(*args):
+    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, check=True).stdout
+
+
+def loose_entries(readme_text):
+    """Entries of any README version: {url_key: (name, url, description, category, subcategory)}."""
+    found, category, subcategory = {}, None, None
+    for line in readme_text.splitlines():
+        if line.startswith("## "):
+            category, subcategory = line[3:].strip(), None
+        elif line.startswith("### "):
+            subcategory = line[4:].strip()
+        elif category not in SKIPPED_SECTIONS:
+            match = LOOSE_ENTRY.match(line.rstrip())
+            if match:
+                rest = re.sub(r"^(?: \(\d{4}\))?\s*(?:\u2014|-|:)\s*", "", match.group("rest")).strip()
+                found[url_key(match.group("url"))] = (match.group("name").strip(), match.group("url"), rest, category, subcategory)
+    return found
+
+
+def same_project(old, new):
+    """Whether a removed and an added line in one commit are the same project under a new link."""
+    old_name, new_name = old[0].lower(), new[0].lower()
+    if old_name == new_name or old_name in new_name or new_name in old_name:
+        return True
+    return f"formerly {old_name}" in new[2].lower()
+
+
+def history():
+    """Replay the git history of README.md.
+
+    Returns (added, previous_urls, removed). A link that changes in a commit
+    that also removes the old link of the same project (same name, or the new
+    description says "formerly <old name>", or the only change in that section)
+    counts as a move: the entry keeps its original date.
+    """
+    if git("rev-parse", "--is-shallow-repository").strip() == "true":
+        raise SystemExit("agents.json needs the full git history; use actions/checkout with fetch-depth: 0")
+    commits = git("log", "--first-parent", "--reverse", "--format=%H %ct", "--", "README.md").split()
+    added, previous, removed, alive = {}, {}, {}, {}
+    for sha, stamp in zip(commits[0::2], commits[1::2]):
+        day = datetime.datetime.fromtimestamp(int(stamp), datetime.timezone.utc).date().isoformat()
+        now = loose_entries(git("show", f"{sha}:README.md"))
+        gone = [k for k in alive if k not in now]
+        new = [k for k in now if k not in alive]
+        pairs = {}
+        for k in new:
+            match = [g for g in gone if g not in pairs.values() and same_project(alive[g], now[k])]
+            if len(match) == 1:
+                pairs[k] = match[0]
+        for k in new:
+            if k in pairs:
+                continue
+            section = (now[k][3], now[k][4])
+            left_new = [n for n in new if n not in pairs and (now[n][3], now[n][4]) == section]
+            left_gone = [g for g in gone if g not in pairs.values() and (alive[g][3], alive[g][4]) == section]
+            if len(left_new) == 1 and len(left_gone) == 1:
+                pairs[k] = left_gone[0]
+        for k in new:
+            if k in pairs:
+                old = pairs[k]
+                added[k] = added.pop(old)
+                previous[k] = previous.pop(old, []) + [alive[old][1]]
+            elif k in removed:
+                added[k] = removed.pop(k)["added"]
+            else:
+                added.setdefault(k, day)
+        for g in gone:
+            if g in pairs.values():
+                continue
+            name, url, description, category, subcategory = alive[g]
+            removed[g] = {
+                "name": name, "url": url, "description": plain(description),
+                "category": category, "subcategory": subcategory,
+                "added": added.pop(g), "removed": day,
+            }
+            if g in previous:
+                removed[g]["previous_urls"] = previous.pop(g)
+        alive = now
+    first_day = None
+    if commits:
+        first_day = datetime.datetime.fromtimestamp(int(commits[1]), datetime.timezone.utc).date().isoformat()
+    return added, previous, sorted(removed.values(), key=lambda r: (r["removed"], r["name"].lower())), first_day
+
+
 def build(entries, categories):
+    added, previous, removed, first_day = history()
+    today = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+    for entry in entries:
+        key = url_key(entry["url"])
+        entry["added"] = added.get(key, today)
+        if previous.get(key):
+            entry["previous_urls"] = previous[key]
     return {
         "name": "Awesome AI Agents",
         "description": "A curated list of AI agent frameworks, tools, platforms, research papers and resources.",
@@ -117,9 +221,16 @@ def build(entries, categories):
         "license": "CC0-1.0",
         "repository": REPOSITORY,
         "homepage": HOMEPAGE,
+        "fields": {
+            "added": f"UTC date of the commit that first put the entry on the list. {first_day} is the date the list was created; entries with that date were part of the initial list.",
+            "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
+            "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed.",
+        },
         "entry_count": len(entries),
+        "removed_count": len(removed),
         "categories": categories,
         "entries": entries,
+        "removed_entries": removed,
     }
 
 

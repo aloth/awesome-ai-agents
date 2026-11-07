@@ -60,7 +60,11 @@ a{color:inherit}
 .entry .name:hover{color:var(--accent);text-decoration:underline}
 .entry .year{color:var(--muted);font-size:13px}
 .entry p{font-size:14px;color:#333440;margin:6px 0 8px;flex:1}
-.entry .host{font-size:12px;color:var(--muted)}
+.entry .meta{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--muted)}
+.entry .stars{white-space:nowrap;font-weight:600;color:#7a5c00}
+.toolbar{display:flex;gap:10px;align-items:center}
+.toolbar #q{flex:1}
+#sort{font-size:15px;padding:11px 10px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
 .hidden{display:none!important}
 .empty{padding:40px 0;text-align:center;color:var(--muted)}
 footer{margin:60px 0 40px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;text-align:center}
@@ -80,7 +84,14 @@ footer a{color:var(--ink)}
 
 <div class="tools">
 <div class="wrap">
+<div class="toolbar">
 <input id="q" type="search" placeholder="Search {{ENTRY_COUNT}} entries, e.g. MCP, memory, browser, benchmark" aria-label="Search the list" autocomplete="off">
+<select id="sort" aria-label="Sort entries">
+<option value="name">A to Z</option>
+<option value="stars">Most stars</option>
+<option value="added">Recently added</option>
+</select>
+</div>
 <div class="chips" role="group" aria-label="Filter by category">
 {{FILTERS}}
 </div>
@@ -130,6 +141,22 @@ footer a{color:var(--ink)}
     empty.classList.toggle("hidden", shown !== 0);
     status.textContent = terms.length || filter !== "all" ? shown + " matching entries" : "";
   }
+
+  var sort = document.getElementById("sort");
+  var lists = Array.prototype.slice.call(document.querySelectorAll(".entries"));
+  function order() {
+    var key = sort.value;
+    lists.forEach(function (ul) {
+      var items = Array.prototype.slice.call(ul.children);
+      items.sort(function (a, b) {
+        if (key === "stars") return (+b.dataset.stars) - (+a.dataset.stars) || a.dataset.name.localeCompare(b.dataset.name);
+        if (key === "added") return b.dataset.added.localeCompare(a.dataset.added) || a.dataset.name.localeCompare(b.dataset.name);
+        return a.dataset.name.localeCompare(b.dataset.name);
+      });
+      items.forEach(function (li) { ul.appendChild(li); });
+    });
+  }
+  sort.addEventListener("change", order);
 
   q.addEventListener("input", apply);
   chips.forEach(function (chip) {

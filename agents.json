@@ -7,7 +7,13 @@
   "license": "CC0-1.0",
   "repository": "https://github.com/aloth/awesome-ai-agents",
   "homepage": "https://aloth.github.io/awesome-ai-agents/",
+  "fields": {
+    "added": "UTC date of the commit that first put the entry on the list. 2026-02-18 is the date the list was created; entries with that date were part of the initial list.",
+    "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
+    "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
+  },
   "entry_count": 258,
+  "removed_count": 5,
   "categories": [
     {
       "name": "Frameworks & Libraries",
@@ -132,7 +138,8 @@
       "description": "Successor to AutoGen. Multi-agent framework with improved APIs.",
       "description_markdown": "Successor to AutoGen. Multi-agent framework with improved APIs.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-18"
     },
     {
       "name": "Agent Swarm",
@@ -140,7 +147,8 @@
       "description": "Multi-agent orchestration for AI coding assistants (Claude Code, Codex, Gemini CLI). Lead/worker coordination with Docker isolation, compounding memory, and Slack/GitHub integration.",
       "description_markdown": "Multi-agent orchestration for AI coding assistants (Claude Code, Codex, Gemini CLI). Lead/worker coordination with Docker isolation, compounding memory, and Slack/GitHub integration.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-04-19"
     },
     {
       "name": "AgentField",
@@ -148,7 +156,8 @@
       "description": "Open-source control plane that makes AI agents callable as microservices. Routing, coordination, memory, async execution, and cryptographic audit trails. Supports Python, Go, and TypeScript.",
       "description_markdown": "Open-source control plane that makes AI agents callable as microservices. Routing, coordination, memory, async execution, and cryptographic audit trails. Supports Python, Go, and TypeScript.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-04-05"
     },
     {
       "name": "AgentScope",
@@ -156,7 +165,8 @@
       "description": "Alibaba's production-ready agent framework with essential abstractions, built-in fine-tuning support, and a visual drag-and-drop interface.",
       "description_markdown": "Alibaba's production-ready agent framework with essential abstractions, built-in fine-tuning support, and a visual drag-and-drop interface.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-03-08"
     },
     {
       "name": "Agno",
@@ -164,7 +174,8 @@
       "description": "Programming language for agentic software. Build and manage multi-agent systems at scale.",
       "description_markdown": "Programming language for agentic software. Build and manage multi-agent systems at scale.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-18"
     },
     {
       "name": "AutoGen",
@@ -172,7 +183,8 @@
       "description": "Microsoft's multi-agent conversation framework. Supports complex agent topologies.",
       "description_markdown": "Microsoft's multi-agent conversation framework. Supports complex agent topologies.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-18"
     },
     {
       "name": "CAMEL",
@@ -180,7 +192,8 @@
       "description": "Communicative agents for role-playing and multi-agent cooperation. First LLM multi-agent framework.",
       "description_markdown": "Communicative agents for role-playing and multi-agent cooperation. First LLM multi-agent framework.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-27"
     },
     {
       "name": "CopilotKit",
@@ -188,7 +201,8 @@
       "description": "Frontend stack for building agent-powered apps with Generative UI. React, Angular, and mobile support; creators of the AG-UI Protocol (adopted by Google, LangChain, AWS, Microsoft, Mastra, and PydanticAI). MIT.",
       "description_markdown": "Frontend stack for building agent-powered apps with Generative UI. React, Angular, and mobile support; creators of the AG-UI Protocol (adopted by Google, LangChain, AWS, Microsoft, Mastra, and PydanticAI). MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-06-28"
     },
     {
       "name": "CrewAI",
@@ -196,7 +210,8 @@
       "description": "Role-based multi-agent framework. Agents with roles, goals, and backstories.",
       "description_markdown": "Role-based multi-agent framework. Agents with roles, goals, and backstories.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-18"
     },
     {
       "name": "Cumora",
@@ -204,7 +219,8 @@
       "description": "Cross-platform team chat where AI agents are first-class teammates alongside humans: same roster, DMs, group rooms, Kanban board, and calendar. Agents keep personas and memory, claim work, send and receive real email, and coordinate without colliding (a server-side freshness gate holds stale replies until the agent has seen newer messages). Run agents in Cumora's cloud or bring your own (Claude Code, Codex, Grok Build, Cursor Agent, OpenCode, pi, Gemini CLI, Qwen Code) via a local daemon. Desktop, web, and iOS beta. MIT.",
       "description_markdown": "Cross-platform team chat where AI agents are first-class teammates alongside humans: same roster, DMs, group rooms, Kanban board, and calendar. Agents keep personas and memory, claim work, send and receive real email, and coordinate without colliding (a server-side freshness gate holds stale replies until the agent has seen newer messages). Run agents in Cumora's cloud or bring your own (Claude Code, Codex, Grok Build, Cursor Agent, OpenCode, pi, Gemini CLI, Qwen Code) via a local daemon. Desktop, web, and iOS beta. MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-10-18"
     },
     {
       "name": "DeerFlow",
@@ -212,7 +228,8 @@
       "description": "ByteDance's open-source long-horizon SuperAgent harness. Orchestrates sub-agents, sandboxes, memory, tools, and skills for tasks spanning minutes to hours. Hit #1 GitHub Trending with v2.0 (Feb 2026).",
       "description_markdown": "ByteDance's open-source long-horizon SuperAgent harness. Orchestrates sub-agents, sandboxes, memory, tools, and skills for tasks spanning minutes to hours. Hit #1 GitHub Trending with v2.0 (Feb 2026).",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-03-29"
     },
     {
       "name": "dimos",
@@ -220,7 +237,8 @@
       "description": "Agentic operating system for physical space. Build multi-agent systems that control humanoids, quadrupeds, drones, and other hardware via natural language.",
       "description_markdown": "Agentic operating system for physical space. Build multi-agent systems that control humanoids, quadrupeds, drones, and other hardware via natural language.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-03-22"
     },
     {
       "name": "firstmate",
@@ -228,7 +246,8 @@
       "description": "Agent distro for running a crew of coding agents. You talk to one \"first mate\" that spawns autonomous workers, gives each a clean git worktree, supervises them to completion, and hands back PRs or approved local merges. Nothing to install: the cloned repo (AGENTS.md, skills, helper scripts) runs inside Claude Code, Codex, Pi, OpenCode, Grok, or Cursor Agent CLI, with every worker visible in a tmux, Herdr, or Zellij pane. MIT.",
       "description_markdown": "Agent distro for running a crew of coding agents. You talk to one \"first mate\" that spawns autonomous workers, gives each a clean git worktree, supervises them to completion, and hands back PRs or approved local merges. Nothing to install: the cloned repo (AGENTS.md, skills, helper scripts) runs inside Claude Code, Codex, Pi, OpenCode, Grok, or Cursor Agent CLI, with every worker visible in a tmux, Herdr, or Zellij pane. MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-10-11"
     },
     {
       "name": "Google Agent Development Kit (ADK)",
@@ -236,7 +255,8 @@
       "description": "Google's open-source, code-first Python framework for building multi-agent systems with A2A support.",
       "description_markdown": "Google's open-source, code-first Python framework for building multi-agent systems with A2A support.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-27"
     },
     {
       "name": "Harmonist",
@@ -244,7 +264,8 @@
       "description": "Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies.",
       "description_markdown": "Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-05-17"
     },
     {
       "name": "LangGraph",
@@ -252,7 +273,8 @@
       "description": "Stateful agent workflows as graphs. Part of the LangChain ecosystem.",
       "description_markdown": "Stateful agent workflows as graphs. Part of the LangChain ecosystem.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-18"
     },
     {
       "name": "LightAgent",
@@ -260,7 +282,8 @@
       "description": "Lightweight Python agent framework with tools, memory, MCP/SSE, Skills, workflows, and LightSwarm.",
       "description_markdown": "Lightweight Python agent framework with tools, memory, MCP/SSE, Skills, workflows, and LightSwarm.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-08-02"
     },
     {
       "name": "LumiBot",
@@ -268,7 +291,8 @@
       "description": "Python framework for AI trading agents: research agents hand findings to one trading agent, with",
       "description_markdown": "Python framework for AI trading agents: research agents hand findings to one trading agent, with",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-10-25"
     },
     {
       "name": "Markus",
@@ -276,7 +300,8 @@
       "description": "Open-source AI workforce platform for building and running teams of AI agents.",
       "description_markdown": "Open-source AI workforce platform for building and running teams of AI agents.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-10-11"
     },
     {
       "name": "Mastra",
@@ -284,7 +309,8 @@
       "description": "TypeScript-first AI agent framework with workflows, RAG, and integrations.",
       "description_markdown": "TypeScript-first AI agent framework with workflows, RAG, and integrations.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-27"
     },
     {
       "name": "MetaGPT",
@@ -292,7 +318,11 @@
       "description": "Multi-agent framework that mimics a software company with roles (PM, architect, engineer).",
       "description_markdown": "Multi-agent framework that mimics a software company with roles (PM, architect, engineer).",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/geekan/MetaGPT"
+      ]
     },
     {
       "name": "Microsoft Agent Framework",
@@ -300,7 +330,8 @@
       "description": "Framework for building, orchestrating and deploying multi-agent workflows (Python + .NET).",
       "description_markdown": "Framework for building, orchestrating and deploying multi-agent workflows (Python + .NET).",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-18"
     },
     {
       "name": "MiroFish",
@@ -308,7 +339,8 @@
       "description": "Concise and universal swarm intelligence engine for forecasting and prediction. Upload seed material, describe goals in natural language, get a detailed prediction report and an interactive simulation.",
       "description_markdown": "Concise and universal swarm intelligence engine for forecasting and prediction. Upload seed material, describe goals in natural language, get a detailed prediction report and an interactive simulation.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-03-15"
     },
     {
       "name": "Octochains",
@@ -316,7 +348,8 @@
       "description": "Parallel isolated multi-agent reasoning with centralized  aggregation for high-stakes decision-making.",
       "description_markdown": "Parallel isolated multi-agent reasoning with centralized  aggregation for high-stakes decision-making.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-08-01"
     },
     {
       "name": "Omnigent",
@@ -324,7 +357,8 @@
       "description": "Open-source meta-harness that orchestrates Claude Code, Codex, Cursor, OpenCode, Hermes, and Pi under one policy/sandboxing layer. Cloud sandboxes (Modal, Daytona, E2B, Kubernetes, Databricks), live multi-device session sharing, and YAML-defined sub-agents. Apache-2.0.",
       "description_markdown": "Open-source meta-harness that orchestrates Claude Code, Codex, Cursor, OpenCode, Hermes, and Pi under one policy/sandboxing layer. Cloud sandboxes (Modal, Daytona, E2B, Kubernetes, Databricks), live multi-device session sharing, and YAML-defined sub-agents. Apache-2.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-07-19"
     },
     {
       "name": "OpenAI Agents SDK",
@@ -332,7 +366,8 @@
       "description": "OpenAI's production framework for multi-agent orchestration with handoffs and guardrails.",
       "description_markdown": "OpenAI's production framework for multi-agent orchestration with handoffs and guardrails.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-27"
     },
     {
       "name": "Orkas",
@@ -340,7 +375,8 @@
       "description": "Open-source desktop workspace for coordinating specialist AI agents in parallel or sequence.",
       "description_markdown": "Open-source desktop workspace for coordinating specialist AI agents in parallel or sequence.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-07-26"
     },
     {
       "name": "Paperclip",
@@ -348,7 +384,8 @@
       "description": "Open-source, self-hosted control plane for running teams of AI agents like a company. Node.js server and React UI with a mixed human/agent org chart, goal-linked tasks, heartbeat scheduling, per-agent budgets, and approval gates. Bring your own agents (OpenClaw, Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Pi, Hermes). 95K+ stars, MIT.",
       "description_markdown": "Open-source, self-hosted control plane for running teams of AI agents like a company. Node.js server and React UI with a mixed human/agent org chart, goal-linked tasks, heartbeat scheduling, per-agent budgets, and approval gates. Bring your own agents (OpenClaw, Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Pi, Hermes). 95K+ stars, MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-10-04"
     },
     {
       "name": "QM",
@@ -356,7 +393,8 @@
       "description": "Y Combinator's open-source multiplayer agent harness for companies. Personal and shared scopes, Slack + web UI, org-level policy/security posture, shared skills, crons, and durable sandboxes. Pluggable coding loops (Pi, OpenCode, Codex, Claude Code). MIT.",
       "description_markdown": "Y Combinator's open-source multiplayer agent harness for companies. Personal and shared scopes, Slack + web UI, org-level policy/security posture, shared skills, crons, and durable sandboxes. Pluggable coding loops (Pi, OpenCode, Codex, Claude Code). MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-08-09"
     },
     {
       "name": "Raven",
@@ -364,7 +402,8 @@
       "description": "Harness of harnesses: plans tasks as DAGs and delegates them to built-in and third-party agents.",
       "description_markdown": "Harness of harnesses: plans tasks as DAGs and delegates them to built-in and third-party agents.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-10-06"
     },
     {
       "name": "Ruflo",
@@ -372,7 +411,8 @@
       "description": "Agent orchestration platform optimized for Claude. Features self-learning swarms, distributed intelligence, RAG integration, and native Claude Code/Codex integration. Formerly claude-flow.",
       "description_markdown": "Agent orchestration platform optimized for Claude. Features self-learning swarms, distributed intelligence, RAG integration, and native Claude Code/Codex integration. Formerly claude-flow.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-03-29"
     },
     {
       "name": "Semantic Kernel",
@@ -380,7 +420,8 @@
       "description": "Microsoft's SDK for AI orchestration. Plugins, planners, and memory.",
       "description_markdown": "Microsoft's SDK for AI orchestration. Plugins, planners, and memory.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-18"
     },
     {
       "name": "Sno Station",
@@ -388,7 +429,8 @@
       "description": "Runs Codex, Claude Code, Cursor and OpenClaw as one team: handoff at usage limits, cross-review.",
       "description_markdown": "Runs Codex, Claude Code, Cursor and OpenClaw as one team: handoff at usage limits, cross-review.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-11-02"
     },
     {
       "name": "Strands Agents",
@@ -396,7 +438,8 @@
       "description": "AWS's model-driven, open-source SDK for building production AI agents in Python and TypeScript. Any model, any cloud, with MCP support and 23M+ monthly PyPI downloads. Apache-2.0.",
       "description_markdown": "AWS's model-driven, open-source SDK for building production AI agents in Python and TypeScript. Any model, any cloud, with MCP support and 23M+ monthly PyPI downloads. Apache-2.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-06-21"
     },
     {
       "name": "Claude Agent SDK",
@@ -404,7 +447,8 @@
       "description": "Anthropic's production SDK for building AI agents powered by Claude. Stateful sessions, tool execution, sandboxing, and streaming. Available in Python and TypeScript.",
       "description_markdown": "Anthropic's production SDK for building AI agents powered by Claude. Stateful sessions, tool execution, sandboxing, and streaming. Available in Python and [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript).",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-06-21"
     },
     {
       "name": "CUGA",
@@ -412,7 +456,8 @@
       "description": "IBM Research generalist agent for API and web tasks, with policies and human approval.",
       "description_markdown": "IBM Research generalist agent for API and web tasks, with policies and human approval.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-10-19"
     },
     {
       "name": "GenericAgent",
@@ -420,7 +465,8 @@
       "description": "Self-evolving agent that grows its own skill tree from ~3K lines of seed code. 9 atomic tools for full system control (browser, terminal, filesystem, screen vision) with automatic skill crystallization.",
       "description_markdown": "Self-evolving agent that grows its own skill tree from ~3K lines of seed code. 9 atomic tools for full system control (browser, terminal, filesystem, screen vision) with automatic skill crystallization.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-04-19"
     },
     {
       "name": "Haystack",
@@ -428,7 +474,8 @@
       "description": "End-to-end NLP framework with agent pipelines.",
       "description_markdown": "End-to-end NLP framework with agent pipelines.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-02-18"
     },
     {
       "name": "Instructor",
@@ -436,7 +483,11 @@
       "description": "Structured output from LLMs. Essential for reliable tool use.",
       "description_markdown": "Structured output from LLMs. Essential for reliable tool use.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/jxnl/instructor"
+      ]
     },
     {
       "name": "LangChain",
@@ -444,7 +495,8 @@
       "description": "The most popular LLM application framework. Agents, chains, tools.",
       "description_markdown": "The most popular LLM application framework. Agents, chains, tools.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-02-18"
     },
     {
       "name": "LangChain Deep Agents",
@@ -452,7 +504,8 @@
       "description": "LangChain's batteries-included, opinionated agent harness built on LangGraph. Filesystem, sub-agent spawning, todo tracking, and skills bundled in; extend or replace any piece. Model-agnostic, MIT. Also available as Deep Agents.js.",
       "description_markdown": "LangChain's batteries-included, opinionated agent harness built on LangGraph. Filesystem, sub-agent spawning, todo tracking, and skills bundled in; extend or replace any piece. Model-agnostic, MIT. Also available as [Deep Agents.js](https://github.com/langchain-ai/deepagentsjs).",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-08-09"
     },
     {
       "name": "LlamaIndex",
@@ -460,7 +513,8 @@
       "description": "Data framework for LLM apps. Strong RAG and data agent support.",
       "description_markdown": "Data framework for LLM apps. Strong RAG and data agent support.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-02-18"
     },
     {
       "name": "PydanticAI",
@@ -468,7 +522,8 @@
       "description": "GenAI agent framework, the Pydantic way. Type-safe and production-ready.",
       "description_markdown": "GenAI agent framework, the Pydantic way. Type-safe and production-ready.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-02-18"
     },
     {
       "name": "smolagents",
@@ -476,7 +531,8 @@
       "description": "Hugging Face's lightweight agent library. ~1,000 lines of focused code, easy to understand and extend.",
       "description_markdown": "Hugging Face's lightweight agent library. ~1,000 lines of focused code, easy to understand and extend.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-02-27"
     },
     {
       "name": "TrueForge",
@@ -484,7 +540,8 @@
       "description": "Open-source agent harness: the runtime layer that turns any LLM into a working agent. Model-agnostic loop, tool registry, and session state for production deployments. MIT.",
       "description_markdown": "Open-source agent harness: the runtime layer that turns any LLM into a working agent. Model-agnostic loop, tool registry, and session state for production deployments. MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Single Agent"
+      "subcategory": "Single Agent",
+      "added": "2026-08-23"
     },
     {
       "name": "Aider",
@@ -492,7 +549,11 @@
       "description": "AI pair programming in the terminal.",
       "description_markdown": "AI pair programming in the terminal.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/paul-gauthier/aider"
+      ]
     },
     {
       "name": "Atomic Agent",
@@ -500,7 +561,8 @@
       "description": "Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine. MIT.",
       "description_markdown": "Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine. MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-08-13"
     },
     {
       "name": "Claude Code",
@@ -508,7 +570,8 @@
       "description": "Anthropic's agentic coding tool. Terminal-based, strong at complex refactors and multi-file changes.",
       "description_markdown": "Anthropic's agentic coding tool. Terminal-based, strong at complex refactors and multi-file changes.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-27"
     },
     {
       "name": "Codex",
@@ -516,7 +579,8 @@
       "description": "OpenAI's cloud-based coding agent. Runs tasks in sandboxed environments, integrates with GitHub.",
       "description_markdown": "OpenAI's cloud-based coding agent. Runs tasks in sandboxed environments, integrates with GitHub.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-27"
     },
     {
       "name": "Cursor",
@@ -524,7 +588,8 @@
       "description": "AI-first code editor with agent capabilities.",
       "description_markdown": "AI-first code editor with agent capabilities.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-18"
     },
     {
       "name": "dcode",
@@ -532,7 +597,8 @@
       "description": "Open-source terminal coding agent by LangChain. Model-agnostic with persistent memory and sandboxing.",
       "description_markdown": "Open-source terminal coding agent by LangChain. Model-agnostic with persistent memory and sandboxing.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-08-12"
     },
     {
       "name": "DeepSeek Harness",
@@ -540,7 +606,8 @@
       "description": "DeepSeek's plugin-first, provider-agnostic agent harness (\"everything is a plugin\"). Inference, tools, sessions, agent loop, sandbox, and web UI are all swappable modules. Works with DeepSeek, Anthropic, OpenAI, Bedrock, Vertex, Azure, and OpenAI-compatible endpoints. MIT, developer preview.",
       "description_markdown": "DeepSeek's plugin-first, provider-agnostic agent harness (\"everything is a plugin\"). Inference, tools, sessions, agent loop, sandbox, and web UI are all swappable modules. Works with DeepSeek, Anthropic, OpenAI, Bedrock, Vertex, Azure, and OpenAI-compatible endpoints. MIT, developer preview.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-08-23"
     },
     {
       "name": "Devin",
@@ -548,7 +615,8 @@
       "description": "Cognition's autonomous software engineer. Full environment with browser, editor, and terminal.",
       "description_markdown": "Cognition's autonomous software engineer. Full environment with browser, editor, and terminal.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-27"
     },
     {
       "name": "fx",
@@ -556,7 +624,8 @@
       "description": "Vercel Labs' tiny native coding agent CLI written in Zig. Model-agnostic (AI Gateway, ChatGPT or Grok subscriptions, or any OpenAI-compatible endpoint such as Ollama), shell-style inline output that keeps your scrollback, one-shot fx ask for scripts, and embeddable via the libfx WebAssembly SDK or the Agent Client Protocol (ACP). Skills, MCP, and subagents. Apache-2.0, experimental.",
       "description_markdown": "Vercel Labs' tiny native coding agent CLI written in Zig. Model-agnostic (AI Gateway, ChatGPT or Grok subscriptions, or any OpenAI-compatible endpoint such as Ollama), shell-style inline output that keeps your scrollback, one-shot `fx ask` for scripts, and embeddable via the libfx WebAssembly SDK or the Agent Client Protocol (ACP). Skills, MCP, and subagents. Apache-2.0, experimental.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-09-27"
     },
     {
       "name": "Gemini CLI",
@@ -564,7 +633,8 @@
       "description": "Open-source AI agent bringing Gemini directly into your terminal.",
       "description_markdown": "Open-source AI agent bringing Gemini directly into your terminal.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-18"
     },
     {
       "name": "GitHub Copilot",
@@ -572,7 +642,8 @@
       "description": "AI pair programmer with agent mode for multi-file edits, terminal commands, and autonomous task execution.",
       "description_markdown": "AI pair programmer with agent mode for multi-file edits, terminal commands, and autonomous task execution.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-18"
     },
     {
       "name": "Goose",
@@ -580,7 +651,11 @@
       "description": "Block's open-source extensible AI agent for full-cycle development. Desktop app, CLI, and API with native MCP support, 70+ extensions, and LLM-agnostic design. Now under the Linux Foundation's Agentic AI Foundation (AAIF).",
       "description_markdown": "Block's open-source extensible AI agent for full-cycle development. Desktop app, CLI, and API with native MCP support, 70+ extensions, and LLM-agnostic design. Now under the Linux Foundation's Agentic AI Foundation (AAIF).",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-06-14",
+      "previous_urls": [
+        "https://github.com/block/goose"
+      ]
     },
     {
       "name": "Grok Build",
@@ -588,7 +663,8 @@
       "description": "xAI's terminal-based coding agent CLI/TUI, synced from the SpaceXAI monorepo. Full-screen, mouse-interactive, understands the codebase, executes shell commands, supports headless/CI use and editor embedding via the Agent Client Protocol (ACP). Apache-2.0.",
       "description_markdown": "xAI's terminal-based coding agent CLI/TUI, synced from the SpaceXAI monorepo. Full-screen, mouse-interactive, understands the codebase, executes shell commands, supports headless/CI use and editor embedding via the Agent Client Protocol (ACP). Apache-2.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-08-09"
     },
     {
       "name": "herdr",
@@ -596,7 +672,8 @@
       "description": "Terminal workspace runtime for coding agents. Runs Claude Code, Codex, Cursor, OpenCode, and others in panes that keep running through client detach or a dropped SSH connection and restore their layout after a restart; marks each pane working, blocked, or idle; combines local and SSH machines in one window; and exposes a CLI/socket API so agents can spawn panes and prompt each other. Single Rust binary, 40K+ stars, Apache-2.0.",
       "description_markdown": "Terminal workspace runtime for coding agents. Runs Claude Code, Codex, Cursor, OpenCode, and others in panes that keep running through client detach or a dropped SSH connection and restore their layout after a restart; marks each pane working, blocked, or idle; combines local and SSH machines in one window; and exposes a CLI/socket API so agents can spawn panes and prompt each other. Single Rust binary, 40K+ stars, Apache-2.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-09-27"
     },
     {
       "name": "Kimi Code CLI",
@@ -604,7 +681,8 @@
       "description": "Moonshot AI's single-binary terminal coding agent, successor to Kimi CLI. Video input for reviewing screen recordings, AI-native MCP configuration, built-in coder/explore/plan subagents, lifecycle hooks, and Agent Client Protocol (ACP) support for Zed/JetBrains. MIT.",
       "description_markdown": "Moonshot AI's single-binary terminal coding agent, successor to Kimi CLI. Video input for reviewing screen recordings, AI-native MCP configuration, built-in coder/explore/plan subagents, lifecycle hooks, and Agent Client Protocol (ACP) support for Zed/JetBrains. MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-07-26"
     },
     {
       "name": "Kiro",
@@ -612,7 +690,8 @@
       "description": "AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.",
       "description_markdown": "AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-27"
     },
     {
       "name": "MiMoCode",
@@ -620,7 +699,11 @@
       "description": "Xiaomi's open-source terminal-native AI coding agent with cross-session persistent memory, subagent orchestration, and self-improvement via /dream and /distill commands. Fork of OpenCode with SQLite FTS5 memory, task trees, and multi-agent compose mode. 12K+ stars, MIT.",
       "description_markdown": "Xiaomi's open-source terminal-native AI coding agent with cross-session persistent memory, subagent orchestration, and self-improvement via `/dream` and `/distill` commands. Fork of OpenCode with SQLite FTS5 memory, task trees, and multi-agent compose mode. 12K+ stars, MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-07-12",
+      "previous_urls": [
+        "https://github.com/XiaoMi/mimocode"
+      ]
     },
     {
       "name": "mini-coding-agent",
@@ -628,7 +711,8 @@
       "description": "Sebastian Raschka's minimal, readable Python coding agent harness. Explains the core components of coding agents in a small, hackable codebase.",
       "description_markdown": "Sebastian Raschka's minimal, readable Python coding agent harness. Explains the core components of coding agents in a small, hackable codebase.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-05-10"
     },
     {
       "name": "Octomind",
@@ -636,7 +720,8 @@
       "description": "Open-source CLI coding agent with multiple model providers, MCP tools, and background execution.",
       "description_markdown": "Open-source CLI coding agent with multiple model providers, MCP tools, and background execution.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-10-17"
     },
     {
       "name": "OMK",
@@ -644,7 +729,8 @@
       "description": "Open-source multi-agent coding CLI; switch models mid-session, finish goals when tests pass.",
       "description_markdown": "Open-source multi-agent coding CLI; switch models mid-session, finish goals when tests pass.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-11-06"
     },
     {
       "name": "Open SWE",
@@ -652,7 +738,8 @@
       "description": "LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.",
       "description_markdown": "LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-03-22"
     },
     {
       "name": "OpenBitFun",
@@ -660,7 +747,11 @@
       "description": "Cross-platform desktop agent for coding, Git, browser, terminal, and remote workspaces.",
       "description_markdown": "Cross-platform desktop agent for coding, Git, browser, terminal, and remote workspaces.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-08-12",
+      "previous_urls": [
+        "https://github.com/GCWing/BitFun"
+      ]
     },
     {
       "name": "OpenClacky",
@@ -668,7 +759,11 @@
       "description": "Token-efficient open-source AI coding agent with prompt caching, 16 core tools, and skill extensions. MIT.",
       "description_markdown": "Token-efficient open-source AI coding agent with prompt caching, 16 core tools, and skill extensions. MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-07-01",
+      "previous_urls": [
+        "https://github.com/clacky-ai/open-clacky"
+      ]
     },
     {
       "name": "OpenCode",
@@ -676,7 +771,11 @@
       "description": "Open-source AI coding agent. Works in terminal, IDE, or desktop with any LLM.",
       "description_markdown": "Open-source AI coding agent. Works in terminal, IDE, or desktop with any LLM.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-06-14",
+      "previous_urls": [
+        "https://github.com/opencode-ai/opencode"
+      ]
     },
     {
       "name": "OpenHands",
@@ -684,7 +783,11 @@
       "description": "AI software development agent (formerly OpenDevin).",
       "description_markdown": "AI software development agent (formerly OpenDevin).",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/All-Hands-AI/OpenHands"
+      ]
     },
     {
       "name": "OpenHands Software Agent SDK",
@@ -692,7 +795,8 @@
       "description": "Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.",
       "description_markdown": "Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-04-19"
     },
     {
       "name": "Orbi",
@@ -700,7 +804,8 @@
       "description": "Takes a labeled GitHub issue to a reviewed pull request, merges only what a separate review session approved, and cuts the tagged release. AGPL-3.0.",
       "description_markdown": "Takes a labeled GitHub issue to a reviewed pull request, merges only what a separate review session approved, and cuts the tagged release. AGPL-3.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-10-05"
     },
     {
       "name": "Orca",
@@ -708,7 +813,8 @@
       "description": "Open-source desktop agent IDE that runs 30+ coding agents (Claude Code, Codex, OpenCode, etc.) side by side in isolated git worktrees. Terminal splits, embedded Chromium, SSH remotes, and GitHub/Linear integration. YC-backed, MIT.",
       "description_markdown": "Open-source desktop agent IDE that runs 30+ coding agents (Claude Code, Codex, OpenCode, etc.) side by side in isolated git worktrees. Terminal splits, embedded Chromium, SSH remotes, and GitHub/Linear integration. YC-backed, MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-07-12"
     },
     {
       "name": "pi",
@@ -716,7 +822,8 @@
       "description": "AI agent toolkit bundling a unified LLM API, agent loop, TUI, and coding agent CLI in one package. 91K+ stars, MIT.",
       "description_markdown": "AI agent toolkit bundling a unified LLM API, agent loop, TUI, and coding agent CLI in one package. 91K+ stars, MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-08-16"
     },
     {
       "name": "Prime Agent",
@@ -724,7 +831,8 @@
       "description": "Prime Intellect's self-improving RLM agent for coding workflows and long-horizon autonomous tasks. MIT.",
       "description_markdown": "Prime Intellect's self-improving RLM agent for coding workflows and long-horizon autonomous tasks. MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-08-16"
     },
     {
       "name": "Proliferate",
@@ -732,7 +840,8 @@
       "description": "Open-source local and cloud agent IDE with parallel workspaces, subagents, plugins, and MCP.",
       "description_markdown": "Open-source local and cloud agent IDE with parallel workspaces, subagents, plugins, and MCP.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-07-20"
     },
     {
       "name": "Qwen Code",
@@ -740,7 +849,8 @@
       "description": "Alibaba's open-source terminal-native AI coding agent. Powered by Qwen models with MCP support, 25K+ stars, and Apache-2.0 license.",
       "description_markdown": "Alibaba's open-source terminal-native AI coding agent. Powered by Qwen models with MCP support, 25K+ stars, and Apache-2.0 license.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-07-05"
     },
     {
       "name": "SWE-agent",
@@ -748,7 +858,11 @@
       "description": "Princeton's software engineering agent.",
       "description_markdown": "Princeton's software engineering agent.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/princeton-nlp/SWE-agent"
+      ]
     },
     {
       "name": "Windsurf",
@@ -756,7 +870,8 @@
       "description": "AI-native IDE by Codeium with agentic Cascade flows.",
       "description_markdown": "AI-native IDE by Codeium with agentic Cascade flows.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
+      "subcategory": "Code Agents",
+      "added": "2026-02-27"
     },
     {
       "name": "Hermes Agent",
@@ -764,7 +879,8 @@
       "description": "Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.",
       "description_markdown": "Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
+      "subcategory": "Personal AI Agents",
+      "added": "2026-04-12"
     },
     {
       "name": "Mercury Agent",
@@ -772,7 +888,8 @@
       "description": "Soul-driven personal AI agent with permission-hardened tools, token budgets, and multi-channel access (CLI or Telegram). MIT.",
       "description_markdown": "Soul-driven personal AI agent with permission-hardened tools, token budgets, and multi-channel access (CLI or Telegram). MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
+      "subcategory": "Personal AI Agents",
+      "added": "2026-05-17"
     },
     {
       "name": "nanobot",
@@ -780,7 +897,8 @@
       "description": "HKU Data Science Lab's ultra-lightweight personal AI agent. Keeps the core small and readable while shipping a full workbench: WebUI, sustained goals, MCP, image generation, multi-channel (Telegram, Signal, Matrix), and multi-provider model routing. Released v0.2.1 (June 2026).",
       "description_markdown": "HKU Data Science Lab's ultra-lightweight personal AI agent. Keeps the core small and readable while shipping a full workbench: WebUI, sustained goals, MCP, image generation, multi-channel (Telegram, Signal, Matrix), and multi-provider model routing. Released v0.2.1 (June 2026).",
       "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
+      "subcategory": "Personal AI Agents",
+      "added": "2026-06-07"
     },
     {
       "name": "Octop",
@@ -788,7 +906,8 @@
       "description": "Tencent Cloud's self-hosted, multi-user AI assistant for households and small teams. Each user gets a personal team of specialist agents behind one process: web dashboard, CLI, desktop apps, cron, and IM channels (Telegram, Discord, Feishu, DingTalk, WeChat, WeCom, QQ). MCP connectors, ACP delegation to Claude Code or OpenCode, tool approval, shell guardrails, and PII redaction. MIT, beta.",
       "description_markdown": "Tencent Cloud's self-hosted, multi-user AI assistant for households and small teams. Each user gets a personal team of specialist agents behind one process: web dashboard, CLI, desktop apps, cron, and IM channels (Telegram, Discord, Feishu, DingTalk, WeChat, WeCom, QQ). MCP connectors, ACP delegation to Claude Code or OpenCode, tool approval, shell guardrails, and PII redaction. MIT, beta.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
+      "subcategory": "Personal AI Agents",
+      "added": "2026-10-04"
     },
     {
       "name": "OneBox",
@@ -796,7 +915,8 @@
       "description": "Open-source Android personal AI agent driving 90+ in-app tools via natural language. Apache-2.0.",
       "description_markdown": "Open-source Android personal AI agent driving 90+ in-app tools via natural language. Apache-2.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
+      "subcategory": "Personal AI Agents",
+      "added": "2026-09-30"
     },
     {
       "name": "OpenClaw",
@@ -804,7 +924,8 @@
       "description": "Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.",
       "description_markdown": "Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
+      "subcategory": "Personal AI Agents",
+      "added": "2026-02-18"
     },
     {
       "name": "OpenHuman",
@@ -812,7 +933,8 @@
       "description": "Local-first personal AI agent with 118 OAuth integrations, hierarchical memory tree, and TokenJuice compression. Runs entirely on-device.",
       "description_markdown": "Local-first personal AI agent with 118 OAuth integrations, hierarchical memory tree, and TokenJuice compression. Runs entirely on-device.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
+      "subcategory": "Personal AI Agents",
+      "added": "2026-05-31"
     },
     {
       "name": "QwenPaw",
@@ -820,7 +942,8 @@
       "description": "Alibaba's Qwen-powered personal AI agent workstation. Local or cloud deployment, multi-agent collaboration with sub-agent spawning, extensible skill system, and broad channel support (DingTalk, Feishu, WeChat, Discord, Telegram). MIT.",
       "description_markdown": "Alibaba's Qwen-powered personal AI agent workstation. Local or cloud deployment, multi-agent collaboration with sub-agent spawning, extensible skill system, and broad channel support (DingTalk, Feishu, WeChat, Discord, Telegram). MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
+      "subcategory": "Personal AI Agents",
+      "added": "2026-06-07"
     },
     {
       "name": "Trustclaw",
@@ -828,7 +951,8 @@
       "description": "ComposioHQ's self-hostable personal AI agent with vector memory, native Composio tool integrations, and a Telegram front-end. MIT.",
       "description_markdown": "ComposioHQ's self-hostable personal AI agent with vector memory, native Composio tool integrations, and a Telegram front-end. MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
+      "subcategory": "Personal AI Agents",
+      "added": "2026-05-24"
     },
     {
       "name": "agent-browser",
@@ -836,7 +960,8 @@
       "description": "Vercel Labs' native Rust browser automation CLI for AI agents. Accessibility-tree snapshots with stable @ref targets, traditional selectors, annotated screenshots, and clicks that fail early when a banner or modal covers the target. Installs via npm, Homebrew, or Cargo; no Playwright or Node.js needed at runtime. Apache-2.0.",
       "description_markdown": "Vercel Labs' native Rust browser automation CLI for AI agents. Accessibility-tree snapshots with stable `@ref` targets, traditional selectors, annotated screenshots, and clicks that fail early when a banner or modal covers the target. Installs via npm, Homebrew, or Cargo; no Playwright or Node.js needed at runtime. Apache-2.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-09-20"
     },
     {
       "name": "ARTEMIS",
@@ -844,7 +969,8 @@
       "description": "Google's natural-language Android automation agent that drives real phones like a human. Observe-and-act loop with element, coordinate, and visual targeting; native MCP server so Claude Code, Codex, Cursor, or Antigravity can run device tests and collect Logcat and screenshots. Reports 99%+ on AndroidWorld. Apache-2.0.",
       "description_markdown": "Google's natural-language Android automation agent that drives real phones like a human. Observe-and-act loop with element, coordinate, and visual targeting; native MCP server so Claude Code, Codex, Cursor, or Antigravity can run device tests and collect Logcat and screenshots. Reports 99%+ on AndroidWorld. Apache-2.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-11-02"
     },
     {
       "name": "Browser Use",
@@ -852,7 +978,8 @@
       "description": "Control browsers with AI agents. Most popular browser automation framework.",
       "description_markdown": "Control browsers with AI agents. Most popular browser automation framework.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-02-18"
     },
     {
       "name": "BrowserOS",
@@ -860,7 +987,8 @@
       "description": "Open-source agentic browser and alternative to ChatGPT Atlas, Perplexity Comet, and Dia. Runs agents locally against your own browsing session. AGPL-3.0.",
       "description_markdown": "Open-source agentic browser and alternative to ChatGPT Atlas, Perplexity Comet, and Dia. Runs agents locally against your own browsing session. AGPL-3.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-08-16"
     },
     {
       "name": "BrowserSkill",
@@ -868,7 +996,8 @@
       "description": "Tencent's CLI and browser extension that lets AI agents drive your real, logged-in browser without interrupting your work. Works with any shell-capable agent (Claude Code, Codex, Cursor, OpenClaw). MIT.",
       "description_markdown": "Tencent's CLI and browser extension that lets AI agents drive your real, logged-in browser without interrupting your work. Works with any shell-capable agent (Claude Code, Codex, Cursor, OpenClaw). MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-08-30"
     },
     {
       "name": "Chrome DevTools MCP",
@@ -876,7 +1005,8 @@
       "description": "Chrome DevTools team's MCP server and CLI that lets coding agents (Claude Code, Cursor, Copilot, Antigravity) drive and inspect a live Chrome: performance traces with actionable insights, network and console inspection with source-mapped stack traces, screenshots, and Puppeteer-backed automation that waits for action results. Usage statistics are on by default (--no-usage-statistics to opt out). Apache-2.0.",
       "description_markdown": "Chrome DevTools team's MCP server and CLI that lets coding agents (Claude Code, Cursor, Copilot, Antigravity) drive and inspect a live Chrome: performance traces with actionable insights, network and console inspection with source-mapped stack traces, screenshots, and Puppeteer-backed automation that waits for action results. Usage statistics are on by default (`--no-usage-statistics` to opt out). Apache-2.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-10-25"
     },
     {
       "name": "Moli",
@@ -884,7 +1014,8 @@
       "description": "Production-ready headless browser for AI agents, built in Rust. On-demand layout and rendering keep a full browser runtime at a light resource footprint; drive it via CLI, CDP, WebDriver Classic, or WebDriver BiDi on Linux, macOS, and Windows. Apache-2.0.",
       "description_markdown": "Production-ready headless browser for AI agents, built in Rust. On-demand layout and rendering keep a full browser runtime at a light resource footprint; drive it via CLI, CDP, WebDriver Classic, or WebDriver BiDi on Linux, macOS, and Windows. Apache-2.0.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-09-06"
     },
     {
       "name": "Playwright MCP",
@@ -892,7 +1023,11 @@
       "description": "Microsoft's MCP server for browser automation with Playwright.",
       "description_markdown": "Microsoft's MCP server for browser automation with Playwright.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/anthropics/anthropic-tools"
+      ]
     },
     {
       "name": "Stagehand",
@@ -900,7 +1035,8 @@
       "description": "AI-powered browser automation framework by Browserbase.",
       "description_markdown": "AI-powered browser automation framework by Browserbase.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-02-27"
     },
     {
       "name": "UI-TARS Desktop",
@@ -908,7 +1044,8 @@
       "description": "ByteDance's multimodal AI agent stack for desktop automation.",
       "description_markdown": "ByteDance's multimodal AI agent stack for desktop automation.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Browser Agents"
+      "subcategory": "Browser Agents",
+      "added": "2026-02-18"
     },
     {
       "name": "autoresearch",
@@ -916,7 +1053,8 @@
       "description": "Andrej Karpathy's open-source framework for running AI agents that autonomously conduct research on single-GPU model training experiments overnight.",
       "description_markdown": "Andrej Karpathy's open-source framework for running AI agents that autonomously conduct research on single-GPU model training experiments overnight.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Research Agents"
+      "subcategory": "Research Agents",
+      "added": "2026-03-15"
     },
     {
       "name": "GPT Researcher",
@@ -924,7 +1062,8 @@
       "description": "Autonomous agent for deep research on any topic using any LLM.",
       "description_markdown": "Autonomous agent for deep research on any topic using any LLM.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Research Agents"
+      "subcategory": "Research Agents",
+      "added": "2026-02-18"
     },
     {
       "name": "OpenResearch",
@@ -932,7 +1071,8 @@
       "description": "alphaXiv's local-first harness and desktop workspace that turns coding agents (Claude Code, Codex, OpenCode, Cursor, Antigravity) into research agents. Literature search across alphaXiv, bioRxiv, and PubMed; experiments on local or remote compute (SSH, Slurm, Kubernetes, Modal, Ray, Hugging Face Jobs); and a local SQL record of every experiment so agents can learn from past runs. MIT.",
       "description_markdown": "alphaXiv's local-first harness and desktop workspace that turns coding agents (Claude Code, Codex, OpenCode, Cursor, Antigravity) into research agents. Literature search across alphaXiv, bioRxiv, and PubMed; experiments on local or remote compute (SSH, Slurm, Kubernetes, Modal, Ray, Hugging Face Jobs); and a local SQL record of every experiment so agents can learn from past runs. MIT.",
       "category": "Frameworks & Libraries",
-      "subcategory": "Research Agents"
+      "subcategory": "Research Agents",
+      "added": "2026-10-11"
     },
     {
       "name": "Vane",
@@ -940,7 +1080,11 @@
       "description": "Formerly Perplexica. Open-source AI-powered answering engine (Perplexity alternative).",
       "description_markdown": "Formerly Perplexica. Open-source AI-powered answering engine (Perplexity alternative).",
       "category": "Frameworks & Libraries",
-      "subcategory": "Research Agents"
+      "subcategory": "Research Agents",
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/ItzCrazyKns/Perplexica"
+      ]
     },
     {
       "name": "Activepieces",
@@ -948,7 +1092,8 @@
       "description": "Open-source AI workflow automation with 400+ MCP servers for agents.",
       "description_markdown": "Open-source AI workflow automation with 400+ MCP servers for agents.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Agent Barn",
@@ -956,7 +1101,8 @@
       "description": "Open-source (Apache-2.0) control plane for AI agents: teams talk to agents in Slack, Teams, Telegram",
       "description_markdown": "Open-source (Apache-2.0) control plane for AI agents: teams talk to agents in Slack, Teams, Telegram",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-10-15"
     },
     {
       "name": "Amazon Bedrock Agents",
@@ -964,7 +1110,8 @@
       "description": "AWS managed agent service.",
       "description_markdown": "AWS managed agent service.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Anthropic Claude + Tool Use",
@@ -972,7 +1119,8 @@
       "description": "Claude's function calling and agent capabilities.",
       "description_markdown": "Claude's function calling and agent capabilities.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "AnythingLLM",
@@ -980,7 +1128,8 @@
       "description": "All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.",
       "description_markdown": "All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Azure AI Foundry",
@@ -988,7 +1137,8 @@
       "description": "Full-stack AI platform with agent capabilities.",
       "description_markdown": "Full-stack AI platform with agent capabilities.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Claude Managed Agents",
@@ -996,7 +1146,8 @@
       "description": "Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.",
       "description_markdown": "Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-04-12"
     },
     {
       "name": "Composio",
@@ -1004,7 +1155,8 @@
       "description": "1000+ toolkits, auth management, and sandboxed workbench for AI agents.",
       "description_markdown": "1000+ toolkits, auth management, and sandboxed workbench for AI agents.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Dify",
@@ -1012,7 +1164,8 @@
       "description": "Open-source LLMOps platform with visual agent builder.",
       "description_markdown": "Open-source LLMOps platform with visual agent builder.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Google Gemini Enterprise Agent Platform",
@@ -1020,7 +1173,11 @@
       "description": "Google Cloud's agent development platform (formerly Vertex AI Agent Builder).",
       "description_markdown": "Google Cloud's agent development platform (formerly Vertex AI Agent Builder).",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://cloud.google.com/vertex-ai/docs/agents"
+      ]
     },
     {
       "name": "LazyMind",
@@ -1028,7 +1185,8 @@
       "description": "Self-hosted skill runtime for workflows with persisted state and artifacts.",
       "description_markdown": "Self-hosted skill runtime for workflows with persisted state and artifacts.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-10-30"
     },
     {
       "name": "MaxKB",
@@ -1036,7 +1194,8 @@
       "description": "Open-source platform for building enterprise-grade agents.",
       "description_markdown": "Open-source platform for building enterprise-grade agents.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Microsoft Copilot Studio",
@@ -1044,7 +1203,8 @@
       "description": "Low-code agent builder. Integrates with M365, Dynamics, Power Platform.",
       "description_markdown": "Low-code agent builder. Integrates with M365, Dynamics, Power Platform.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "n8n",
@@ -1052,7 +1212,8 @@
       "description": "Workflow automation with native AI agent capabilities and MCP support.",
       "description_markdown": "Workflow automation with native AI agent capabilities and MCP support.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Open Design",
@@ -1060,7 +1221,8 @@
       "description": "Open-source vibe design workspace where your coding agent becomes the design engine. Prototypes, landing pages, dashboards, slides, images, and video with HTML/PDF/PPTX/MP4 export. Supports Claude Code, Codex, Cursor, Gemini, OpenCode, and 20+ CLIs. Apache-2.0.",
       "description_markdown": "Open-source vibe design workspace where your coding agent becomes the design engine. Prototypes, landing pages, dashboards, slides, images, and video with HTML/PDF/PPTX/MP4 export. Supports Claude Code, Codex, Cursor, Gemini, OpenCode, and 20+ CLIs. Apache-2.0.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-07-05"
     },
     {
       "name": "OpenAI Assistants API",
@@ -1068,7 +1230,8 @@
       "description": "OpenAI's managed agent platform with tools and retrieval.",
       "description_markdown": "OpenAI's managed agent platform with tools and retrieval.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "OpenBot",
@@ -1076,7 +1239,8 @@
       "description": "CopilotKit's self-hosted platform for AI coworkers that each get their own containerized computer — a real browser with its own logins, files, and only the tools you grant. Every tool call routes through one gateway that decides and audits it before acting. Built on the AG-UI protocol, so LangGraph, Mastra, CrewAI, PydanticAI, and Google ADK agents plug in unchanged. MIT, alpha.",
       "description_markdown": "CopilotKit's self-hosted platform for AI coworkers that each get their own containerized computer — a real browser with its own logins, files, and only the tools you grant. Every tool call routes through one gateway that decides and audits it before acting. Built on the AG-UI protocol, so LangGraph, Mastra, CrewAI, PydanticAI, and Google ADK agents plug in unchanged. MIT, alpha.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-09-13"
     },
     {
       "name": "OpenConnector",
@@ -1084,7 +1248,8 @@
       "description": "Open-source connector and auth gateway for AI agents, an alternative to Pipedream and Composio. Connect user app accounts once, then expose 1,000+ providers and 10,000+ prebuilt Actions via SDK, CLI, MCP, HTTP, and OpenAPI. Self-host on Docker/Node with SQLite or Postgres, or use the hosted runtime. Apache-2.0.",
       "description_markdown": "Open-source connector and auth gateway for AI agents, an alternative to Pipedream and Composio. Connect user app accounts once, then expose 1,000+ providers and 10,000+ prebuilt Actions via SDK, CLI, MCP, HTTP, and OpenAPI. Self-host on Docker/Node with SQLite or Postgres, or use the hosted runtime. Apache-2.0.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-09-06"
     },
     {
       "name": "Relevance AI",
@@ -1092,7 +1257,8 @@
       "description": "No-code AI agent platform.",
       "description_markdown": "No-code AI agent platform.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Trigger.dev",
@@ -1100,7 +1266,8 @@
       "description": "Build and deploy fully-managed AI agents and workflows.",
       "description_markdown": "Build and deploy fully-managed AI agents and workflows.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Viglet Turing ES",
@@ -1108,7 +1275,11 @@
       "description": "Open-source enterprise-search platform with RAG chat and AI agents over your own content; faceted/hybrid search on a pluggable Solr/Elasticsearch/Lucene backend. Self-hostable, Apache-2.0.",
       "description_markdown": "Open-source enterprise-search platform with RAG chat and AI agents over your own content; faceted/hybrid search on a pluggable Solr/Elasticsearch/Lucene backend. Self-hostable, Apache-2.0.",
       "category": "Platforms & Low-Code",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-07-20",
+      "previous_urls": [
+        "https://github.com/openviglet/turing-ce"
+      ]
     },
     {
       "name": "Agent2Agent Protocol (A2A)",
@@ -1116,7 +1287,11 @@
       "description": "Google's open protocol for agent-to-agent communication and discovery. Linux Foundation project.",
       "description_markdown": "Google's open protocol for agent-to-agent communication and discovery. Linux Foundation project.",
       "category": "Agent Infrastructure",
-      "subcategory": "Tool Protocols"
+      "subcategory": "Tool Protocols",
+      "added": "2026-02-27",
+      "previous_urls": [
+        "https://github.com/google/A2A"
+      ]
     },
     {
       "name": "Context7",
@@ -1124,7 +1299,8 @@
       "description": "MCP server for up-to-date code documentation for LLMs.",
       "description_markdown": "MCP server for up-to-date code documentation for LLMs.",
       "category": "Agent Infrastructure",
-      "subcategory": "Tool Protocols"
+      "subcategory": "Tool Protocols",
+      "added": "2026-02-18"
     },
     {
       "name": "FastMCP",
@@ -1132,7 +1308,8 @@
       "description": "The fast, Pythonic way to build MCP servers and clients. The standard framework underlying much of the official Python MCP SDK, with auth, deployment, and testing tooling built in.",
       "description_markdown": "The fast, Pythonic way to build MCP servers and clients. The standard framework underlying much of the official Python MCP SDK, with auth, deployment, and testing tooling built in.",
       "category": "Agent Infrastructure",
-      "subcategory": "Tool Protocols"
+      "subcategory": "Tool Protocols",
+      "added": "2026-07-26"
     },
     {
       "name": "Git-Native Agent Protocol (GNAP)",
@@ -1140,7 +1317,8 @@
       "description": "Serverless protocol for coordinating AI agent teams via 4 JSON files in a shared git repo (agents, tasks, runs, messages). No database, no vendor lock-in — any agent that can git push can participate. MIT.",
       "description_markdown": "Serverless protocol for coordinating AI agent teams via 4 JSON files in a shared git repo (agents, tasks, runs, messages). No database, no vendor lock-in — any agent that can git push can participate. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Tool Protocols"
+      "subcategory": "Tool Protocols",
+      "added": "2026-07-19"
     },
     {
       "name": "GitHub MCP Server",
@@ -1148,7 +1326,8 @@
       "description": "GitHub's official MCP server for AI agents.",
       "description_markdown": "GitHub's official MCP server for AI agents.",
       "category": "Agent Infrastructure",
-      "subcategory": "Tool Protocols"
+      "subcategory": "Tool Protocols",
+      "added": "2026-02-18"
     },
     {
       "name": "Model Context Protocol (MCP)",
@@ -1156,7 +1335,8 @@
       "description": "Anthropic's standard for connecting AI to tools and data.",
       "description_markdown": "Anthropic's standard for connecting AI to tools and data.",
       "category": "Agent Infrastructure",
-      "subcategory": "Tool Protocols"
+      "subcategory": "Tool Protocols",
+      "added": "2026-02-18"
     },
     {
       "name": "OpenAI Function Calling",
@@ -1164,7 +1344,8 @@
       "description": "De facto standard for LLM tool use.",
       "description_markdown": "De facto standard for LLM tool use.",
       "category": "Agent Infrastructure",
-      "subcategory": "Tool Protocols"
+      "subcategory": "Tool Protocols",
+      "added": "2026-02-18"
     },
     {
       "name": "addyosmani/agent-skills",
@@ -1172,7 +1353,8 @@
       "description": "Addy Osmani's production-grade engineering skills for coding agents, mapped to the development lifecycle through 9 slash commands (/spec, /plan, /build, /test, /review, /ship). Skills also auto-activate by task; installs into 70+ agents via the open skills CLI. MIT.",
       "description_markdown": "Addy Osmani's production-grade engineering skills for coding agents, mapped to the development lifecycle through 9 slash commands (`/spec`, `/plan`, `/build`, `/test`, `/review`, `/ship`). Skills also auto-activate by task; installs into 70+ agents via the open skills CLI. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-09-20"
     },
     {
       "name": "code-review-graph",
@@ -1180,7 +1362,8 @@
       "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent Tree-sitter map of the codebase so coding agents read only the \"blast radius\" of a change, with benchmarked ~82x median token reduction on review tasks across 30+ languages. Auto-configures Claude Code, Codex, Cursor, Gemini CLI, Kiro, and Copilot. MIT.",
       "description_markdown": "Local-first code intelligence graph for MCP and CLI. Builds a persistent Tree-sitter map of the codebase so coding agents read only the \"blast radius\" of a change, with benchmarked ~82x median token reduction on review tasks across 30+ languages. Auto-configures Claude Code, Codex, Cursor, Gemini CLI, Kiro, and Copilot. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-07-26"
     },
     {
       "name": "codegraph",
@@ -1188,7 +1371,8 @@
       "description": "Pre-indexed code knowledge graph for coding agents (Claude Code, Codex, Cursor, Gemini CLI). Fewer tokens, fewer tool calls, 100% local.",
       "description_markdown": "Pre-indexed code knowledge graph for coding agents (Claude Code, Codex, Cursor, Gemini CLI). Fewer tokens, fewer tool calls, 100% local.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-05-31"
     },
     {
       "name": "dotnet/skills",
@@ -1196,7 +1380,8 @@
       "description": "Microsoft .NET team's curated skills and custom agents for AI coding agents. Core .NET, EF data access, diagnostics, MSBuild, and NuGet plugins.",
       "description_markdown": "Microsoft .NET team's curated skills and custom agents for AI coding agents. Core .NET, EF data access, diagnostics, MSBuild, and NuGet plugins.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-05-31"
     },
     {
       "name": "ECC",
@@ -1204,7 +1389,8 @@
       "description": "Agent harness performance system for Claude Code, Cursor, Codex, OpenCode, Gemini, and Zed. Ships 63 specialized agents, 251 skills, continuous learning with session memory hooks, and AgentShield security hardening. MIT.",
       "description_markdown": "Agent harness performance system for Claude Code, Cursor, Codex, OpenCode, Gemini, and Zed. Ships 63 specialized agents, 251 skills, continuous learning with session memory hooks, and AgentShield security hardening. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-06-28"
     },
     {
       "name": "Elephant-Goldfish Model (EGM)",
@@ -1212,7 +1398,8 @@
       "description": "Google's open-source skills plugin for spec-first design with coding agents: a deep-context \"elephant\" agent drafts the specification, zero-context \"goldfish\" subagents review it to expose unstated assumptions. Plugins for Claude Code, Codex, and Antigravity. Apache-2.0.",
       "description_markdown": "Google's open-source skills plugin for spec-first design with coding agents: a deep-context \"elephant\" agent drafts the specification, zero-context \"goldfish\" subagents review it to expose unstated assumptions. Plugins for Claude Code, Codex, and Antigravity. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-11-02"
     },
     {
       "name": "Google Agents CLI",
@@ -1220,7 +1407,8 @@
       "description": "CLI and skill pack that turns any coding assistant (Claude Code, Codex, Gemini CLI, Cursor) into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
       "description_markdown": "CLI and skill pack that turns any coding assistant (Claude Code, Codex, Gemini CLI, Cursor) into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-04-26"
     },
     {
       "name": "Graft",
@@ -1228,7 +1416,8 @@
       "description": "Open-source context layer that builds a code knowledge graph so coding agents read only the blast radius of a change. Nanonets reports 46% fewer tool calls, 42% token savings, and +12 points correctness against cold Claude Code. MCP server, graft grep/graft map/graft viz CLI, monorepo support, and a PR blast-radius review GitHub App. MIT.",
       "description_markdown": "Open-source context layer that builds a code knowledge graph so coding agents read only the blast radius of a change. Nanonets reports 46% fewer tool calls, 42% token savings, and +12 points correctness against cold Claude Code. MCP server, `graft grep`/`graft map`/`graft viz` CLI, monorepo support, and a PR blast-radius review GitHub App. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-09-06"
     },
     {
       "name": "Graphify",
@@ -1236,7 +1425,8 @@
       "description": "/graphify skill and CLI that maps a codebase plus its docs, SQL schemas, PDFs, and media into a queryable knowledge graph, so coding agents query paths and concepts instead of grepping. Code is parsed locally with tree-sitter (no LLM, no vector store), and every edge is tagged EXTRACTED or INFERRED. Works with Claude Code, Codex, Cursor, Gemini CLI, Copilot, and 20+ more; optional MCP server. Apache-2.0.",
       "description_markdown": "`/graphify` skill and CLI that maps a codebase plus its docs, SQL schemas, PDFs, and media into a queryable knowledge graph, so coding agents query paths and concepts instead of grepping. Code is parsed locally with tree-sitter (no LLM, no vector store), and every edge is tagged `EXTRACTED` or `INFERRED`. Works with Claude Code, Codex, Cursor, Gemini CLI, Copilot, and 20+ more; optional MCP server. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-10-25"
     },
     {
       "name": "NotFair",
@@ -1244,7 +1434,11 @@
       "description": "Open-source Claude Code agent skills for SEO and paid ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.",
       "description_markdown": "Open-source Claude Code agent skills for SEO and paid ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-07-01",
+      "previous_urls": [
+        "https://github.com/nowork-studio/NotFair"
+      ]
     },
     {
       "name": "npmscan",
@@ -1252,7 +1446,8 @@
       "description": "Agent plugin and MCP server that checks npm packages for malware and vulnerabilities before install.",
       "description_markdown": "Agent plugin and MCP server that checks npm packages for malware and vulnerabilities before install.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-11-02"
     },
     {
       "name": "Oh My Hermes",
@@ -1260,7 +1455,8 @@
       "description": "Hermes Agent workflow plugin with project memory and task-specific model and reasoning routing.",
       "description_markdown": "Hermes Agent workflow plugin with project memory and task-specific model and reasoning routing.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-10-22"
     },
     {
       "name": "olcli",
@@ -1268,7 +1464,8 @@
       "description": "Overleaf CLI for AI coding agents. Sync, pull, push, and compile LaTeX projects from the command line.",
       "description_markdown": "Overleaf CLI for AI coding agents. Sync, pull, push, and compile LaTeX projects from the command line.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-07-01"
     },
     {
       "name": "OpenWiki",
@@ -1276,7 +1473,8 @@
       "description": "LangChain's CLI that writes and maintains a linked Markdown wiki of your codebase for coding agents. Tracks each fact back to source evidence so updates only touch what changed, and links wikis across related repos for search over MCP. Integrates with Codex, Claude Code, OpenCode, Cursor, GitHub Copilot CLI, Kiro, and Pi. MIT.",
       "description_markdown": "LangChain's CLI that writes and maintains a linked Markdown wiki of your codebase for coding agents. Tracks each fact back to source evidence so updates only touch what changed, and links wikis across related repos for search over MCP. Integrates with Codex, Claude Code, OpenCode, Cursor, GitHub Copilot CLI, Kiro, and Pi. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-10-11"
     },
     {
       "name": "PlaceCall",
@@ -1284,7 +1482,8 @@
       "description": "Agent skill and MCP server that phones US businesses and returns the outcome and transcript.",
       "description_markdown": "Agent skill and MCP server that phones US businesses and returns the outcome and transcript.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-10-21"
     },
     {
       "name": "ponytail",
@@ -1292,7 +1491,8 @@
       "description": "Agent skill that pushes coding agents toward the smallest working solution instead of over-building. Installs as a plugin or rules file across 20 agents (Claude Code, Cursor, Codex, and more). Benchmarked against a no-skill baseline on real agentic sessions: ~54% less code and ~22% fewer tokens with every safety guard intact. MIT.",
       "description_markdown": "Agent skill that pushes coding agents toward the smallest working solution instead of over-building. Installs as a plugin or rules file across 20 agents (Claude Code, Cursor, Codex, and more). Benchmarked against a no-skill baseline on real agentic sessions: ~54% less code and ~22% fewer tokens with every safety guard intact. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-09-13"
     },
     {
       "name": "PowerSkills",
@@ -1300,7 +1500,8 @@
       "description": "PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.",
       "description_markdown": "PowerShell automation toolkit for AI agents. Structured JSON control over Windows — Outlook, Edge browser, desktop, and system operations.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-03-07"
     },
     {
       "name": "re_gent",
@@ -1308,7 +1509,8 @@
       "description": "Version control purpose-built for AI coding agent activity. Auto-captures every agent turn (Claude Code, Codex, OpenCode) as an inspectable step, with rgt log, rgt blame, and rgt show for auditable, prompt-level history alongside your existing git workflow.",
       "description_markdown": "Version control purpose-built for AI coding agent activity. Auto-captures every agent turn (Claude Code, Codex, OpenCode) as an inspectable step, with `rgt log`, `rgt blame`, and `rgt show` for auditable, prompt-level history alongside your existing git workflow.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-08-02"
     },
     {
       "name": "sandbaseai/sandbase-harness",
@@ -1316,7 +1518,8 @@
       "description": "Self-hosted agent runtime with MCP tools, sandboxed execution, sessions, approvals, audit trails, and replay.",
       "description_markdown": "Self-hosted agent runtime with MCP tools, sandboxed execution, sessions, approvals, audit trails, and replay.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-08-31"
     },
     {
       "name": "Screenpipe",
@@ -1324,7 +1527,8 @@
       "description": "Local computer history that gives AI agents searchable screen and audio context.",
       "description_markdown": "Local computer history that gives AI agents searchable screen and audio context.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-08-28"
     },
     {
       "name": "Superpowers",
@@ -1332,7 +1536,8 @@
       "description": "Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.",
       "description_markdown": "Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-06-14"
     },
     {
       "name": "Tapetide MCP",
@@ -1340,7 +1545,8 @@
       "description": "MCP server giving agents Indian stock market data for about 8,200 NSE and BSE stocks.",
       "description_markdown": "MCP server giving agents Indian stock market data for about 8,200 NSE and BSE stocks.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-10-10"
     },
     {
       "name": "Xquik",
@@ -1348,7 +1554,8 @@
       "description": "Agent skill and MCP server for X data workflows.",
       "description_markdown": "Agent skill and MCP server for X data workflows.",
       "category": "Agent Infrastructure",
-      "subcategory": "Agent Skills & Tools"
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-07-01"
     },
     {
       "name": "agentmemory",
@@ -1356,7 +1563,8 @@
       "description": "Persistent cross-session memory for coding agents (Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, OpenCode, pi, Hermes, OpenClaw, or any MCP client). Hybrid BM25 + vector + graph retrieval over local SQLite with no external database; keyless mode or free on-device embeddings; reproducible LongMemEval-S harness. Apache-2.0.",
       "description_markdown": "Persistent cross-session memory for coding agents (Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, OpenCode, pi, Hermes, OpenClaw, or any MCP client). Hybrid BM25 + vector + graph retrieval over local SQLite with no external database; keyless mode or free on-device embeddings; reproducible LongMemEval-S harness. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-10-04"
     },
     {
       "name": "Busabase",
@@ -1364,7 +1572,8 @@
       "description": "Open-source database and workspace for agents with persistent context and permission-aware, auditable ChangeRequests.",
       "description_markdown": "Open-source database and workspace for agents with persistent context and permission-aware, auditable ChangeRequests.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-09-28"
     },
     {
       "name": "claude-mem",
@@ -1372,7 +1581,8 @@
       "description": "Cross-session persistent memory for AI coding agents. Captures session activity, compresses it with AI, and injects relevant context into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, and more. Apache-2.0.",
       "description_markdown": "Cross-session persistent memory for AI coding agents. Captures session activity, compresses it with AI, and injects relevant context into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, and more. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-07-05"
     },
     {
       "name": "funes",
@@ -1380,7 +1590,8 @@
       "description": "Durable, searchable memory of past agent sessions. Indexes Claude Code, Codex, pi, and Hermes; recall over MCP; publish as a Hugging Face dataset. Apache-2.0.",
       "description_markdown": "Durable, searchable memory of past agent sessions. Indexes Claude Code, Codex, pi, and Hermes; recall over MCP; publish as a Hugging Face dataset. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-09-08"
     },
     {
       "name": "Headroom",
@@ -1388,7 +1599,8 @@
       "description": "Context compression layer for AI agents. Reduces tool outputs, logs, RAG chunks, and files by 60–95% before they reach the LLM—without loss of answer quality. Library, proxy, and MCP server modes; reversible compression; supports Claude Code, Codex, Cursor, and Aider.",
       "description_markdown": "Context compression layer for AI agents. Reduces tool outputs, logs, RAG chunks, and files by 60–95% before they reach the LLM—without loss of answer quality. Library, proxy, and MCP server modes; reversible compression; supports Claude Code, Codex, Cursor, and Aider.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-06-28"
     },
     {
       "name": "Hindsight",
@@ -1396,7 +1608,8 @@
       "description": "Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.",
       "description_markdown": "Agent memory that learns: state-of-the-art memory layer for AI agents with persistent, personalized recall.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-03-22"
     },
     {
       "name": "LeanCTX",
@@ -1404,7 +1617,8 @@
       "description": "Single-binary Rust context layer between AI coding agents and their environment. Compresses file reads and shell output, caches results, keeps persistent session memory, enforces path-jail security, and tracks token budgets. MCP-native with 30+ agent compatibility. Apache-2.0.",
       "description_markdown": "Single-binary Rust context layer between AI coding agents and their environment. Compresses file reads and shell output, caches results, keeps persistent session memory, enforces path-jail security, and tracks token budgets. MCP-native with 30+ agent compatibility. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-07-12"
     },
     {
       "name": "Letta",
@@ -1412,7 +1626,8 @@
       "description": "Stateful agents with long-term memory (formerly MemGPT).",
       "description_markdown": "Stateful agents with long-term memory (formerly MemGPT).",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-02-18"
     },
     {
       "name": "Lobu",
@@ -1420,7 +1635,8 @@
       "description": "Shared company context, identities, approvals and governed actions for AI agents.",
       "description_markdown": "Shared company context, identities, approvals and governed actions for AI agents.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-08-12"
     },
     {
       "name": "Mem0",
@@ -1428,7 +1644,8 @@
       "description": "Universal memory layer for AI agents. Persistent, contextual.",
       "description_markdown": "Universal memory layer for AI agents. Persistent, contextual.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-02-18"
     },
     {
       "name": "Memori",
@@ -1436,7 +1653,8 @@
       "description": "Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.",
       "description_markdown": "Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-05-03"
     },
     {
       "name": "MemPalace",
@@ -1444,7 +1662,8 @@
       "description": "Local-first agent memory that stores conversation history verbatim (no summarizing or extraction) and retrieves it with scoped semantic search over a wings/rooms/drawers index. Pluggable backends (ChromaDB default; SQLite, Rust, Milvus, Qdrant, pgvector), MCP server, and mining of Claude Code sessions; reports 96.6% R@5 on LongMemEval with zero API calls. MIT.",
       "description_markdown": "Local-first agent memory that stores conversation history verbatim (no summarizing or extraction) and retrieves it with scoped semantic search over a wings/rooms/drawers index. Pluggable backends (ChromaDB default; SQLite, Rust, Milvus, Qdrant, pgvector), MCP server, and mining of Claude Code sessions; reports 96.6% R@5 on LongMemEval with zero API calls. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-10-25"
     },
     {
       "name": "OpenViking",
@@ -1452,7 +1671,8 @@
       "description": "Self-evolving context database for AI agents unifying agent memory, knowledge RAG, and skills; includes a portable Agent Plugins package format (agent-plugins.org). AGPL-3.0.",
       "description_markdown": "Self-evolving context database for AI agents unifying agent memory, knowledge RAG, and skills; includes a portable Agent Plugins package format (agent-plugins.org). AGPL-3.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-08-16"
     },
     {
       "name": "ReMe",
@@ -1460,7 +1680,8 @@
       "description": "Alibaba's memory management kit for agents (formerly MemoryScope). File-based and vector-based memory with a dynamic procedural memory framework.",
       "description_markdown": "Alibaba's memory management kit for agents (formerly MemoryScope). File-based and vector-based memory with a dynamic procedural memory framework.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-05-03"
     },
     {
       "name": "SoL-Pi",
@@ -1468,7 +1689,8 @@
       "description": "NVIDIA Research's token-efficiency extension for the pi coding agent, discovered through scaled auto-research loops (paper). Four opt-in mechanisms: edit-plus-validation fused into one tool call, paged handles for large repeated observations, compact log receipts whose every quotation is verified against the archived source, and plan-aware context compaction. No pi patches required. MIT.",
       "description_markdown": "NVIDIA Research's token-efficiency extension for the pi coding agent, discovered through scaled auto-research loops ([paper](https://arxiv.org/abs/2609.20519)). Four opt-in mechanisms: edit-plus-validation fused into one tool call, paged handles for large repeated observations, compact log receipts whose every quotation is verified against the archived source, and plan-aware context compaction. No pi patches required. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-09-27"
     },
     {
       "name": "tigerless-labs/agent-memory",
@@ -1476,7 +1698,8 @@
       "description": "Long-term memory runtime for any agent where plain Markdown files are the source of truth and the SQLite FTS5 index is a rebuildable cache. Recall returns ranked file paths instead of pasted text, writes fire automatically at conversation boundaries, and a sleep-time pass consolidates memories but only ever proposes deletions. One store shared across Claude Code, Codex CLI, Hermes, and any shell-capable agent; no API keys. MIT, v0.1.0 (install from source).",
       "description_markdown": "Long-term memory runtime for any agent where plain Markdown files are the source of truth and the SQLite FTS5 index is a rebuildable cache. Recall returns ranked file paths instead of pasted text, writes fire automatically at conversation boundaries, and a sleep-time pass consolidates memories but only ever proposes deletions. One store shared across Claude Code, Codex CLI, Hermes, and any shell-capable agent; no API keys. MIT, v0.1.0 (install from source).",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-10-18"
     },
     {
       "name": "token-optimizer",
@@ -1484,7 +1707,8 @@
       "description": "Token and context optimizer for coding agents: cuts wasted tokens and survives compaction.",
       "description_markdown": "Token and context optimizer for coding agents: cuts wasted tokens and survives compaction.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-08-04"
     },
     {
       "name": "TokenEconomizer",
@@ -1492,7 +1716,8 @@
       "description": "Microsoft Research and UC Berkeley's black-box cost control for coding agents. Learns repository \"micro-skills\" from past sessions, prunes unused tools, and interrupts failure loops; reports 18–31% lower cost on SWE-Bench without changing the agent. Apache-2.0.",
       "description_markdown": "Microsoft Research and UC Berkeley's black-box cost control for coding agents. Learns repository \"micro-skills\" from past sessions, prunes unused tools, and interrupts failure loops; reports 18–31% lower cost on SWE-Bench without changing the agent. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-11-02"
     },
     {
       "name": "Zep",
@@ -1500,7 +1725,8 @@
       "description": "Long-term memory for AI assistants.",
       "description_markdown": "Long-term memory for AI assistants.",
       "category": "Agent Infrastructure",
-      "subcategory": "Memory & State"
+      "subcategory": "Memory & State",
+      "added": "2026-02-18"
     },
     {
       "name": "Arize Phoenix",
@@ -1508,7 +1734,8 @@
       "description": "ML & LLM observability.",
       "description_markdown": "ML & LLM observability.",
       "category": "Agent Infrastructure",
-      "subcategory": "Monitoring & Observability"
+      "subcategory": "Monitoring & Observability",
+      "added": "2026-02-18"
     },
     {
       "name": "Bifrost",
@@ -1516,7 +1743,8 @@
       "description": "Open-source, OpenAI-compatible AI gateway with multi-provider routing, fallbacks, MCP, and observability.",
       "description_markdown": "Open-source, OpenAI-compatible AI gateway with multi-provider routing, fallbacks, MCP, and observability.",
       "category": "Agent Infrastructure",
-      "subcategory": "Monitoring & Observability"
+      "subcategory": "Monitoring & Observability",
+      "added": "2026-09-17"
     },
     {
       "name": "Future AGI",
@@ -1524,7 +1752,8 @@
       "description": "Open-source, end-to-end, self-hostable platform for evaluating, observing, and improving LLM and AI agent apps. Tracing, evals, simulations, datasets, gateway, and guardrails in one stack.",
       "description_markdown": "Open-source, end-to-end, self-hostable platform for evaluating, observing, and improving LLM and AI agent apps. Tracing, evals, simulations, datasets, gateway, and guardrails in one stack.",
       "category": "Agent Infrastructure",
-      "subcategory": "Monitoring & Observability"
+      "subcategory": "Monitoring & Observability",
+      "added": "2026-04-26"
     },
     {
       "name": "Helicone",
@@ -1532,7 +1761,8 @@
       "description": "LLM observability and cost tracking.",
       "description_markdown": "LLM observability and cost tracking.",
       "category": "Agent Infrastructure",
-      "subcategory": "Monitoring & Observability"
+      "subcategory": "Monitoring & Observability",
+      "added": "2026-02-18"
     },
     {
       "name": "Langfuse",
@@ -1540,7 +1770,8 @@
       "description": "Open-source LLM observability. Traces, evals, prompt management.",
       "description_markdown": "Open-source LLM observability. Traces, evals, prompt management.",
       "category": "Agent Infrastructure",
-      "subcategory": "Monitoring & Observability"
+      "subcategory": "Monitoring & Observability",
+      "added": "2026-02-18"
     },
     {
       "name": "LangSmith",
@@ -1548,7 +1779,8 @@
       "description": "LangChain's debugging and monitoring platform.",
       "description_markdown": "LangChain's debugging and monitoring platform.",
       "category": "Agent Infrastructure",
-      "subcategory": "Monitoring & Observability"
+      "subcategory": "Monitoring & Observability",
+      "added": "2026-02-18"
     },
     {
       "name": "OrcaReplay",
@@ -1556,7 +1788,8 @@
       "description": "Records a coding-agent run below the harness and replays it offline byte-for-byte, or forks it from a checkpoint onto another model.",
       "description_markdown": "Records a coding-agent run below the harness and replays it offline byte-for-byte, or forks it from a checkpoint onto another model.",
       "category": "Agent Infrastructure",
-      "subcategory": "Monitoring & Observability"
+      "subcategory": "Monitoring & Observability",
+      "added": "2026-09-07"
     },
     {
       "name": "Crawl4AI",
@@ -1564,7 +1797,8 @@
       "description": "Open-source LLM-friendly web crawler. High-performance async crawling.",
       "description_markdown": "Open-source LLM-friendly web crawler. High-performance async crawling.",
       "category": "Agent Infrastructure",
-      "subcategory": "Data Extraction"
+      "subcategory": "Data Extraction",
+      "added": "2026-02-27"
     },
     {
       "name": "Firecrawl",
@@ -1572,7 +1806,8 @@
       "description": "Turn entire websites into LLM-ready markdown or structured data.",
       "description_markdown": "Turn entire websites into LLM-ready markdown or structured data.",
       "category": "Agent Infrastructure",
-      "subcategory": "Data Extraction"
+      "subcategory": "Data Extraction",
+      "added": "2026-02-18"
     },
     {
       "name": "Azure AI Search",
@@ -1580,7 +1815,8 @@
       "description": "Enterprise search with vector + hybrid capabilities.",
       "description_markdown": "Enterprise search with vector + hybrid capabilities.",
       "category": "Agent Infrastructure",
-      "subcategory": "Vector Databases"
+      "subcategory": "Vector Databases",
+      "added": "2026-02-18"
     },
     {
       "name": "ChromaDB",
@@ -1588,7 +1824,8 @@
       "description": "Lightweight embedding database.",
       "description_markdown": "Lightweight embedding database.",
       "category": "Agent Infrastructure",
-      "subcategory": "Vector Databases"
+      "subcategory": "Vector Databases",
+      "added": "2026-02-18"
     },
     {
       "name": "Pinecone",
@@ -1596,7 +1833,8 @@
       "description": "Managed vector database.",
       "description_markdown": "Managed vector database.",
       "category": "Agent Infrastructure",
-      "subcategory": "Vector Databases"
+      "subcategory": "Vector Databases",
+      "added": "2026-02-18"
     },
     {
       "name": "Qdrant",
@@ -1604,7 +1842,8 @@
       "description": "High-performance vector search.",
       "description_markdown": "High-performance vector search.",
       "category": "Agent Infrastructure",
-      "subcategory": "Vector Databases"
+      "subcategory": "Vector Databases",
+      "added": "2026-02-18"
     },
     {
       "name": "Weaviate",
@@ -1612,7 +1851,8 @@
       "description": "Open-source vector database.",
       "description_markdown": "Open-source vector database.",
       "category": "Agent Infrastructure",
-      "subcategory": "Vector Databases"
+      "subcategory": "Vector Databases",
+      "added": "2026-02-18"
     },
     {
       "name": "AgentBox",
@@ -1620,7 +1860,8 @@
       "description": "Run multiple coding agents (Claude Code, Codex, OpenCode) in parallel, each in its own sandboxed VM across local Docker, self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B). Sub-1s checkpoints, per-box browser/VS Code/shells. MIT.",
       "description_markdown": "Run multiple coding agents (Claude Code, Codex, OpenCode) in parallel, each in its own sandboxed VM across local Docker, self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B). Sub-1s checkpoints, per-box browser/VS Code/shells. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-07-20"
     },
     {
       "name": "AgentENV",
@@ -1628,7 +1869,8 @@
       "description": "Distributed platform for running agent environments at scale. Standardized, reproducible sandboxed environments for agent execution, evaluation, and RL training workloads. MIT.",
       "description_markdown": "Distributed platform for running agent environments at scale. Standardized, reproducible sandboxed environments for agent execution, evaluation, and RL training workloads. MIT.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-08-23"
     },
     {
       "name": "CubeSandbox",
@@ -1636,7 +1878,8 @@
       "description": "Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.",
       "description_markdown": "Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-04-26"
     },
     {
       "name": "Daytona",
@@ -1644,7 +1887,11 @@
       "description": "Secure and elastic infrastructure for running AI-generated code.",
       "description_markdown": "Secure and elastic infrastructure for running AI-generated code.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/daytonaio/daytona"
+      ]
     },
     {
       "name": "E2B",
@@ -1652,7 +1899,8 @@
       "description": "Cloud sandboxes for AI agents. Secure code execution environments.",
       "description_markdown": "Cloud sandboxes for AI agents. Secure code execution environments.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-02-27"
     },
     {
       "name": "forkd",
@@ -1660,7 +1908,8 @@
       "description": "fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent, BRANCH a live VM in ~150ms. KVM-isolated with snapshot copy-on-write. Apache-2.0.",
       "description_markdown": "`fork()` for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent, BRANCH a live VM in ~150ms. KVM-isolated with snapshot copy-on-write. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-05-24"
     },
     {
       "name": "GitHub Agentic Workflows",
@@ -1668,7 +1917,8 @@
       "description": "AI agents running within GitHub Actions. Markdown-based workflow definitions.",
       "description_markdown": "AI agents running within GitHub Actions. Markdown-based workflow definitions.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-02-27"
     },
     {
       "name": "Mirage",
@@ -1676,7 +1926,8 @@
       "description": "Unified virtual filesystem for AI agents. Gives agents a consistent, sandboxed view across local, cloud, and ephemeral storage. Apache-2.0.",
       "description_markdown": "Unified virtual filesystem for AI agents. Gives agents a consistent, sandboxed view across local, cloud, and ephemeral storage. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-05-10"
     },
     {
       "name": "Moltworker",
@@ -1684,7 +1935,8 @@
       "description": "Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.",
       "description_markdown": "Cloudflare's open-source framework for deploying personal AI agents on Workers with sandboxed execution.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-03-01"
     },
     {
       "name": "NemoClaw",
@@ -1692,7 +1944,8 @@
       "description": "NVIDIA's open-source reference stack for running always-on agents (OpenClaw, Hermes) more securely inside NVIDIA OpenShell sandboxes. Provides guided onboarding, hardened blueprints, routed inference, network policy, and lifecycle management via a single CLI. Announced at GTC Taipei (June 2026).",
       "description_markdown": "NVIDIA's open-source reference stack for running always-on agents (OpenClaw, Hermes) more securely inside NVIDIA OpenShell sandboxes. Provides guided onboarding, hardened blueprints, routed inference, network policy, and lifecycle management via a single CLI. Announced at GTC Taipei (June 2026).",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-06-07"
     },
     {
       "name": "Sandbox Runtime",
@@ -1700,7 +1953,11 @@
       "description": "Anthropic's lightweight, container-free OS-level sandboxing tool enforcing filesystem and network restrictions on arbitrary processes. Built for Claude Code, released as an open-source research preview to help the ecosystem build safer agentic systems.",
       "description_markdown": "Anthropic's lightweight, container-free OS-level sandboxing tool enforcing filesystem and network restrictions on arbitrary processes. Built for Claude Code, released as an open-source research preview to help the ecosystem build safer agentic systems.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-08-02",
+      "previous_urls": [
+        "https://github.com/anthropic-experimental/sandbox-runtime"
+      ]
     },
     {
       "name": "SmolVM",
@@ -1708,7 +1965,8 @@
       "description": "Open-source microVM sandbox infrastructure for code execution, browser use, and AI agents. macOS/Linux support, snapshotting, pause/resume, and persistent environments across turns. Apache-2.0.",
       "description_markdown": "Open-source microVM sandbox infrastructure for code execution, browser use, and AI agents. macOS/Linux support, snapshotting, pause/resume, and persistent environments across turns. Apache-2.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-05-03"
     },
     {
       "name": "SPACE",
@@ -1716,7 +1974,8 @@
       "description": "Perplexity's self-hosted Sandboxed Platform for Agentic Code Execution. Runs agent and user code in isolated Firecracker microVMs behind an HTTP/SSE API, with templates, pause/suspend/wake, Kubernetes warm pools, snapshot restore, and an E2B compatibility wrapper so the E2B Python SDK works against it. Deploys locally on Kind or via a reference EKS setup. Rust, Apache-2.0, pre-1.0.",
       "description_markdown": "Perplexity's self-hosted Sandboxed Platform for Agentic Code Execution. Runs agent and user code in isolated Firecracker microVMs behind an HTTP/SSE API, with templates, pause/suspend/wake, Kubernetes warm pools, snapshot restore, and an E2B compatibility wrapper so the E2B Python SDK works against it. Deploys locally on Kind or via a reference EKS setup. Rust, Apache-2.0, pre-1.0.",
       "category": "Agent Infrastructure",
-      "subcategory": "Sandboxing & Execution"
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-10-18"
     },
     {
       "name": "agent-qa",
@@ -1724,7 +1983,8 @@
       "description": "Self-improving QA agent for natural-language web/mobile regression tests with memory, MCP, and skills.",
       "description_markdown": "Self-improving QA agent for natural-language web/mobile regression tests with memory, MCP, and skills.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-08-16"
     },
     {
       "name": "AgentBench",
@@ -1732,7 +1992,8 @@
       "description": "Tsinghua's multi-dimensional agent benchmark.",
       "description_markdown": "Tsinghua's multi-dimensional agent benchmark.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "AgentBoard",
@@ -1740,7 +2001,8 @@
       "description": "Multi-round agent evaluation platform.",
       "description_markdown": "Multi-round agent evaluation platform.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "ClawBench",
@@ -1748,7 +2010,11 @@
       "description": "Live-site benchmark for browser agents completing everyday online workflows.",
       "description_markdown": "Live-site benchmark for browser agents completing everyday online workflows.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-07-27",
+      "previous_urls": [
+        "https://github.com/reacher-z/ClawBench"
+      ]
     },
     {
       "name": "ExploitGym",
@@ -1756,7 +2022,8 @@
       "description": "Large-scale benchmark built from real-world CVEs for evaluating whether AI agents can develop working exploits. From UC Berkeley's Sunblaze lab. Apache-2.0.",
       "description_markdown": "Large-scale benchmark built from real-world CVEs for evaluating whether AI agents can develop working exploits. From UC Berkeley's Sunblaze lab. Apache-2.0.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-08-30"
     },
     {
       "name": "GAIA",
@@ -1764,7 +2031,8 @@
       "description": "General AI Assistants benchmark by Meta.",
       "description_markdown": "General AI Assistants benchmark by Meta.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "LangTest",
@@ -1772,7 +2040,11 @@
       "description": "Testing framework for delivering safe & effective language models.",
       "description_markdown": "Testing framework for delivering safe & effective language models.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/Pacific-AI-Corp/langtest"
+      ]
     },
     {
       "name": "RuLES",
@@ -1780,7 +2052,8 @@
       "description": "Benchmark for evaluating rule-following in language models.",
       "description_markdown": "Benchmark for evaluating rule-following in language models.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "SWE-bench",
@@ -1788,7 +2061,8 @@
       "description": "Benchmark for software engineering agents.",
       "description_markdown": "Benchmark for software engineering agents.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "ToolBench",
@@ -1796,7 +2070,8 @@
       "description": "Benchmark for tool-use capabilities.",
       "description_markdown": "Benchmark for tool-use capabilities.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "ToolEmu",
@@ -1804,7 +2079,8 @@
       "description": "LM-based emulation framework for identifying risks of agents with tool use (ICLR '24).",
       "description_markdown": "LM-based emulation framework for identifying risks of agents with tool use (ICLR '24).",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "UQLM",
@@ -1812,7 +2088,8 @@
       "description": "Uncertainty quantification for LLMs. UQ-based hallucination detection.",
       "description_markdown": "Uncertainty quantification for LLMs. UQ-based hallucination detection.",
       "category": "Evaluation & Testing",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Agent Governance Toolkit",
@@ -1820,7 +2097,8 @@
       "description": "Microsoft's runtime governance infrastructure for AI agents. Deterministic policy enforcement, zero-trust identity, execution sandboxing, and SRE. Covers all 10 OWASP Agentic Top 10 risks across Python, TypeScript, .NET, Rust, and Go.",
       "description_markdown": "Microsoft's runtime governance infrastructure for AI agents. Deterministic policy enforcement, zero-trust identity, execution sandboxing, and SRE. Covers all 10 OWASP Agentic Top 10 risks across Python, TypeScript, .NET, Rust, and Go.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-04-05"
     },
     {
       "name": "Agentic Security",
@@ -1828,7 +2106,8 @@
       "description": "LLM vulnerability scanner and AI red teaming kit.",
       "description_markdown": "LLM vulnerability scanner and AI red teaming kit.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Anthropic Constitutional AI",
@@ -1836,7 +2115,8 @@
       "description": "Self-improving AI safety through constitutions.",
       "description_markdown": "Self-improving AI safety through constitutions.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Azure AI Content Safety",
@@ -1844,7 +2124,8 @@
       "description": "Content moderation for AI outputs.",
       "description_markdown": "Content moderation for AI outputs.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Deepsec",
@@ -1852,7 +2133,8 @@
       "description": "Vercel Labs' security harness for finding vulnerabilities in your codebase powered by coding agents. Apache-2.0.",
       "description_markdown": "Vercel Labs' security harness for finding vulnerabilities in your codebase powered by coding agents. Apache-2.0.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-05-17"
     },
     {
       "name": "Gram",
@@ -1860,7 +2142,8 @@
       "description": "MCP control plane with role-scoped access, policies, threat detection, and searchable audit events.",
       "description_markdown": "MCP control plane with role-scoped access, policies, threat detection, and searchable audit events.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-09-15"
     },
     {
       "name": "Guardrails AI",
@@ -1868,7 +2151,8 @@
       "description": "Validation framework for LLM outputs.",
       "description_markdown": "Validation framework for LLM outputs.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "IronCurtain",
@@ -1876,7 +2160,8 @@
       "description": "Open-source security layer for autonomous AI agents. Runs agents in isolated VMs to prevent prompt injection and rogue behavior.",
       "description_markdown": "Open-source security layer for autonomous AI agents. Runs agents in isolated VMs to prevent prompt injection and rogue behavior.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-03-01"
     },
     {
       "name": "LangFair",
@@ -1884,7 +2169,8 @@
       "description": "Python library for LLM bias and fairness assessments.",
       "description_markdown": "Python library for LLM bias and fairness assessments.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "NeMo Guardrails",
@@ -1892,7 +2178,11 @@
       "description": "NVIDIA's programmable guardrails.",
       "description_markdown": "NVIDIA's programmable guardrails.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18",
+      "previous_urls": [
+        "https://github.com/NVIDIA/NeMo-Guardrails"
+      ]
     },
     {
       "name": "Numbat",
@@ -1900,7 +2190,8 @@
       "description": "Perplexity's endpoint visibility tool for AI agent activity. On-device detection, optional pre-action blocking, and forensic reconstruction of what an agent did. Apache-2.0.",
       "description_markdown": "Perplexity's endpoint visibility tool for AI agent activity. On-device detection, optional pre-action blocking, and forensic reconstruction of what an agent did. Apache-2.0.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-08-30"
     },
     {
       "name": "open-kritt",
@@ -1908,7 +2199,8 @@
       "description": "Self-hosted vulnerability research platform that orchestrates AI agents to find and validate security issues in code. Reusable workflow playbooks, parallel focused scans via Codex or Claude Code, de-duplicated and severity-ranked findings, and PoC/report export. Bring your own model access (OpenAI, Anthropic, OpenRouter, xAI). AGPL-3.0.",
       "description_markdown": "Self-hosted vulnerability research platform that orchestrates AI agents to find and validate security issues in code. Reusable workflow playbooks, parallel focused scans via Codex or Claude Code, de-duplicated and severity-ranked findings, and PoC/report export. Bring your own model access (OpenAI, Anthropic, OpenRouter, xAI). AGPL-3.0.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-09-13"
     },
     {
       "name": "PromptInject",
@@ -1916,7 +2208,8 @@
       "description": "Framework for quantitative analysis of LLM robustness to prompt attacks (NeurIPS '22 Best Paper).",
       "description_markdown": "Framework for quantitative analysis of LLM robustness to prompt attacks (NeurIPS '22 Best Paper).",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "repo-forensics",
@@ -1924,7 +2217,8 @@
       "description": "Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.",
       "description_markdown": "Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-08-04"
     },
     {
       "name": "Safe RLHF",
@@ -1932,7 +2226,8 @@
       "description": "Constrained value alignment via safe reinforcement learning from human feedback.",
       "description_markdown": "Constrained value alignment via safe reinforcement learning from human feedback.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "SkillSpector",
@@ -1940,7 +2235,8 @@
       "description": "NVIDIA's security scanner for agent skills: answers whether a skill is safe to install before you install it. 71 vulnerability patterns across 17 categories (prompt injection, data exfiltration, supply chain, MCP tool poisoning), static plus optional LLM semantic analysis, live OSV.dev CVE lookups, and terminal/JSON/Markdown/SARIF reports. Part of the NVIDIA Verified Skills pipeline. Apache-2.0.",
       "description_markdown": "NVIDIA's security scanner for agent skills: answers whether a skill is safe to install before you install it. 71 vulnerability patterns across 17 categories (prompt injection, data exfiltration, supply chain, MCP tool poisoning), static plus optional LLM semantic analysis, live OSV.dev CVE lookups, and terminal/JSON/Markdown/SARIF reports. Part of the NVIDIA Verified Skills pipeline. Apache-2.0.",
       "category": "Safety & Governance",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-09-20"
     },
     {
       "name": "The Rise and Potential of Large Language Model Based Agents",
@@ -1949,7 +2245,8 @@
       "description_markdown": "Comprehensive survey of LLM-based agents.",
       "category": "Research Papers",
       "subcategory": "Surveys & Overviews",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "A Survey on Large Language Model based Autonomous Agents",
@@ -1958,7 +2255,8 @@
       "description_markdown": "Systematic review of agent architectures.",
       "category": "Research Papers",
       "subcategory": "Surveys & Overviews",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "Agent AI: Surveying the Horizons of Multimodal Interaction",
@@ -1967,7 +2265,8 @@
       "description_markdown": "Microsoft Research survey on agent AI.",
       "category": "Research Papers",
       "subcategory": "Surveys & Overviews",
-      "year": 2024
+      "year": 2024,
+      "added": "2026-02-18"
     },
     {
       "name": "ReAct: Synergizing Reasoning and Acting",
@@ -1976,7 +2275,8 @@
       "description_markdown": "The foundational Reason + Act paradigm.",
       "category": "Research Papers",
       "subcategory": "Agent Architectures",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "Toolformer",
@@ -1985,7 +2285,8 @@
       "description_markdown": "Teaching LLMs to use tools autonomously.",
       "category": "Research Papers",
       "subcategory": "Agent Architectures",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "Voyager",
@@ -1994,7 +2295,8 @@
       "description_markdown": "Lifelong learning agent in Minecraft.",
       "category": "Research Papers",
       "subcategory": "Agent Architectures",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "Generative Agents",
@@ -2003,7 +2305,8 @@
       "description_markdown": "Stanford's believable simulacra of human behavior.",
       "category": "Research Papers",
       "subcategory": "Agent Architectures",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "Tree of Thoughts",
@@ -2012,7 +2315,8 @@
       "description_markdown": "Deliberate problem solving through exploration of reasoning paths.",
       "category": "Research Papers",
       "subcategory": "Agent Architectures",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-27"
     },
     {
       "name": "Self-Refine",
@@ -2021,7 +2325,8 @@
       "description_markdown": "Iterative self-refinement with self-feedback.",
       "category": "Research Papers",
       "subcategory": "Agent Architectures",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-27"
     },
     {
       "name": "CAMEL",
@@ -2030,7 +2335,8 @@
       "description_markdown": "Communicative agents for role-playing.",
       "category": "Research Papers",
       "subcategory": "Multi-Agent Systems",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "MetaGPT",
@@ -2039,7 +2345,8 @@
       "description_markdown": "Multi-agent collaboration mimicking software companies.",
       "category": "Research Papers",
       "subcategory": "Multi-Agent Systems",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "ChatDev",
@@ -2048,7 +2355,8 @@
       "description_markdown": "Agents collaborating in a virtual software company.",
       "category": "Research Papers",
       "subcategory": "Multi-Agent Systems",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "PaperOrchestra",
@@ -2057,7 +2365,8 @@
       "description_markdown": "Google's multi-agent framework for automated AI research paper writing, converting unstructured pre-writing materials into submission-ready papers.",
       "category": "Research Papers",
       "subcategory": "Multi-Agent Systems",
-      "year": 2026
+      "year": 2026,
+      "added": "2026-04-12"
     },
     {
       "name": "AgentBench",
@@ -2066,7 +2375,8 @@
       "description_markdown": "Evaluating LLMs as agents across 8 environments.",
       "category": "Research Papers",
       "subcategory": "Safety & Evaluation",
-      "year": 2023
+      "year": 2023,
+      "added": "2026-02-18"
     },
     {
       "name": "InjectAgent",
@@ -2075,7 +2385,8 @@
       "description_markdown": "Indirect prompt injection attacks on tool-integrated agents.",
       "category": "Research Papers",
       "subcategory": "Safety & Evaluation",
-      "year": 2024
+      "year": 2024,
+      "added": "2026-02-18"
     },
     {
       "name": "R-Judge",
@@ -2084,7 +2395,8 @@
       "description_markdown": "Benchmarking safety risk awareness for LLM agents.",
       "category": "Research Papers",
       "subcategory": "Safety & Evaluation",
-      "year": 2024
+      "year": 2024,
+      "added": "2026-02-18"
     },
     {
       "name": "Group-in-Group Policy Optimization for LLM Agent Training",
@@ -2093,7 +2405,8 @@
       "description_markdown": "RL-based training for LLM/VLM agents.",
       "category": "Research Papers",
       "subcategory": "Agent Training",
-      "year": 2025
+      "year": 2025,
+      "added": "2026-02-18"
     },
     {
       "name": "agent-rules-books",
@@ -2101,7 +2414,8 @@
       "description": "AGENTS.md rules and skills for AI coding agents (Codex, Cursor, Claude Code) inspired by Clean Code, Refactoring, DDD, Clean Architecture, and DDIA.",
       "description_markdown": "AGENTS.md rules and skills for AI coding agents (Codex, Cursor, Claude Code) inspired by Clean Code, Refactoring, DDD, Clean Architecture, and DDIA.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-05-10"
     },
     {
       "name": "DeepLearning.AI: A2A Protocol",
@@ -2109,7 +2423,8 @@
       "description": "Short course on Google's Agent2Agent protocol.",
       "description_markdown": "Short course on Google's Agent2Agent protocol.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-27"
     },
     {
       "name": "DeepLearning.AI: Building Agentic RAG",
@@ -2117,7 +2432,8 @@
       "description": "Andrew Ng's course on agentic RAG patterns.",
       "description_markdown": "Andrew Ng's course on agentic RAG patterns.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Hugging Face: Building AI Agents",
@@ -2125,7 +2441,8 @@
       "description": "Open course on agent development.",
       "description_markdown": "Open course on agent development.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "LangChain Academy",
@@ -2133,7 +2450,8 @@
       "description": "Free courses on agents and RAG.",
       "description_markdown": "Free courses on agents and RAG.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Microsoft: AI Agents for Beginners",
@@ -2141,7 +2459,8 @@
       "description": "12 lessons to get started building AI agents.",
       "description_markdown": "12 lessons to get started building AI agents.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Microsoft: AI Engineering Coach",
@@ -2149,7 +2468,8 @@
       "description": "Microsoft's open-source curriculum and tooling for \"better agentic engineering\" — patterns, practices, and exercises for building production-quality AI agents.",
       "description_markdown": "Microsoft's open-source curriculum and tooling for \"better agentic engineering\" — patterns, practices, and exercises for building production-quality AI agents.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-05-24"
     },
     {
       "name": "Microsoft: Build AI Agents with Azure AI Foundry",
@@ -2157,7 +2477,8 @@
       "description": "Official Microsoft Learn path.",
       "description_markdown": "Official Microsoft Learn path.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Microsoft: MCP for Beginners",
@@ -2165,7 +2486,8 @@
       "description": "Curriculum for Model Context Protocol with cross-language examples.",
       "description_markdown": "Curriculum for Model Context Protocol with cross-language examples.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "Prompt Engineering Guide",
@@ -2173,7 +2495,8 @@
       "description": "Comprehensive guides for prompt engineering, RAG, and AI agents.",
       "description_markdown": "Comprehensive guides for prompt engineering, RAG, and AI agents.",
       "category": "Tutorials & Courses",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "r/AI_Agents",
@@ -2181,7 +2504,8 @@
       "description": "Reddit community",
       "description_markdown": "Reddit community",
       "category": "Community",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "AI Agents Discord",
@@ -2189,7 +2513,8 @@
       "description": "Active Discord server",
       "description_markdown": "Active Discord server",
       "category": "Community",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
     },
     {
       "name": "awesome-ai-agent-papers",
@@ -2197,7 +2522,8 @@
       "description": "Curated collection of AI agent research papers released in 2026, covering engineering, memory, evaluation, workflows, and autonomous systems.",
       "description_markdown": "Curated collection of AI agent research papers released in 2026, covering engineering, memory, evaluation, workflows, and autonomous systems.",
       "category": "Community",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-04-05"
     },
     {
       "name": "#AIAgents on X",
@@ -2205,7 +2531,55 @@
       "description": "Twitter/X hashtag",
       "description_markdown": "Twitter/X hashtag",
       "category": "Community",
-      "subcategory": null
+      "subcategory": null,
+      "added": "2026-02-18"
+    }
+  ],
+  "removed_entries": [
+    {
+      "name": "agent-eval",
+      "url": "https://github.com/aloth/agent-eval",
+      "description": "Standardized benchmark framework for AI agents. ⭐ *Our project*",
+      "category": "Evaluation & Testing",
+      "subcategory": null,
+      "added": "2026-02-18",
+      "removed": "2026-02-27"
+    },
+    {
+      "name": "CoPaw",
+      "url": "https://github.com/agentscope-ai/CoPaw",
+      "description": "Alibaba's open-source personal AI agent workstation. Supports multi-channel workflows, MCP skills, local/cloud LLMs, and persistent memory.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Personal AI Agents",
+      "added": "2026-03-08",
+      "removed": "2026-11-07"
+    },
+    {
+      "name": "LLM Guard",
+      "url": "https://github.com/protectai/llm-guard",
+      "description": "Security toolkit for LLM interactions.",
+      "category": "Safety & Governance",
+      "subcategory": null,
+      "added": "2026-02-18",
+      "removed": "2026-11-07"
+    },
+    {
+      "name": "Rebuff",
+      "url": "https://github.com/protectai/rebuff",
+      "description": "Prompt injection detection.",
+      "category": "Safety & Governance",
+      "subcategory": null,
+      "added": "2026-02-18",
+      "removed": "2026-11-07"
+    },
+    {
+      "name": "Swarm",
+      "url": "https://github.com/openai/swarm",
+      "description": "OpenAI's lightweight multi-agent framework (educational).",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-02-18",
+      "removed": "2026-11-07"
     }
   ]
 }
