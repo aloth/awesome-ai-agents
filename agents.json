@@ -7,7 +7,7 @@
   "license": "CC0-1.0",
   "repository": "https://github.com/aloth/awesome-ai-agents",
   "homepage": "https://aloth.github.io/awesome-ai-agents/",
-  "entry_count": 262,
+  "entry_count": 258,
   "categories": [
     {
       "name": "Frameworks & Libraries",
@@ -288,7 +288,7 @@
     },
     {
       "name": "MetaGPT",
-      "url": "https://github.com/geekan/MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
       "description": "Multi-agent framework that mimics a software company with roles (PM, architect, engineer).",
       "description_markdown": "Multi-agent framework that mimics a software company with roles (PM, architect, engineer).",
       "category": "Frameworks & Libraries",
@@ -399,14 +399,6 @@
       "subcategory": "Multi-Agent Orchestration"
     },
     {
-      "name": "Swarm",
-      "url": "https://github.com/openai/swarm",
-      "description": "OpenAI's lightweight multi-agent framework (educational).",
-      "description_markdown": "OpenAI's lightweight multi-agent framework (educational).",
-      "category": "Frameworks & Libraries",
-      "subcategory": "Multi-Agent Orchestration"
-    },
-    {
       "name": "Claude Agent SDK",
       "url": "https://github.com/anthropics/claude-agent-sdk-python",
       "description": "Anthropic's production SDK for building AI agents powered by Claude. Stateful sessions, tool execution, sandboxing, and streaming. Available in Python and TypeScript.",
@@ -440,7 +432,7 @@
     },
     {
       "name": "Instructor",
-      "url": "https://github.com/jxnl/instructor",
+      "url": "https://github.com/567-labs/instructor",
       "description": "Structured output from LLMs. Essential for reliable tool use.",
       "description_markdown": "Structured output from LLMs. Essential for reliable tool use.",
       "category": "Frameworks & Libraries",
@@ -496,7 +488,7 @@
     },
     {
       "name": "Aider",
-      "url": "https://github.com/paul-gauthier/aider",
+      "url": "https://github.com/Aider-AI/aider",
       "description": "AI pair programming in the terminal.",
       "description_markdown": "AI pair programming in the terminal.",
       "category": "Frameworks & Libraries",
@@ -507,14 +499,6 @@
       "url": "https://github.com/AtomicBot-ai/atomic-agent",
       "description": "Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine. MIT.",
       "description_markdown": "Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine. MIT.",
-      "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
-    },
-    {
-      "name": "BitFun",
-      "url": "https://github.com/GCWing/BitFun",
-      "description": "Cross-platform desktop agent for coding, Git, browser, terminal, and remote workspaces.",
-      "description_markdown": "Cross-platform desktop agent for coding, Git, browser, terminal, and remote workspaces.",
       "category": "Frameworks & Libraries",
       "subcategory": "Code Agents"
     },
@@ -592,7 +576,7 @@
     },
     {
       "name": "Goose",
-      "url": "https://github.com/block/goose",
+      "url": "https://github.com/aaif-goose/goose",
       "description": "Block's open-source extensible AI agent for full-cycle development. Desktop app, CLI, and API with native MCP support, 70+ extensions, and LLM-agnostic design. Now under the Linux Foundation's Agentic AI Foundation (AAIF).",
       "description_markdown": "Block's open-source extensible AI agent for full-cycle development. Desktop app, CLI, and API with native MCP support, 70+ extensions, and LLM-agnostic design. Now under the Linux Foundation's Agentic AI Foundation (AAIF).",
       "category": "Frameworks & Libraries",
@@ -663,8 +647,24 @@
       "subcategory": "Code Agents"
     },
     {
+      "name": "Open SWE",
+      "url": "https://github.com/langchain-ai/open-swe",
+      "description": "LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.",
+      "description_markdown": "LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Code Agents"
+    },
+    {
+      "name": "OpenBitFun",
+      "url": "https://github.com/GCWing/OpenBitFun",
+      "description": "Cross-platform desktop agent for coding, Git, browser, terminal, and remote workspaces.",
+      "description_markdown": "Cross-platform desktop agent for coding, Git, browser, terminal, and remote workspaces.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Code Agents"
+    },
+    {
       "name": "OpenClacky",
-      "url": "https://github.com/clacky-ai/open-clacky",
+      "url": "https://github.com/clacky-ai/openclacky",
       "description": "Token-efficient open-source AI coding agent with prompt caching, 16 core tools, and skill extensions. MIT.",
       "description_markdown": "Token-efficient open-source AI coding agent with prompt caching, 16 core tools, and skill extensions. MIT.",
       "category": "Frameworks & Libraries",
@@ -672,9 +672,25 @@
     },
     {
       "name": "OpenCode",
-      "url": "https://github.com/opencode-ai/opencode",
-      "description": "Open-source terminal-native AI coding agent built in Go by SST. 160K+ stars, 7.5M monthly developers. Works in terminal, IDE, or desktop with any LLM.",
-      "description_markdown": "Open-source terminal-native AI coding agent built in Go by SST. 160K+ stars, 7.5M monthly developers. Works in terminal, IDE, or desktop with any LLM.",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "Open-source AI coding agent. Works in terminal, IDE, or desktop with any LLM.",
+      "description_markdown": "Open-source AI coding agent. Works in terminal, IDE, or desktop with any LLM.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Code Agents"
+    },
+    {
+      "name": "OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "description": "AI software development agent (formerly OpenDevin).",
+      "description_markdown": "AI software development agent (formerly OpenDevin).",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Code Agents"
+    },
+    {
+      "name": "OpenHands Software Agent SDK",
+      "url": "https://github.com/OpenHands/software-agent-sdk",
+      "description": "Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.",
+      "description_markdown": "Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.",
       "category": "Frameworks & Libraries",
       "subcategory": "Code Agents"
     },
@@ -691,30 +707,6 @@
       "url": "https://github.com/stablyai/orca",
       "description": "Open-source desktop agent IDE that runs 30+ coding agents (Claude Code, Codex, OpenCode, etc.) side by side in isolated git worktrees. Terminal splits, embedded Chromium, SSH remotes, and GitHub/Linear integration. YC-backed, MIT.",
       "description_markdown": "Open-source desktop agent IDE that runs 30+ coding agents (Claude Code, Codex, OpenCode, etc.) side by side in isolated git worktrees. Terminal splits, embedded Chromium, SSH remotes, and GitHub/Linear integration. YC-backed, MIT.",
-      "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
-    },
-    {
-      "name": "Open SWE",
-      "url": "https://github.com/langchain-ai/open-swe",
-      "description": "LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.",
-      "description_markdown": "LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.",
-      "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
-    },
-    {
-      "name": "OpenHands",
-      "url": "https://github.com/All-Hands-AI/OpenHands",
-      "description": "AI software development agent (formerly OpenDevin).",
-      "description_markdown": "AI software development agent (formerly OpenDevin).",
-      "category": "Frameworks & Libraries",
-      "subcategory": "Code Agents"
-    },
-    {
-      "name": "OpenHands Software Agent SDK",
-      "url": "https://github.com/OpenHands/software-agent-sdk",
-      "description": "Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.",
-      "description_markdown": "Modular Python SDK for building code agents. Local or ephemeral workspaces, composable tools, powers OpenHands CLI and Cloud.",
       "category": "Frameworks & Libraries",
       "subcategory": "Code Agents"
     },
@@ -752,7 +744,7 @@
     },
     {
       "name": "SWE-agent",
-      "url": "https://github.com/princeton-nlp/SWE-agent",
+      "url": "https://github.com/SWE-agent/SWE-agent",
       "description": "Princeton's software engineering agent.",
       "description_markdown": "Princeton's software engineering agent.",
       "category": "Frameworks & Libraries",
@@ -765,14 +757,6 @@
       "description_markdown": "AI-native IDE by Codeium with agentic Cascade flows.",
       "category": "Frameworks & Libraries",
       "subcategory": "Code Agents"
-    },
-    {
-      "name": "CoPaw",
-      "url": "https://github.com/agentscope-ai/CoPaw",
-      "description": "Alibaba's open-source personal AI agent workstation. Supports multi-channel workflows, MCP skills, local/cloud LLMs, and persistent memory.",
-      "description_markdown": "Alibaba's open-source personal AI agent workstation. Supports multi-channel workflows, MCP skills, local/cloud LLMs, and persistent memory.",
-      "category": "Frameworks & Libraries",
-      "subcategory": "Personal AI Agents"
     },
     {
       "name": "Hermes Agent",
@@ -904,9 +888,9 @@
     },
     {
       "name": "Playwright MCP",
-      "url": "https://github.com/anthropics/anthropic-tools",
-      "description": "Anthropic's browser automation via MCP.",
-      "description_markdown": "Anthropic's browser automation via MCP.",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "description": "Microsoft's MCP server for browser automation with Playwright.",
+      "description_markdown": "Microsoft's MCP server for browser automation with Playwright.",
       "category": "Frameworks & Libraries",
       "subcategory": "Browser Agents"
     },
@@ -951,10 +935,10 @@
       "subcategory": "Research Agents"
     },
     {
-      "name": "Perplexica",
-      "url": "https://github.com/ItzCrazyKns/Perplexica",
-      "description": "Open-source AI-powered answering engine (Perplexity alternative).",
-      "description_markdown": "Open-source AI-powered answering engine (Perplexity alternative).",
+      "name": "Vane",
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "description": "Formerly Perplexica. Open-source AI-powered answering engine (Perplexity alternative).",
+      "description_markdown": "Formerly Perplexica. Open-source AI-powered answering engine (Perplexity alternative).",
       "category": "Frameworks & Libraries",
       "subcategory": "Research Agents"
     },
@@ -983,14 +967,6 @@
       "subcategory": null
     },
     {
-      "name": "AnythingLLM",
-      "url": "https://github.com/Mintplex-Labs/anything-llm",
-      "description": "All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.",
-      "description_markdown": "All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.",
-      "category": "Platforms & Low-Code",
-      "subcategory": null
-    },
-    {
       "name": "Anthropic Claude + Tool Use",
       "url": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use",
       "description": "Claude's function calling and agent capabilities.",
@@ -999,10 +975,10 @@
       "subcategory": null
     },
     {
-      "name": "Claude Managed Agents",
-      "url": "https://platform.claude.com/docs/en/managed-agents/overview",
-      "description": "Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.",
-      "description_markdown": "Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.",
+      "name": "AnythingLLM",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "description": "All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.",
+      "description_markdown": "All-in-one desktop & Docker AI app with built-in RAG, agents, and MCP.",
       "category": "Platforms & Low-Code",
       "subcategory": null
     },
@@ -1011,6 +987,14 @@
       "url": "https://ai.azure.com/",
       "description": "Full-stack AI platform with agent capabilities.",
       "description_markdown": "Full-stack AI platform with agent capabilities.",
+      "category": "Platforms & Low-Code",
+      "subcategory": null
+    },
+    {
+      "name": "Claude Managed Agents",
+      "url": "https://platform.claude.com/docs/en/managed-agents/overview",
+      "description": "Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.",
+      "description_markdown": "Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.",
       "category": "Platforms & Low-Code",
       "subcategory": null
     },
@@ -1031,10 +1015,10 @@
       "subcategory": null
     },
     {
-      "name": "Google Vertex AI Agent Builder",
-      "url": "https://cloud.google.com/vertex-ai/docs/agents",
-      "description": "Google Cloud's agent development platform.",
-      "description_markdown": "Google Cloud's agent development platform.",
+      "name": "Google Gemini Enterprise Agent Platform",
+      "url": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
+      "description": "Google Cloud's agent development platform (formerly Vertex AI Agent Builder).",
+      "description_markdown": "Google Cloud's agent development platform (formerly Vertex AI Agent Builder).",
       "category": "Platforms & Low-Code",
       "subcategory": null
     },
@@ -1120,7 +1104,7 @@
     },
     {
       "name": "Viglet Turing ES",
-      "url": "https://github.com/openviglet/turing-ce",
+      "url": "https://github.com/openviglet/turing",
       "description": "Open-source enterprise-search platform with RAG chat and AI agents over your own content; faceted/hybrid search on a pluggable Solr/Elasticsearch/Lucene backend. Self-hostable, Apache-2.0.",
       "description_markdown": "Open-source enterprise-search platform with RAG chat and AI agents over your own content; faceted/hybrid search on a pluggable Solr/Elasticsearch/Lucene backend. Self-hostable, Apache-2.0.",
       "category": "Platforms & Low-Code",
@@ -1128,7 +1112,7 @@
     },
     {
       "name": "Agent2Agent Protocol (A2A)",
-      "url": "https://github.com/google/A2A",
+      "url": "https://github.com/a2aproject/A2A",
       "description": "Google's open protocol for agent-to-agent communication and discovery. Linux Foundation project.",
       "description_markdown": "Google's open protocol for agent-to-agent communication and discovery. Linux Foundation project.",
       "category": "Agent Infrastructure",
@@ -1256,7 +1240,7 @@
     },
     {
       "name": "NotFair",
-      "url": "https://github.com/nowork-studio/NotFair",
+      "url": "https://github.com/nowork-studio/notfair-plugin",
       "description": "Open-source Claude Code agent skills for SEO and paid ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.",
       "description_markdown": "Open-source Claude Code agent skills for SEO and paid ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.",
       "category": "Agent Infrastructure",
@@ -1656,7 +1640,7 @@
     },
     {
       "name": "Daytona",
-      "url": "https://github.com/daytonaio/daytona",
+      "url": "https://www.daytona.io/",
       "description": "Secure and elastic infrastructure for running AI-generated code.",
       "description_markdown": "Secure and elastic infrastructure for running AI-generated code.",
       "category": "Agent Infrastructure",
@@ -1712,7 +1696,7 @@
     },
     {
       "name": "Sandbox Runtime",
-      "url": "https://github.com/anthropic-experimental/sandbox-runtime",
+      "url": "https://github.com/anthropics/sandbox-runtime",
       "description": "Anthropic's lightweight, container-free OS-level sandboxing tool enforcing filesystem and network restrictions on arbitrary processes. Built for Claude Code, released as an open-source research preview to help the ecosystem build safer agentic systems.",
       "description_markdown": "Anthropic's lightweight, container-free OS-level sandboxing tool enforcing filesystem and network restrictions on arbitrary processes. Built for Claude Code, released as an open-source research preview to help the ecosystem build safer agentic systems.",
       "category": "Agent Infrastructure",
@@ -1760,7 +1744,7 @@
     },
     {
       "name": "ClawBench",
-      "url": "https://github.com/reacher-z/ClawBench",
+      "url": "https://github.com/TIGER-AI-Lab/ClawBench",
       "description": "Live-site benchmark for browser agents completing everyday online workflows.",
       "description_markdown": "Live-site benchmark for browser agents completing everyday online workflows.",
       "category": "Evaluation & Testing",
@@ -1784,7 +1768,7 @@
     },
     {
       "name": "LangTest",
-      "url": "https://github.com/Pacific-AI-Corp/langtest",
+      "url": "https://github.com/PacificAI/langtest",
       "description": "Testing framework for delivering safe & effective language models.",
       "description_markdown": "Testing framework for delivering safe & effective language models.",
       "category": "Evaluation & Testing",
@@ -1903,16 +1887,8 @@
       "subcategory": null
     },
     {
-      "name": "LLM Guard",
-      "url": "https://github.com/protectai/llm-guard",
-      "description": "Security toolkit for LLM interactions.",
-      "description_markdown": "Security toolkit for LLM interactions.",
-      "category": "Safety & Governance",
-      "subcategory": null
-    },
-    {
       "name": "NeMo Guardrails",
-      "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "url": "https://github.com/NVIDIA-NeMo/Guardrails",
       "description": "NVIDIA's programmable guardrails.",
       "description_markdown": "NVIDIA's programmable guardrails.",
       "category": "Safety & Governance",
@@ -1939,14 +1915,6 @@
       "url": "https://github.com/agencyenterprise/PromptInject",
       "description": "Framework for quantitative analysis of LLM robustness to prompt attacks (NeurIPS '22 Best Paper).",
       "description_markdown": "Framework for quantitative analysis of LLM robustness to prompt attacks (NeurIPS '22 Best Paper).",
-      "category": "Safety & Governance",
-      "subcategory": null
-    },
-    {
-      "name": "Rebuff",
-      "url": "https://github.com/protectai/rebuff",
-      "description": "Prompt injection detection.",
-      "description_markdown": "Prompt injection detection.",
       "category": "Safety & Governance",
       "subcategory": null
     },
