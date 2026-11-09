@@ -154,6 +154,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Composio](https://github.com/ComposioHQ/composio) — 1000+ toolkits, auth management, and sandboxed workbench for AI agents.
 - [Dify](https://github.com/langgenius/dify) — Open-source LLMOps platform with visual agent builder.
 - [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform) — Google Cloud's agent development platform (formerly Vertex AI Agent Builder).
+- [Kwant](https://github.com/alexsergivan/kwant) — Open-source, self-hosted team of AI agents in one Rust binary with spaces, local models, @mention handoffs and approvals.
 - [LazyMind](https://github.com/LazyAGI/LazyMind) — Self-hosted skill runtime for workflows with persisted state and artifacts.
 - [MaxKB](https://github.com/1Panel-dev/MaxKB) — Open-source platform for building enterprise-grade agents.
 - [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) — Low-code agent builder. Integrates with M365, Dynamics, Power Platform.
