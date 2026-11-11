@@ -12,7 +12,7 @@
     "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
     "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
   },
-  "entry_count": 258,
+  "entry_count": 259,
   "removed_count": 5,
   "categories": [
     {
@@ -1583,6 +1583,15 @@
       "category": "Agent Infrastructure",
       "subcategory": "Memory & State",
       "added": "2026-07-05"
+    },
+    {
+      "name": "deja-vu",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "description": "Local cross-session memory, BM25F search, uncommitted file recovery, and handoff CLI and MCP server across 43 coding agents over SQLite. MIT.",
+      "description_markdown": "Local cross-session memory, BM25F search, uncommitted file recovery, and handoff CLI and MCP server across 43 coding agents over SQLite. MIT.",
+      "category": "Agent Infrastructure",
+      "subcategory": "Memory & State",
+      "added": "2026-11-11"
     },
     {
       "name": "funes",
