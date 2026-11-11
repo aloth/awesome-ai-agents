@@ -12,7 +12,7 @@
     "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
     "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
   },
-  "entry_count": 259,
+  "entry_count": 260,
   "removed_count": 5,
   "categories": [
     {
@@ -1178,6 +1178,15 @@
       "previous_urls": [
         "https://cloud.google.com/vertex-ai/docs/agents"
       ]
+    },
+    {
+      "name": "Kwant",
+      "url": "https://github.com/alexsergivan/kwant",
+      "description": "Open-source, self-hosted team of AI agents in one Rust binary with spaces, local models, @mention handoffs and approvals.",
+      "description_markdown": "Open-source, self-hosted team of AI agents in one Rust binary with spaces, local models, @mention handoffs and approvals.",
+      "category": "Platforms & Low-Code",
+      "subcategory": null,
+      "added": "2026-11-11"
     },
     {
       "name": "LazyMind",
