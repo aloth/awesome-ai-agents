@@ -12,7 +12,7 @@
     "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
     "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
   },
-  "entry_count": 260,
+  "entry_count": 263,
   "removed_count": 5,
   "categories": [
     {
@@ -619,6 +619,15 @@
       "added": "2026-02-27"
     },
     {
+      "name": "dsh-superagent",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "description": "DeepSeek's research prototype of a proactive coding agent for one GitHub repository, packaged for DeepSeek Harness. MIT.",
+      "description_markdown": "DeepSeek's research prototype of a proactive coding agent for one GitHub repository, packaged for DeepSeek Harness. MIT.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Code Agents",
+      "added": "2026-11-15"
+    },
+    {
       "name": "fx",
       "url": "https://github.com/vercel-labs/fx",
       "description": "Vercel Labs' tiny native coding agent CLI written in Zig. Model-agnostic (AI Gateway, ChatGPT or Grok subscriptions, or any OpenAI-compatible endpoint such as Ollama), shell-style inline output that keeps your scrollback, one-shot fx ask for scripts, and embeddable via the libfx WebAssembly SDK or the Agent Client Protocol (ACP). Skills, MCP, and subagents. Apache-2.0, experimental.",
@@ -874,6 +883,15 @@
       "added": "2026-02-27"
     },
     {
+      "name": "ZCode",
+      "url": "https://github.com/zai-org/ZCode",
+      "description": "Z.ai's open-source AI coding workspace with desktop, browser, and terminal (TUI) interfaces around one agent CLI and runtime. Apache-2.0.",
+      "description_markdown": "Z.ai's open-source AI coding workspace with desktop, browser, and terminal (TUI) interfaces around one agent CLI and runtime. Apache-2.0.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Code Agents",
+      "added": "2026-11-15"
+    },
+    {
       "name": "Hermes Agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.",
@@ -890,6 +908,15 @@
       "category": "Frameworks & Libraries",
       "subcategory": "Personal AI Agents",
       "added": "2026-05-17"
+    },
+    {
+      "name": "Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "On-device Android agent that operates apps and the web on a hidden background screen while you keep using the phone. Apache-2.0.",
+      "description_markdown": "On-device Android agent that operates apps and the web on a hidden background screen while you keep using the phone. Apache-2.0.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Personal AI Agents",
+      "added": "2026-11-15"
     },
     {
       "name": "nanobot",
