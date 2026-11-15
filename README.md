@@ -86,6 +86,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [dcode](https://docs.langchain.com/oss/deepagents/code/overview) — Open-source terminal coding agent by LangChain. Model-agnostic with persistent memory and sandboxing.
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — DeepSeek's plugin-first, provider-agnostic agent harness ("everything is a plugin"). Inference, tools, sessions, agent loop, sandbox, and web UI are all swappable modules. Works with DeepSeek, Anthropic, OpenAI, Bedrock, Vertex, Azure, and OpenAI-compatible endpoints. MIT, developer preview.
 - [Devin](https://devin.ai/) — Cognition's autonomous software engineer. Full environment with browser, editor, and terminal.
+- [dsh-superagent](https://github.com/deepseek-ai/dsh-superagent-prototype) — DeepSeek's research prototype of a proactive coding agent for one GitHub repository, packaged for DeepSeek Harness. MIT.
 - [fx](https://github.com/vercel-labs/fx) — Vercel Labs' tiny native coding agent CLI written in Zig. Model-agnostic (AI Gateway, ChatGPT or Grok subscriptions, or any OpenAI-compatible endpoint such as Ollama), shell-style inline output that keeps your scrollback, one-shot `fx ask` for scripts, and embeddable via the libfx WebAssembly SDK or the Agent Client Protocol (ACP). Skills, MCP, and subagents. Apache-2.0, experimental.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Open-source AI agent bringing Gemini directly into your terminal.
 - [GitHub Copilot](https://github.com/features/copilot) — AI pair programmer with agent mode for multi-file edits, terminal commands, and autonomous task execution.
@@ -112,10 +113,12 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Qwen Code](https://github.com/QwenLM/qwen-code) — Alibaba's open-source terminal-native AI coding agent. Powered by Qwen models with MCP support, 25K+ stars, and Apache-2.0 license.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) — Princeton's software engineering agent.
 - [Windsurf](https://windsurf.com/) — AI-native IDE by Codeium with agentic Cascade flows.
+- [ZCode](https://github.com/zai-org/ZCode) — Z.ai's open-source AI coding workspace with desktop, browser, and terminal (TUI) interfaces around one agent CLI and runtime. Apache-2.0.
 
 ### Personal AI Agents
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.
 - [Mercury Agent](https://github.com/cosmicstack-labs/mercury-agent) — Soul-driven personal AI agent with permission-hardened tools, token budgets, and multi-channel access (CLI or Telegram). MIT.
+- [Mika](https://github.com/wangzan101/Mika) — On-device Android agent that operates apps and the web on a hidden background screen while you keep using the phone. Apache-2.0.
 - [nanobot](https://github.com/HKUDS/nanobot) — HKU Data Science Lab's ultra-lightweight personal AI agent. Keeps the core small and readable while shipping a full workbench: WebUI, sustained goals, MCP, image generation, multi-channel (Telegram, Signal, Matrix), and multi-provider model routing. Released v0.2.1 (June 2026).
 - [Octop](https://github.com/TencentCloud/Octop) — Tencent Cloud's self-hosted, multi-user AI assistant for households and small teams. Each user gets a personal team of specialist agents behind one process: web dashboard, CLI, desktop apps, cron, and IM channels (Telegram, Discord, Feishu, DingTalk, WeChat, WeCom, QQ). MCP connectors, ACP delegation to Claude Code or OpenCode, tool approval, shell guardrails, and PII redaction. MIT, beta.
 - [OneBox](https://github.com/wangzhishou/OneBox) — Open-source Android personal AI agent driving 90+ in-app tools via natural language. Apache-2.0.
