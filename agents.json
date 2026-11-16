@@ -12,7 +12,7 @@
     "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
     "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
   },
-  "entry_count": 266,
+  "entry_count": 267,
   "removed_count": 5,
   "categories": [
     {
@@ -368,6 +368,15 @@
       "category": "Frameworks & Libraries",
       "subcategory": "Multi-Agent Orchestration",
       "added": "2026-02-27"
+    },
+    {
+      "name": "Orchestrator",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator",
+      "description": "Open-source desktop app that runs Claude Code, Codex and 35+ other coding agents in parallel git worktrees, routing CI failures back to them.",
+      "description_markdown": "Open-source desktop app that runs Claude Code, Codex and 35+ other coding agents in parallel git worktrees, routing CI failures back to them.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-11-16"
     },
     {
       "name": "Orkas",
