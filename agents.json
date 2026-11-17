@@ -12,7 +12,7 @@
     "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
     "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
   },
-  "entry_count": 267,
+  "entry_count": 268,
   "removed_count": 5,
   "categories": [
     {
@@ -731,6 +731,15 @@
       "category": "Frameworks & Libraries",
       "subcategory": "Code Agents",
       "added": "2026-05-10"
+    },
+    {
+      "name": "Muxflow",
+      "url": "https://github.com/gal064/muxflow",
+      "description": "Remote-first tmux IDE for coding agents, with desktop and Android notifications, voice replies, and screenshot paste over SSH.",
+      "description_markdown": "Remote-first tmux IDE for coding agents, with desktop and Android notifications, voice replies, and screenshot paste over SSH.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Code Agents",
+      "added": "2026-11-17"
     },
     {
       "name": "Octomind",
