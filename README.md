@@ -98,6 +98,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Kiro](https://kiro.dev/) — AWS's spec-driven AI coding IDE. Three-phase Specify, Plan, Execute workflow.
 - [MiMoCode](https://github.com/XiaomiMiMo/MiMo-Code) — Xiaomi's open-source terminal-native AI coding agent with cross-session persistent memory, subagent orchestration, and self-improvement via `/dream` and `/distill` commands. Fork of OpenCode with SQLite FTS5 memory, task trees, and multi-agent compose mode. 12K+ stars, MIT.
 - [mini-coding-agent](https://github.com/rasbt/mini-coding-agent) — Sebastian Raschka's minimal, readable Python coding agent harness. Explains the core components of coding agents in a small, hackable codebase.
+- [Muxflow](https://github.com/gal064/muxflow) — Remote-first tmux IDE for coding agents, with desktop and Android notifications, voice replies, and screenshot paste over SSH.
 - [Octomind](https://github.com/muvon/octomind) — Open-source CLI coding agent with multiple model providers, MCP tools, and background execution.
 - [OMK](https://github.com/dmae97/omk) — Open-source multi-agent coding CLI; switch models mid-session, finish goals when tests pass.
 - [Open SWE](https://github.com/langchain-ai/open-swe) — LangChain's open-source async cloud coding agent. Connects to GitHub repos, delegates tasks from issues via Slack or Linear.
