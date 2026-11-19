@@ -335,7 +335,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ## Tutorials & Courses
 
 - [agent-rules-books](https://github.com/ciembor/agent-rules-books) — AGENTS.md rules and skills for AI coding agents (Codex, Cursor, Claude Code) inspired by Clean Code, Refactoring, DDD, Clean Architecture, and DDIA.
-- - [Agentic Affairs — AI Agent Observability Guide](https://agentic-affairs.com/ai-agent-observability/) — Vendor-neutral guide to tracing, span evaluation, and production debugging for multi-step agents.
+- [Agentic Affairs — AI Agent Observability Guide](https://agentic-affairs.com/ai-agent-observability/) — Vendor-neutral guide to tracing, span evaluation, and production debugging for multi-step agents.
 - [DeepLearning.AI: A2A Protocol](https://www.deeplearning.ai/short-courses/a2a-the-agent2agent-protocol/) — Short course on Google's Agent2Agent protocol.
 - [DeepLearning.AI: Building Agentic RAG](https://www.deeplearning.ai/) — Andrew Ng's course on agentic RAG patterns.
 - [Hugging Face: Building AI Agents](https://huggingface.co/learn/agents-course/) — Open course on agent development.
