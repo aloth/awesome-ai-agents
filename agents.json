@@ -12,7 +12,7 @@
     "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
     "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
   },
-  "entry_count": 268,
+  "entry_count": 269,
   "removed_count": 5,
   "categories": [
     {
@@ -1520,6 +1520,15 @@
       "category": "Agent Infrastructure",
       "subcategory": "Agent Skills & Tools",
       "added": "2026-11-02"
+    },
+    {
+      "name": "Oh My Android",
+      "url": "https://github.com/ateymoori/oh-my-android",
+      "description": "Native macOS control panel for the Android Emulator with a built-in MCP server, so coding agents can see and drive emulators. MIT.",
+      "description_markdown": "Native macOS control panel for the Android Emulator with a built-in MCP server, so coding agents can see and drive emulators. MIT.",
+      "category": "Agent Infrastructure",
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-11-20"
     },
     {
       "name": "Oh My Hermes",
