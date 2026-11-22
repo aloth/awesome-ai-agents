@@ -12,7 +12,7 @@
     "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
     "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
   },
-  "entry_count": 271,
+  "entry_count": 272,
   "removed_count": 5,
   "categories": [
     {
@@ -590,6 +590,15 @@
       "category": "Frameworks & Libraries",
       "subcategory": "Code Agents",
       "added": "2026-02-27"
+    },
+    {
+      "name": "CodeAF",
+      "url": "https://github.com/Agent-Field/CodeAF",
+      "description": "Open-source terminal coding agent in one Go binary that works with any model and runs parallel tasks in isolated copies of the repository. Apache-2.0.",
+      "description_markdown": "Open-source terminal coding agent in one Go binary that works with any model and runs parallel tasks in isolated copies of the repository. Apache-2.0.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Code Agents",
+      "added": "2026-11-22"
     },
     {
       "name": "Codex",
