@@ -83,6 +83,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Aider](https://github.com/Aider-AI/aider) — AI pair programming in the terminal.
 - [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) — Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine. MIT.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's agentic coding tool. Terminal-based, strong at complex refactors and multi-file changes.
+- [CodeAF](https://github.com/Agent-Field/CodeAF) — Open-source terminal coding agent in one Go binary that works with any model and runs parallel tasks in isolated copies of the repository. Apache-2.0.
 - [Codex](https://openai.com/index/introducing-codex/) — OpenAI's cloud-based coding agent. Runs tasks in sandboxed environments, integrates with GitHub.
 - [Cursor](https://cursor.sh/) — AI-first code editor with agent capabilities.
 - [dcode](https://docs.langchain.com/oss/deepagents/code/overview) — Open-source terminal coding agent by LangChain. Model-agnostic with persistent memory and sandboxing.
