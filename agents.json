@@ -12,7 +12,7 @@
     "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
     "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
   },
-  "entry_count": 269,
+  "entry_count": 271,
   "removed_count": 5,
   "categories": [
     {
@@ -440,6 +440,15 @@
       "category": "Frameworks & Libraries",
       "subcategory": "Multi-Agent Orchestration",
       "added": "2026-11-02"
+    },
+    {
+      "name": "SoduWork",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "description": "Self-hosted multi-harness engine for teams: one agent harness (Pi, OpenCode, Codex, Qwen Code) does the work, another reviews it against acceptance criteria. MIT.",
+      "description_markdown": "Self-hosted multi-harness engine for teams: one agent harness (Pi, OpenCode, Codex, Qwen Code) does the work, another reviews it against acceptance criteria. MIT.",
+      "category": "Frameworks & Libraries",
+      "subcategory": "Multi-Agent Orchestration",
+      "added": "2026-11-22"
     },
     {
       "name": "Strands Agents",
@@ -1556,6 +1565,15 @@
       "category": "Agent Infrastructure",
       "subcategory": "Agent Skills & Tools",
       "added": "2026-10-11"
+    },
+    {
+      "name": "Pinky",
+      "url": "https://github.com/DIYgod/pinky",
+      "description": "Desktop app and MCP server that lets coding agents operate real iPhones and Android phones while you watch, approve risky steps, and take over. Apache-2.0, pre-alpha.",
+      "description_markdown": "Desktop app and MCP server that lets coding agents operate real iPhones and Android phones while you watch, approve risky steps, and take over. Apache-2.0, pre-alpha.",
+      "category": "Agent Infrastructure",
+      "subcategory": "Agent Skills & Tools",
+      "added": "2026-11-22"
     },
     {
       "name": "PlaceCall",
