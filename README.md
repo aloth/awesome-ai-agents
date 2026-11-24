@@ -262,6 +262,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 ### Sandboxing & Execution
 - [AgentBox](https://github.com/madarco/agentbox) — Run multiple coding agents (Claude Code, Codex, OpenCode) in parallel, each in its own sandboxed VM across local Docker, self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B). Sub-1s checkpoints, per-box browser/VS Code/shells. MIT.
 - [AgentENV](https://github.com/kvcache-ai/AgentENV) — Distributed platform for running agent environments at scale. Standardized, reproducible sandboxed environments for agent execution, evaluation, and RL training workloads. MIT.
+- [Buddy Sandboxes](https://buddy.works/sandboxes) — Isolated Ubuntu machines for AI agents in the Buddy.Works cloud, with a persistent disk, snapshots, public endpoints, MCP access and a TypeScript SDK.
 - [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Tencent Cloud's instant, concurrent, secure, and lightweight Rust-based sandbox for AI agents. Sub-second cold start with strong isolation for tool execution and code interpreters.
 - [Daytona](https://www.daytona.io/) — Secure and elastic infrastructure for running AI-generated code.
 - [E2B](https://github.com/e2b-dev/e2b) — Cloud sandboxes for AI agents. Secure code execution environments.
