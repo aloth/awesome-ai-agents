@@ -12,7 +12,7 @@
     "previous_urls": "Earlier links of the same entry, for projects that moved or were renamed.",
     "removed_entries": "Entries that were on the list and were taken off, with the dates they were added and removed."
   },
-  "entry_count": 273,
+  "entry_count": 274,
   "removed_count": 5,
   "categories": [
     {
@@ -2006,6 +2006,15 @@
       "category": "Agent Infrastructure",
       "subcategory": "Sandboxing & Execution",
       "added": "2026-08-23"
+    },
+    {
+      "name": "Ailoy",
+      "url": "https://github.com/brekkylab/ailoy",
+      "description": "Open-source agent SDK that runs each agent in its own microVM sandbox, for Python, Node.js and Rust. Apache-2.0.",
+      "description_markdown": "Open-source agent SDK that runs each agent in its own microVM sandbox, for Python, Node.js and Rust. Apache-2.0.",
+      "category": "Agent Infrastructure",
+      "subcategory": "Sandboxing & Execution",
+      "added": "2026-11-25"
     },
     {
       "name": "CubeSandbox",
