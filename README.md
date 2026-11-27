@@ -161,6 +161,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview) — Anthropic's hosted agent execution environment (public beta, April 2026). Stateful sessions, built-in sandboxing, and tool execution without managing your own infrastructure.
 - [Composio](https://github.com/ComposioHQ/composio) — 1000+ toolkits, auth management, and sandboxed workbench for AI agents.
 - [Dify](https://github.com/langgenius/dify) — Open-source LLMOps platform with visual agent builder.
+- [Dooza Crew](https://www.dooza.ai/crew) — Hosted AI employee team in a shared workspace where agents collaborate with humans on browser tasks, research, and workflows.
 - [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform) — Google Cloud's agent development platform (formerly Vertex AI Agent Builder).
 - [Kwant](https://github.com/alexsergivan/kwant) — Open-source, self-hosted team of AI agents in one Rust binary with spaces, local models, @mention handoffs and approvals.
 - [LazyMind](https://github.com/LazyAGI/LazyMind) — Self-hosted skill runtime for workflows with persisted state and artifacts.
