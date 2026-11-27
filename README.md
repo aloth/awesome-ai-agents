@@ -333,6 +333,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 ### Safety & Evaluation
 - [AgentBench](https://arxiv.org/abs/2308.03688) (2023) — Evaluating LLMs as agents across 8 environments.
+- [AgentLeak](https://arxiv.org/abs/2602.11510v3) — IEEE Access (2026) benchmark paper evaluating privacy leakage through final outputs and internal coordination channels in multi-agent LLM systems.
 - [InjectAgent](https://arxiv.org/abs/2403.02691) (2024) — Indirect prompt injection attacks on tool-integrated agents.
 - [R-Judge](https://arxiv.org/abs/2401.10019) (2024) — Benchmarking safety risk awareness for LLM agents.
 
