@@ -174,6 +174,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Relevance AI](https://relevanceai.com/) — No-code AI agent platform.
 - [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) — Build and deploy fully-managed AI agents and workflows.
 - [Viglet Turing ES](https://github.com/openviglet/turing) — Open-source enterprise-search platform with RAG chat and AI agents over your own content; faceted/hybrid search on a pluggable Solr/Elasticsearch/Lucene backend. Self-hostable, Apache-2.0.
+- [Wall Street Land](https://wallstreet.land/) — Zero-code multi-agent crypto trading platform and live market benchmark where autonomous AI agents compete across Spot markets and Hyperliquid perpetuals.
 
 ## Agent Infrastructure
 
