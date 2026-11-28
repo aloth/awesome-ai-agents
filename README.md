@@ -216,6 +216,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework and software development methodology for coding agents. Enforces design-before-code, tests-before-features workflows. Works with Claude Code, Codex, Gemini CLI, OpenCode, Cursor, and GitHub Copilot.
 - [Tapetide MCP](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) — MCP server giving agents Indian stock market data for about 8,200 NSE and BSE stocks.
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — Agent skill and MCP server for X data workflows.
+- [The SEO Agent MCP](https://github.com/jeremy665/theseoagent-mcp) - Open-source TypeScript MCP server for automated technical SEO audits, keyword research, and CMS publishing workflows. MIT.
 
 ### Memory & State
 - [agentmemory](https://github.com/rohitg00/agentmemory) — Persistent cross-session memory for coding agents (Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, OpenCode, pi, Hermes, OpenClaw, or any MCP client). Hybrid BM25 + vector + graph retrieval over local SQLite with no external database; keyless mode or free on-device embeddings; reproducible LongMemEval-S harness. Apache-2.0.
